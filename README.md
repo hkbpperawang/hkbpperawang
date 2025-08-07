@@ -35,13 +35,13 @@ Aplikasi HKBP Perawang dilengkapi dengan berbagai fitur yang dirancang untuk mem
 
 Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 
-| Halaman Utama | Warta Jemaat | Renungan |
+| Splash Screen | Halaman Utama | Informasi Huria |
 | :---: | :---: | :---: |
 | <img src="https://play-lh.googleusercontent.com/u_pd2XAaSYwQ-yAXIuGLGYd4g1pZ8YFk38yb_grt7B--l3Z7h-IkG1mkvy0TR05simCN1o8ZJ9K4hqnIAIs1wQ=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/5l50O_CS1m2HHLnGjLNOgYVNml5KO_KROZcZQNKe943tkkwMX4ew6jKTBE4twBJ_PT4WlIDE0h62dcrzFqF9IRE=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/YAT_6MTy_dDzeK8JDPkKb3CHghiE0fpU7Kba7_JkM0Vyl1PuEvbtsHSqakaR_WWwwFa-rADAdLte0MRj6rkMdw=w5120-h2880-rw" width="200"/> |
 
-| Jadwal Ibadah | Profil |
+| Jadwal Ibadah | Pembuka Warta & Tata Acara |
 | :---: | :---: |
-| <img src="https://play-lh.googleusercontent.com/pQ8sY0tX8qL7rC2gN3wI6aE0jT6zP9oF5bA2mN1cQ0rI7sV3lX6kG4hR5Q=w2560-h1440-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/r_1wY2qX8dE9sC1tN3wE6fI5uP4oR9vG3aY2nL0mX8eJ7hV1wB3lA1cT2w=w2560-h1440-rw" width="200"/> |
+| <img src="https://play-lh.googleusercontent.com/4rU60RbA5BjxinlGafdaT8rOIDEVqoJjVSoZU9j5kjWKGkEUbCUAL1LSksYw90m-lP_qYVWDm5s4csit-mqcFw=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/S-DrW8YsodzhRb40jSVneEgN6_OiFxLBslvPuLXc6fdG4NHBFU8qHOYFawpR37P6qKk30F7VIShzRe1cc-oG=w5120-h2880-rw" width="200"/> |
 
 ---
 
