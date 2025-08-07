@@ -13,7 +13,16 @@ Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplika
 <p align="center">
   <img src="https://play-lh.googleusercontent.com/fd2MqxwGVxqJO_QXgXCwg-o8R-e2l9jmkDLHNS_TEYrpFbG2q1W1AfjLdDPaoo0Un2w=w480-h960-rw" alt="Banner Aplikasi HKBP Perawang">
 </p>
-![GitHub Last Commit](https://img.shields.io/github/last-commit/hkbpperawang/aplikasi?style=for-the-badge&logo=github)
+
+<p align="center">
+  <img src="URL_BANNER_UTAMA_ANDA_DISINI" alt="Banner Aplikasi HKBP Perawang" width="400">
+</p>
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://img.shields.io/google-play/v/org.hkbpperawang.app?style=for-the-badge&logo=google-play" alt="Google Play Version"></a>
+  <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://img.shields.io/google-play/d/org.hkbpperawang.app?style=for-the-badge&logo=google-play" alt="Google Play Downloads"></a>
+  <img src="https://img.shields.io/github/last-commit/NAMA_USER_GITHUB_ANDA/NAMA_REPO_ANDA?style=for-the-badge&logo=github" alt="GitHub Last Commit">
+</p>
 
 ---
 
