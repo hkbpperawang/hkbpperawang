@@ -60,7 +60,7 @@ Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <details>
-<summary><strong>Versi 1.0.56 (Terbaru)</strong> - 18 Juli 2024</summary>
+<summary><strong>Versi 1.0.56 (Terbaru)</strong> - 07 Agustus 2025</summary>
 <br>
 
 -   Perbaikan bug dan peningkatan performa
