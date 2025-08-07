@@ -65,7 +65,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary><strong>Versi 1.0.55 (Terbaru)</strong> - 18 Juli 2024</summary>
+<summary><strong>Versi 1.0.55 (Terbaru)</strong> - 02 Agustus 2025</summary>
 <br>
 
 -   Perbaikan bug dan peningkatan performa
@@ -94,7 +94,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.4 - 28 April 2025</summary>
+<summary>Versi 1.0.43 - 28 April 2025</summary>
 <br>
 
 -   Fetch Warta Acara dengan Metode Baru mengikuti struktur web
@@ -106,6 +106,135 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 </details>
 
+<details>
+<summary>Versi 1.0.37 build 3 - 1.0.38 build 35</summary>
+<br>
+
+- Perbaikan Fug
+- Perbaikan cache lokal
+- Perbaikan snkronasi Jadwal
+- Penambahan metode refresh di halaman warta
+- Fitur Pengurutan kategori team
+- Perbaikan logika halaman info huria
+- Fitur Perbaikan sinkronasi Jadwal dan Team dengan firebase
+
+</details>
+<details>
+<summary>Versi 1.0.36 build 2 - 1.0.37 build 3</summary>
+<br>
+
+- Perbaikan Bug
+- Memperbaiki fitur cache
+- Menutup akses pendaftaran user
+- Sinkronasi data team dengan firebase
+
+</details>
+<details>
+<summary>Versi 1.0.35 build 7 – 1.0.36 build 2</summary>
+<br>
+
+- Perbaikan bug
+- Migrasi penyimpanan dari hive ke hive_ce
+- Perbaikan Halaman Dokumen
+- Integrasi Dokumen di Halaman Dokumen Dengan ImageKit
+- Menetapkan sidebar hanya untuk warta-acara
+- Memperbaiki gambar terbalik pada sidebar
+
+</details>
+<details>
+<summary>Versi 1.0.34 build 2 – 1.0.35 build 7</summary>
+<br>
+
+- Perbaikan bug
+- Integrasi ImageKit sebagai media utama penyimpanan file
+- Perbaikan fitur Analystik
+- Perbaikan integrasi firebase
+
+</details>
+<details>
+<summary>Versi 1.0.30 build 8 – 1.0.34 build 2</summary>
+<br>
+
+- Meningkatkan stabilitas
+- Mengubah metode fetch dokumen dan warta hanya oleh admin
+- Pembaharuan otomatis dokumen
+- Perbaikan bug
+- Penambahan fitur agara dapat di akses dalam mode offline
+- Sinkronasi otomatis jika koneksi terdeteksi
+- Menambah perijinan perangkat agar dapat mengunduh warta atau dokumen.
+- Perbaikan halaman blog untuk mengambil dari web.
+- Merapikan detail isi post pada blog.
+- Menambahkan Imagekit sebagai penyimpanan online.
+- Penambahan database warta untuk menangkap dari web
+- Memperbaiki metode dokumen
+- Filter postingan yang di tangkap dari web pada data dokumen.
+
+</details>
+<details>
+<summary>Versi 1.0.30 build 8 - 1.0.35 build 7</summary>
+<br>
+
+- Perbaikan Bug
+- Integrasi ImageKit sebagai Media Library
+- Perbaikan fitur Analistik
+
+</details>
+<details>
+<summary>Versi 1.0.25 build 5 – 1.0.30 build 8</summary>
+<br>
+
+- Penambahan fitur popup pada foto info huria, fungsionaris, dan tim digital
+- Penambahan menu Dokumen pada Sidebar
+- Menghapus metode Signup
+- Menambah fitur penambahan user hanya oleh Admin
+- Perbaikan splash screen terpotong pada Android 14
+- Perbaikan bug
+
+</details>
+<details>
+<summary>Versi 1.0.1 build 5 – 1.0.25 build 3</summary>
+<br>
+
+- Perbaikan bug
+- Pengelompokan halaman warta-acara berdasarkan kegiatan acara
+- Metode fetch warta agar dapat mendeteksi postingan terbaru di website.
+
+</details>
+<details>
+<summary>Versi 1.0.1 build 2​ </summary>
+<br>
+
+- Penambahan fitur analistik.
+- Perbaikan beberapa bug.
+- Optimisasi halaman warta acara setiap kali dibuka
+- penambahan tabel “hari” dalam jadwal kegiatan.
+- peningkatan keamanan.
+- penambahan sosial media facebook, youtube, dan instagram di halaman kontak
+
+</details>
+<details>
+<summary>Versi 1.0.0 build 8​</summary>
+<br>
+
+- Perbaikan beberapa bug.
+- penambahan pop up jika versi baru tersedia.
+- melenngkapi data sintua dan halaman fungsionaris
+- perbaikan info team agar dapat memunculkan pop up foto.
+
+</details>
+<details>
+<summary>Versi 1.0.0 build 3</summary>
+<br>
+
+- Penambahan Halaman: Info Huria, Warta Jemaat, Jadwal Kegiatan, Blog, Info Aplikasi, Kebijakan Privasi, Fungsionaris, Tim Digital.
+- Pemuatan Warta Jemaat menggunakan web_view ke situs https://www.hkbpperawang.org.
+- Penanganan Notifikasi agar dapat dikirim dan diterima secara real time.
+- Penambahan fungsi jadwal kegiatan agar dapat di ubah tanpa pembaharuan
+- Penambahan fungsi jadwal ibadah
+- penambahan fitur user
+- penambahan fitur statistik huria untuk memunculkan di halaman info huria.
+
+</details>
 ---
 
 ## 🛠️ **Tech Stack & Tools**
