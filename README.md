@@ -20,6 +20,7 @@ Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplika
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://img.shields.io/google-play/v/org.hkbpperawang.app?style=for-the-badge&logo=google-play" alt="Google Play Version"></a>
+  <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"/></a>
   <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://playbadges.pavi2410.me/badge/downloads?id=<org.hkbpperawang.app>[&pretty] alt="Google Play Downloads"></a>
   <img src="https://img.shields.io/github/last-commit/hkbpperawang/aplikasi?style=for-the-badge&logo=github" alt="GitHub Last Commit">
 </p>
