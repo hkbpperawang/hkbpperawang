@@ -35,13 +35,13 @@ Aplikasi HKBP Perawang dilengkapi dengan berbagai fitur yang dirancang untuk mem
 
 Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 
-| Splash Screen | Halaman Utama | Informasi Huria | Jadwal Ibadah | Pembuka Warta & Tata Acara |
+| Splash Screen | Halaman Utama | Informasi Huria | Jadwal Ibadah | Tata Acara |
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="https://play-lh.googleusercontent.com/u_pd2XAaSYwQ-yAXIuGLGYd4g1pZ8YFk38yb_grt7B--l3Z7h-IkG1mkvy0TR05simCN1o8ZJ9K4hqnIAIs1wQ=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/5l50O_CS1m2HHLnGjLNOgYVNml5KO_KROZcZQNKe943tkkwMX4ew6jKTBE4twBJ_PT4WlIDE0h62dcrzFqF9IRE=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/YAT_6MTy_dDzeK8JDPkKb3CHghiE0fpU7Kba7_JkM0Vyl1PuEvbtsHSqakaR_WWwwFa-rADAdLte0MRj6rkMdw=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/4rU60RbA5BjxinlGafdaT8rOIDEVqoJjVSoZU9j5kjWKGkEUbCUAL1LSksYw90m-lP_qYVWDm5s4csit-mqcFw=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/S-DrW8YsodzhRb40jSVneEgN6_OiFxLBslvPuLXc6fdG4NHBFU8qHOYFawpR37P6qKk30F7VIShzRe1cc-oG=w5120-h2880-rw" width="200"/> |
 
-| Jadwal Ibadah | Pembuka Warta & Tata Acara |
+| Artikel Bacaan | Warta Jemaat |
 | :---: | :---: |
-| <img src="https://play-lh.googleusercontent.com/4rU60RbA5BjxinlGafdaT8rOIDEVqoJjVSoZU9j5kjWKGkEUbCUAL1LSksYw90m-lP_qYVWDm5s4csit-mqcFw=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/S-DrW8YsodzhRb40jSVneEgN6_OiFxLBslvPuLXc6fdG4NHBFU8qHOYFawpR37P6qKk30F7VIShzRe1cc-oG=w5120-h2880-rw" width="200"/> |
+| <img src="https://play-lh.googleusercontent.com/YJLIaC6NajRhmBRBXUu-YhP-rjwRzfBOeJyZTJ9-WxzWbg4ffgFJvu-V3FfWQMpk-_KR4ZDKj7KXfV4vtn94kA=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/cLcOVy4Wb3cG_0UIle56NN7RG1G5_jlonlJjNmZOuJKZCamy3NumCoyRuzuxYAg5jDsvijYJ62Xhg9BQNCI-gPI=w5120-h2880-rw" width="200"/> |
 
 ---
 
@@ -50,28 +50,43 @@ Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <details>
-<summary><strong>Versi 1.0.2 (Terbaru)</strong> - 18 Juli 2024</summary>
+<summary><strong>Versi 1.0.55 (Terbaru)</strong> - 18 Juli 2024</summary>
 <br>
 
--   Perbaikan Warta Jemaat
--   Perbaikan bug dan peningkatan performa
+- Penambahan kemampuan memuat gambar pada notifikasi
+- Pengoptimalan metode cache
+- Penambahan Jadwal Partangiangan Weyk
+- Penghapusan sisi samping Penampil PDF
+- Pengoptimalan Pembacaan PDF
+- Meringankan halaman utama aplikasi
+- Penambahan keamanan AppCheck
+- Perbaikan Bug
+- Perbaikan tombol aksi notifikasi
+- Pembaharuan bahasa pendukung
 
 </details>
 
 <details>
-<summary>Versi 1.0.1 - 10 Juni 2024</summary>
+<summary>Versi 1.0.50 - 20 Juni 2025</summary>
 <br>
 
 -   Perbaikan bug dan peningkatan performa
+-   Perbaikan edge-to-edge
+-   Integrasi Play Integrity
+-   dan banyak lagi
 
 </details>
 
 <details>
-<summary>Versi 1.0.0 - 5 Juni 2024</summary>
+<summary>Versi 1.0.4 - 28 April 2025</summary>
 <br>
 
--   Rilis awal aplikasi HKBP Perawang
--   Fitur Renungan, Informasi Gereja, Warta Jemaat
+-   Fetch Warta Acara dengan Metode Baru mengikuti struktur web
+-   Penambahan Sistem notifikasi dengan fitur Tombol
+-   Perbaikan direct sistem notifikasi
+-   Perbagian Bug
+-   Penyimpanan Dokumen tersendiri
+-   Pengoptimalan Pembuka Pdf
 
 </details>
 
