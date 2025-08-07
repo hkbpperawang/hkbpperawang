@@ -3,7 +3,7 @@
 Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplikasi seluler yang dirancang untuk menjadi pusat informasi dan kegiatan bagi jemaat HKBP Perawang. Dibangun dengan cinta menggunakan Flutter, aplikasi ini bertujuan untuk mempererat komunitas dan mempermudah akses terhadap berbagai informasi gerejawi.
 
 <p align="center">
-  <img src="https://play-lh.googleusercontent.com/4hC9n5hLOhSTh5z4N0w4M1S_42y2xJto_3_c_L5i-tRqTdyu-l-mNBHGGf-iBv7lZw=w416-h235-rw" alt="Banner Aplikasi HKBP Perawang">
+  <img src="https://play-lh.googleusercontent.com/fd2MqxwGVxqJO_QXgXCwg-o8R-e2l9jmkDLHNS_TEYrpFbG2q1W1AfjLdDPaoo0Un2w=w480-h960-rw" alt="Banner Aplikasi HKBP Perawang">
 </p>
 
 ---
