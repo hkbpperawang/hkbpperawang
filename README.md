@@ -75,7 +75,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary><strong>Versi 1.0.55</strong> - 02 Agustus 2025</summary>
+<summary>Versi 1.0.55 - 02 Agustus 2025</summary>
 <br>
 
 -   Perbaikan bug dan peningkatan performa
