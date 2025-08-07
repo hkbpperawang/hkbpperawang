@@ -50,19 +50,35 @@ Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <details>
+<summary><strong>Versi 1.0.56 (Terbaru)</strong> - 18 Juli 2024</summary>
+<br>
+
+-   Perbaikan bug dan peningkatan performa
+-   Penambahan metode scrap PDF dari web dan GDrive
+-   Perubahan UI Blog
+-   Penambahan Fitur Postingan Unggulan
+-   Optimasi pembuka PDF
+-   Optimasi metode unduh PDF
+-   Perbaikan Cache Info Partangiangan
+-   Perbaikan beberapa bug
+
+</details>
+
+<details>
 <summary><strong>Versi 1.0.55 (Terbaru)</strong> - 18 Juli 2024</summary>
 <br>
 
-- Penambahan kemampuan memuat gambar pada notifikasi
-- Pengoptimalan metode cache
-- Penambahan Jadwal Partangiangan Weyk
-- Penghapusan sisi samping Penampil PDF
-- Pengoptimalan Pembacaan PDF
-- Meringankan halaman utama aplikasi
-- Penambahan keamanan AppCheck
-- Perbaikan Bug
-- Perbaikan tombol aksi notifikasi
-- Pembaharuan bahasa pendukung
+-   Perbaikan bug dan peningkatan performa
+-   Penambahan kemampuan memuat gambar pada notifikasi
+-   Pengoptimalan metode cache
+-   Penambahan Jadwal Partangiangan Weyk
+-   Penghapusan sisi samping Penampil PDF
+-   Pengoptimalan Pembacaan PDF
+-   Meringankan halaman utama aplikasi
+-   Penambahan keamanan AppCheck
+-   Perbaikan Bug
+-   Perbaikan tombol aksi notifikasi
+-   Pembaharuan bahasa pendukung
 
 </details>
 
@@ -99,40 +115,35 @@ Bagian ini menunjukkan teknologi apa saja yang digunakan dalam pengembangan apli
 -   **Framework:** [Flutter](https://flutter.dev/)
 -   **Bahasa Pemrograman:** [Dart](https://dart.dev/), [Kotlin](https://kotlinlang.org/)
 -   **IDE:** [Android Studio](https://developer.android.com/studio), [Visual Studio Code](https://code.visualstudio.com/)
--   **Manajemen Status:** *(Contoh: Provider, Bloc, GetX)*
--   **Backend/API:** *(Contoh: Firebase, atau API kustom)*
--   **Desain:** *(Contoh: Figma)*
+-   **Backend/API:** *Firebase*
+-   **Desain:** *Figma*
 
 ---
 
-## 🚀 **Cara Menjalankan Proyek (Getting Started)**
+## 🚀 **Pengembang**
 
-Jika repositori ini _open-source_, ikuti panduan ini untuk menjalankan proyek di mesin lokal Anda.
-
-1.  **Prasyarat**
-    -   Pastikan Anda sudah menginstal Flutter SDK.
-    -   Android Studio atau VS Code dengan ekstensi Flutter & Dart.
-
-2.  **Instalasi**
-    -   Clone repositori ini:
-        ```bash
-        git clone [https://github.com/URL-ANDA/nama-repositori.git](https://github.com/URL-ANDA/nama-repositori.git)
-        ```
-    -   Masuk ke direktori proyek:
-        ```bash
-        cd nama-repositori
-        ```
-    -   Instal semua dependensi:
-        ```bash
-        flutter pub get
-        ```
-    -   Jalankan aplikasi:
-        ```bash
-        flutter run
-        ```
+Aplikasi ini dibuat dan di kembangkan oleh Tim Digital HKBP Perawang Ressort Perawang
 
 ---
 
-## 📂 **Struktur Proyek**
+## Beta Tester
 
-Struktur folder proyek ini mengikuti konvensi umum pada pengembangan Flutter untuk menjaga keterbacaan dan skalabilitas.
+Terimakasih untuk semua Beta Tester yang turut berperan dalam pengoptimalan peforma dan awal aplikasi ini dibentuk
+
+1. Jepriadi Siahaan
+2. Desy Simanjuntak
+3. Michael Simamora
+4. Edi Siahaan
+5. Tasya Sitindaon
+6. Febri Silaban
+7. Indra Gultom
+8. Jonathan Munte
+9. Marvel Sitompul
+10. Michael Simamora
+11. Ricky Marbun
+12. Riko Siagian
+13. Ruth Manullang
+14. Sidebang Fortune
+15. Alboin Silalahi
+16. Marlin Situmorang
+17. Sanmay Simanullang
