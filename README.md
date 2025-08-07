@@ -65,7 +65,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary><strong>Versi 1.0.55 (Terbaru)</strong> - 02 Agustus 2025</summary>
+<summary><strong>Versi 1.0.55</strong> - 02 Agustus 2025</summary>
 <br>
 
 -   Perbaikan bug dan peningkatan performa
@@ -235,6 +235,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 - penambahan fitur statistik huria untuk memunculkan di halaman info huria.
 
 </details>
+
 ---
 
 ## 🛠️ **Tech Stack & Tools**
