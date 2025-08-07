@@ -24,6 +24,8 @@ Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplika
   <img src="https://img.shields.io/github/last-commit/hkbpperawang/aplikasi?style=for-the-badge&logo=github" alt="GitHub Last Commit">
 </p>
 
+https://playbadges.pavi2410.me/badge/downloads?id=<org.hkbpperawang.app>[&pretty]
+
 ---
 
 ## 🎯 **Tujuan Aplikasi**
