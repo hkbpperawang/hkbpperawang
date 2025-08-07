@@ -1,4 +1,12 @@
 # **Aplikasi HKBP Perawang**
+<p align="left">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart Badge"/>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin Badge"/>
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio Badge"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code Badge"/>
+  <img src="https://img.shields.io/badge/Made%20in-Indonesia-red?style=for-the-badge&logo=none&labelColor=white" alt="Made in Indonesia Badge"/>
+</p>
 
 Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplikasi seluler yang dirancang untuk menjadi pusat informasi dan kegiatan bagi jemaat HKBP Perawang. Dibangun dengan cinta menggunakan Flutter, aplikasi ini bertujuan untuk mempererat komunitas dan mempermudah akses terhadap berbagai informasi gerejawi.
 
