@@ -15,6 +15,7 @@ Tujuan utama dari aplikasi ini adalah untuk menjadi platform digital terpusat ba
 * **Mengakses Informasi Terkini:** Mendapatkan informasi terbaru seputar jadwal ibadah, kegiatan gereja, dan pengumuman penting lainnya langsung dari perangkat seluler mereka.
 * **Meningkatkan Keterlibatan Jemaat:** Memfasilitasi partisipasi jemaat dalam berbagai program dan kegiatan gereja.
 * **Mempererat Komunitas:** Menjadi jembatan digital yang menghubungkan sesama jemaat dan pelayan gereja, di mana pun mereka berada.
+* **Mempermudah Akses Tata Acara dan Warta Jemaat** Selain dengan website, aplikasi juga menawarkan Tata Acara dan Warta Jemaat yang berhubungan dengan kegiatan di HKBP Perawang
 
 ---
 
@@ -25,9 +26,8 @@ Aplikasi HKBP Perawang dilengkapi dengan berbagai fitur yang dirancang untuk mem
 * **📖 Renungan Harian:** Mulai hari Anda dengan santapan rohani melalui renungan harian yang tersedia setiap hari.
 * **⛪ Informasi Ibadah:** Lihat jadwal lengkap ibadah Minggu, ibadah keluarga, dan ibadah lainnya.
 * **📰 Warta Jemaat:** Akses warta jemaat digital kapan saja dan di mana saja untuk mengetahui berita terbaru, laporan keuangan, dan pengumuman penting.
-* **🗓️ Kalender Kegiatan:** Tetap terinformasi tentang semua acara dan kegiatan yang akan datang di HKBP Perawang.
+* **🗓️ Jadwal Kegiatan:** Tetap terinformasi tentang semua acara dan kegiatan yang akan datang di HKBP Perawang.
 * **🔔 Notifikasi:** Dapatkan pengingat dan pemberitahuan instan untuk acara penting dan berita terbaru.
-* **🙏 Pokok Doa:** Bagikan dan dukung pokok-pokok doa dari sesama jemaat untuk saling mendoakan.
 
 ---
 
@@ -37,7 +37,7 @@ Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 
 | Halaman Utama | Warta Jemaat | Renungan |
 | :---: | :---: | :---: |
-| <img src="https://play-lh.googleusercontent.com/978m8i2T3f0V7-o3n2qfV4jWkY5O9qI8bC9L0e9fG2c4U3jZ3sQ1nF8d7g=w2560-h1440-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/K35E5lTzE6gE8gP4qN7a7bY5zK6R1hH9a8dI9lE0rL8rM0oW3tA4sX7dGg=w2560-h1440-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/yU0j7O0oX5vB4mB4zJ5gR3pY6xI7dE2vL5kO6mJ2hP3mI4nB5sR6kG3aYQ=w2560-h1440-rw" width="200"/> |
+| <img src="https://play-lh.googleusercontent.com/u_pd2XAaSYwQ-yAXIuGLGYd4g1pZ8YFk38yb_grt7B--l3Z7h-IkG1mkvy0TR05simCN1o8ZJ9K4hqnIAIs1wQ=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/5l50O_CS1m2HHLnGjLNOgYVNml5KO_KROZcZQNKe943tkkwMX4ew6jKTBE4twBJ_PT4WlIDE0h62dcrzFqF9IRE=w5120-h2880-rw" width="200"/> | <img src="https://play-lh.googleusercontent.com/YAT_6MTy_dDzeK8JDPkKb3CHghiE0fpU7Kba7_JkM0Vyl1PuEvbtsHSqakaR_WWwwFa-rADAdLte0MRj6rkMdw=w5120-h2880-rw" width="200"/> |
 
 | Jadwal Ibadah | Profil |
 | :---: | :---: |
