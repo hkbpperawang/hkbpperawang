@@ -60,17 +60,17 @@ Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <details>
-<summary><strong>Versi 1.0.56 (Terbaru)</strong> - 07 Agustus 2025</summary>
+* <summary><strong>Versi 1.0.56 (Terbaru)</strong> - 07 Agustus 2025</summary>
 <br>
 
--   Perbaikan bug dan peningkatan performa
--   Penambahan metode scrap PDF dari web dan GDrive
--   Perubahan UI Blog
--   Penambahan Fitur Postingan Unggulan
--   Optimasi pembuka PDF
--   Optimasi metode unduh PDF
--   Perbaikan Cache Info Partangiangan
--   Perbaikan beberapa bug
+*   Perbaikan bug dan peningkatan performa
+*   Penambahan metode scrap PDF dari web dan GDrive
+*   Perubahan UI Blog
+*   Penambahan Fitur Postingan Unggulan
+*   Optimasi pembuka PDF
+*   Optimasi metode unduh PDF
+*   Perbaikan Cache Info Partangiangan
+*   Perbaikan beberapa bug
 
 </details>
 
