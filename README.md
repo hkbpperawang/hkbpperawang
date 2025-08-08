@@ -61,15 +61,16 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <details>
 <summary><strong>Versi 1.0.56 (Terbaru)</strong> - 07 Agustus 2025</summary>
-
--   Perbaikan bug dan peningkatan performa
--   Penambahan metode scrap PDF dari web dan GDrive
--   Perubahan UI Blog
--   Penambahan Fitur Postingan Unggulan
--   Optimasi pembuka PDF
--   Optimasi metode unduh PDF
--   Perbaikan Cache Info Partangiangan
--   Perbaikan beberapa bug
+<ul>
+<li>Perbaikan bug dan peningkatan performa</li>
+<li>Penambahan metode scrap PDF dari web dan GDrive</li>
+<li>Perubahan UI Blog</li>
+<li>Penambahan Fitur Postingan Unggulan</li>
+<li>Optimasi pembuka PDF</li>
+<li>Optimasi metode unduh PDF</li>
+<li>Perbaikan Cache Info Partangiangan</li>
+<li>Perbaikan beberapa bug</li>
+</ul>
 
 </details>
 
