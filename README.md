@@ -73,9 +73,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.55 - 02 Agustus 2025</summary>
-<br>
 <ul>
 <li>Perbaikan bug dan peningkatan performa</li>
 <li>Penambahan kemampuan memuat gambar pada notifikasi</li>
@@ -91,9 +92,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.50 - 20 Juni 2025</summary>
-<br>
 <ul>
 <li>Perbaikan bug dan peningkatan performa</li>
 <li>Perbaikan edge-to-edge</li>
@@ -102,9 +104,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.43 - 28 April 2025</summary>
-<br>
 <ul>
 <li>Fetch Warta Acara dengan Metode Baru mengikuti struktur web</li>
 <li>Penambahan Sistem notifikasi dengan fitur Tombol</li>
@@ -115,9 +118,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.37 build 3 - 1.0.38 build 35</summary>
-<br>
 <ul>
 <li>Perbaikan Fug</li>
 <li>Perbaikan cache lokal</li>
@@ -129,9 +133,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.36 build 2 - 1.0.37 build 3</summary>
-<br>
 <ul>
 <li>Perbaikan Bug</li>
 <li>Memperbaiki fitur cache</li>
@@ -140,9 +145,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.35 build 7 - 1.0.36 build 2</summary>
-<br>
 <ul>
 <li>Perbaikan bug</li>
 <li>Migrasi penyimpanan dari hive ke hive_ce</li>
@@ -153,9 +159,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.34 build 2 - 1.0.35 build 7</summary>
-<br>
 <ul>
 <li>Perbaikan bug</li>
 <li>Integrasi ImageKit sebagai media utama penyimpanan file</li>
@@ -164,9 +171,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.30 build 8 - 1.0.34 build 2</summary>
-<br>
 <ul>
 <li>Meningkatkan stabilitas</li>
 <li>Mengubah metode fetch dokumen dan warta hanya oleh admin</li>
@@ -184,9 +192,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.30 build 8 - 1.0.35 build 7</summary>
-<br>
 <ul>
 <li>Perbaikan Bug</li>
 <li>Integrasi ImageKit sebagai Media Library</li>
@@ -194,9 +203,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.25 build 5 - 1.0.30 build 8</summary>
-<br>
 <ul>
 <li>Penambahan fitur popup pada foto info huria, fungsionaris, dan tim digital</li>
 <li>Penambahan menu Dokumen pada Sidebar</li>
@@ -207,9 +217,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.1 build 5 - 1.0.25 build 3</summary>
-<br>
 <ul>
 <li>Perbaikan bug</li>
 <li>Pengelompokan halaman warta-acara berdasarkan kegiatan acara</li>
@@ -217,9 +228,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.1 build 2</summary>
-<br>
 <ul>
 <li>Penambahan fitur analistik.</li>
 <li>Perbaikan beberapa bug.</li>
@@ -230,9 +242,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.0 build 8</summary>
-<br>
 <ul>
 <li>Perbaikan beberapa bug.</li>
 <li>penambahan pop up jika versi baru tersedia.</li>
@@ -241,9 +254,10 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
+<br>
+
 <details>
 <summary>Versi 1.0.0 build 3</summary>
-<br>
 <ul>
 <li>Penambahan Halaman: Info Huria, Warta Jemaat, Jadwal Kegiatan, Blog, Info Aplikasi, Kebijakan Privasi, Fungsionaris, Tim Digital.</li>
 <li>Pemuatan Warta Jemaat menggunakan web_view ke situs https://www.hkbpperawang.org.</li>
