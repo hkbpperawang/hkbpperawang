@@ -3,7 +3,7 @@
 Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplikasi seluler yang dirancang untuk menjadi pusat informasi dan kegiatan bagi jemaat HKBP Perawang. Dibangun dengan cinta menggunakan Flutter, aplikasi ini bertujuan untuk mempererat komunitas dan mempermudah akses terhadap berbagai informasi gerejawi.
 
 <p align="center">
-  <img src="https://play-lh.googleusercontent.com/fd2MqxwGVxqJO_QXgXCwg-o8R-e2l9jmkDLHNS_TEYrpFbG2q1W1AfjLdDPaoo0Un2w=w480-h960-rw" alt="Banner Aplikasi HKBP Perawang">
+  <img src="https://play-lh.googleusercontent.com/fd2MqxwGVxqJO_QXgXCwg-o8R-e2l9jmkDLHNS_TEYrpFbG2q1W1AfjLdDPaoo0Un2w=w480-h960-rw" alt="Banner Aplikasi HKBP Perawang" width="300">
 </p>
 
 <p align="center">
@@ -15,6 +15,22 @@ Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplika
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code Badge"/>
   <img src="https://img.shields.io/badge/Made%20in-Indonesia-red?style=for-the-badge&logo=none&labelColor=white" alt="Made in Indonesia Badge"/>
 </p>
+
+<p align="center">
+  Versi Saat ini: <strong>v1.0.56</strong>
+</p>
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://www.hkbpperawang.org/wp-content/uploads/GetItOnGooglePlay_Badge_Web_color_Indonesian.png" alt="Dapatkan di Google Play" width="200"/></a>
+</p>
+
+---
+
+## Persyaratan Sistem
+
+Harap diperhatikan, Aplikasi ini hanya dapat berjalan di Sistem Android
+
+-   **Versi Android Minimum**: 24+ (Nougat)
 
 ---
 
