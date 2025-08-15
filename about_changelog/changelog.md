@@ -1,9 +1,24 @@
 ## 📜 **Changelog**
 
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
+<details>
+<summary><strong>Versi 1.0.57 (Terbaru)</strong> - 15 Agustus 2025</summary>
+<ul>
+<li>Perbaikan tombol "kembali ke atas"</li>
+<li>Perubahan halaman Tentang aplikasi</li>
+<li>Desain ulang header Aplikasi</li>
+<li>Perbaikan beberapa bug</li>
+<li>Pengoptimalan kode aplikasi</li>
+<li>Penanganan Admin dashboard</li>
+<li>Penambahan fitur ubah password untuk Admin</li>
+<li>Penambahan fitur sinkronisasi Google untuk Admin</li>
+</ul>
+</details>
+
+<br>
 
 <details>
-<summary><strong>Versi 1.0.56 (Terbaru)</strong> - 07 Agustus 2025</summary>
+<summary><strong>Versi 1.0.56</strong> - 07 Agustus 2025</summary>
 <ul>
 <li>Perbaikan bug dan peningkatan performa</li>
 <li>Penambahan metode scrap PDF dari web dan GDrive</li>
