@@ -3,11 +3,11 @@
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <details>
 <summary><strong>Versi 1.0.58 (Terbaru)</strong> - 17 Agustus 2025</summary>
-- Perbaikan force close pada versi 1.0.57
-- Perbaikan fitur pencarian pada halaman blog
-- Optimasi Edge-to-edge
-- Penghapusan metode usang
-- Perbaikan bug
+-  Perbaikan force close pada versi 1.0.57
+-  Perbaikan fitur pencarian pada halaman blog
+-  Optimasi Edge-to-edge
+-  Penghapusan metode usang
+-  Perbaikan bug
 </details>
 
 <br>
