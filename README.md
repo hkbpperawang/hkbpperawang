@@ -73,7 +73,7 @@ Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 
 ## 📜 **Changelog**
 
-Riwayat Perubahan dapat dilihat [Disini](https://github.com/hkbpperawang/hkbpperawang/blob/about_changelog/changelog.md)
+Riwayat Perubahan dapat dilihat [Disini](https://github.com/hkbpperawang/hkbpperawang/about_changelog/changelog.md)
 ---
 
 ## 🛠️ **Tech Stack & Tools**
