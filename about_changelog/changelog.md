@@ -7,7 +7,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Perbaikan force close pada versi 1.0.57</li>
 <li>Perbaikan fitur pencarian pada halaman blog</li>
 <li>Optimasi Edge-to-edge</li>
-<li><li>Penghapusan metode usang</li>
+<li>Penghapusan metode usang</li>
 <li>Perbaikan bug</li>
 </ul>
 </details>
