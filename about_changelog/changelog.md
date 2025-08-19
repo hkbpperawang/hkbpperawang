@@ -1,6 +1,25 @@
 ## 📜 **Changelog**
 
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
+
+<details>
+  <summary><strong>Versi 2.1.0 (Terbaru)</strong> - 19 Agustus 2025</summary>
+  <ul>
+    <li>Perubahan arsitektur pengiriman notifikasi</li>
+    <li>Penjadwalan notifikasi</li>
+    <li>Optimasi dan konsistensi cache setiap halaman</li>
+    <li>Menambahkan kompibilitas edge-to-edge</li>
+    <li>mengganti depedensi usang</li>
+    <li>perbaikan bug</li>
+    <li>Perubahan struktur header</li>
+    <li>Menghapus entri cache korup saat gagal dekompresi</li>
+    <li>Redesign layar login</li>
+    <li>Perbaikan izin FCM</li>
+    <li>Integrasi dengan Github action</li>
+  </ul>
+</details>
+
+
 <details>
 <summary><strong>Versi 1.0.58 (Terbaru)</strong> - 17 Agustus 2025</summary>
 <ul>
