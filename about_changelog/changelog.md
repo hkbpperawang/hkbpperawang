@@ -1,9 +1,97 @@
 ## 📜 **Changelog**
 
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
-
 <details>
-  <summary><strong>Versi 2.1.0 (Terbaru)</strong> - 19 Agustus 2025</summary>
+  <summary><strong>Versi 2.1.11 (Terbaru)</strong> - 19 Agustus 2025</summary>
+  <ul>
+    <li>Peningkatan keamanan dan logging</li>
+    <li>Optimasi kinerja aplikasi</li>
+    <li>Penambahan fitur layar tetap menyala saat membaca warta di pengaturan</li>
+    <li>Penambahan penampil PDF webview di pengaturan aplikasi</li>
+    <li>Penyerhanaan tampilan</li>
+    <li>Penjadwalan notifikasi (untuk Admin)</li>
+    <li>Optimasi pengelolaan tim dan kategori tim</li>
+    <li>Peningkatan stabilitas</li>
+    <li>Perubahan UI halaman warta-acara</li>
+    <li>Perbaikan widget team yang tiba-tiba berpindah acak</li>
+    <li>Cache hanya pada alur internal untuk keamanan</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>versi 2.4.10</strong></summary>
+  <ul>
+    <li>Tambah guard ekstra agar tidak ada akses ke controller sebelum siap saat frame awal</li>
+    <li>Optimasi pembaca pdf lokal</li>
+    <li>Penambahan fitur membuka pdf secara eksternal</li>
+    <li>Redesain halaman warta acara</li>
+    <li>Otomasi ikon warta acara sesuai jenis file</li>
+    <li>Validasi url pdf untuk webview</li>
+    <li>Memisahkan cache domain ke box khusus</li>
+    <li>Menambah migrasi ringan</li>
+    <li>Perbaikan beberapa bug</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>versi 2.4.1 - 2.4.9</strong></summary>
+  <ul>
+    <li>Redesign UI Pengaturan</li>
+    <li>Otomasi Penghapus cache lebih dari 2 minggu</li>
+    <li>Perbaikan beberapa bug dan crash</li>
+    <li>Konfigurasi Ulang Team agar konsisten</li>
+    <li>Hindari rebuild team jika sudah di kunci oleh Admin</li>
+    <li>Perbaikan kategori team yang tiba-tiba hilang</li>
+    <li>Penambahan opsi check box untuk tim (admin)</li>
+    <li>Redesain pengaturan tim di admin dashboard</li>
+    <li>Ganti pemanggilan API usang</li>
+    <li>Penghapusan pencatatan log yang tidak diperlukan</li>
+    <li>Konsistensi cache untuk semua halaman</li>
+    <li>Optimasi pengkompres data untuk sinkronisasi latar belakang</li>
+    <li>Redesign indikator offline</li>
+    <li>Otomatisasi pengiriman informassi crash pada user</li>
+    <li>Perbaikan strukrur penyimpanan tim</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>versi 2.2.2 - versi 2.4.0</strong></summary>
+  <ul>
+    <li>Integrasi dropbox dan google drive untuk penyimpanan online</li>
+    <li>Perubahan metode pengambilan postingan</li>
+    <li>Fitur edit post khusus mobile</li>
+    <li>Fitur pendeteksi perubahan postingan</li>
+    <li>Redesign Sidebar Global dan Admin dashboard</li>
+    <li>Pemecahan beberapa file menjadi bagian-bagian kecil</li>
+    <li>Penguraian kinerja berat menjadi beberapa tahap</li>
+    <li>Mengurangi definisi animasi untuk mengurangi beban GPU/CPU</li>
+    <li>optimasi cache, pembersihan PDF, Remote Config fetch, dan priming data awal</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>versi 2.2.1</strong></summary>
+  <ul>
+    <li>Integrasi crashlytic untuk non-fatal crash</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</details>
+<details>
+  <summary><strong>versi 2.2.0</strong></summary>
+  <ul>
+    <li>Perubahan struktur metode implementasi Admin</li>
+    <li>Sleksi User (untuk Admin)</li>
+    <li>Penambahan role contributor untuk admin</li>
+    <li>Redesign Profil Admin</li>
+    <li>Peningkatan keamanan admin</li>
+    <li>integrasi keamanan google admin</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>Versi 2.1.0</strong> - 19 Agustus 2025</summary>
   <ul>
     <li>Perubahan arsitektur pengiriman notifikasi</li>
     <li>Penjadwalan notifikasi</li>
@@ -21,7 +109,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 
 <details>
-<summary><strong>Versi 1.0.58 (Terbaru)</strong> - 17 Agustus 2025</summary>
+<summary><strong>Versi 1.0.58</strong> - 17 Agustus 2025</summary>
 <ul>
 <li>Perbaikan force close pada versi 1.0.57</li>
 <li>Perbaikan fitur pencarian pada halaman blog</li>
