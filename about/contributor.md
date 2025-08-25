@@ -19,3 +19,6 @@ Terimakasih untuk semua Beta Tester dan Kontributor yang turut berperan dalam pe
 15. Alboin Silalahi
 16. Marlin Situmorang
 17. Sanmay Simanullang
+
+Bagi Amang/Inang, Saudara/i yang memiliki masukan atau menemukan crash bisa langsunng menghubungi:
+- Tim Digital HKBP Perawang di WhatsApp <strong>[+1 (220) 222 4575](https://wa.me/+12202224575)</strong>
