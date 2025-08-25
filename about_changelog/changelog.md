@@ -2,7 +2,7 @@
 
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <details>
-  <summary><strong>Versi 2.1.11 (Terbaru)</strong> - 19 Agustus 2025</summary>
+  <summary><strong>Versi 2.1.11 (Terbaru)</strong> - 25 Agustus 2025</summary>
   <ul>
     <li>Peningkatan keamanan dan logging</li>
     <li>Optimasi kinerja aplikasi</li>
