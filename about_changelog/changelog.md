@@ -8,7 +8,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
     <li>Optimasi kinerja aplikasi</li>
     <li>Penambahan fitur layar tetap menyala saat membaca warta di pengaturan</li>
     <li>Penambahan penampil PDF webview di pengaturan aplikasi</li>
-    <li>Penyerhanaan tampilan</li>
+    <li>Penyederhanaan tampilan</li>
     <li>Penjadwalan notifikasi (untuk Admin)</li>
     <li>Optimasi pengelolaan tim dan kategori tim</li>
     <li>Peningkatan stabilitas</li>
