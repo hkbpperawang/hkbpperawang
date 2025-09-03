@@ -2,7 +2,23 @@
 
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <details>
-  <summary><strong>Versi 2.4.11 (Terbaru)</strong> - 25 Agustus 2025</summary>
+  <summary><strong>Versi 2.4.17 (Terbaru)</strong> - 03 September 2025</summary>
+  <ul>
+    <li>Perbaikan pengolahan cache yang menyebabkan aplikasi terhenti tiba-tiba</li>
+    <li>Peningkatan peforma</li>
+    <li>Penyegaran banner informasi</li>
+    <li>Penambahan banner untuk keterangan halaman</li>
+    <li>Penambahan Stiker informasi teks berjalan dibawah header</li>
+    <li>Optimasi pengolahan cache</li>
+    <li>Perbaikan beberapa bug</li>
+    <li>Pengolahan Stiker dan Banner informasi untuk Admin</li>
+    <li>Monitor crash pada user</li>
+    <li>Optimasi pengolahan tim untuk jenis devisi</li>
+    <li>Optimasi pengolahan pembaca PDF bawaan dan webview</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>Versi 2.4.11 </strong> - 25 Agustus 2025</summary>
   <ul>
     <li>Peningkatan keamanan dan logging</li>
     <li>Optimasi kinerja aplikasi</li>
