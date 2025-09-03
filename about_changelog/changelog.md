@@ -122,8 +122,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
     <li>Integrasi dengan Github action</li>
   </ul>
 </details>
-
-
 <details>
 <summary><strong>Versi 1.0.58</strong> - 17 Agustus 2025</summary>
 <ul>
@@ -134,9 +132,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Perbaikan bug</li>
 </ul>
 </details>
-
-<br>
-
 <details>
 <summary><strong>Versi 1.0.57</strong> - 15 Agustus 2025</summary>
 <ul>
@@ -150,9 +145,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Penambahan fitur sinkronisasi Google untuk Admin</li>
 </ul>
 </details>
-
-<br>
-
 <details>
 <summary><strong>Versi 1.0.56</strong> - 07 Agustus 2025</summary>
 <ul>
@@ -166,8 +158,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Perbaikan beberapa bug</li>
 </ul>
 </details>
-
-<br>
 
 <details>
 <summary>Versi 1.0.55 - 02 Agustus 2025</summary>
@@ -186,8 +176,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
-<br>
-
 <details>
 <summary>Versi 1.0.50 - 20 Juni 2025</summary>
 <ul>
@@ -197,8 +185,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>dan banyak lagi</li>
 </ul>
 </details>
-
-<br>
 
 <details>
 <summary>Versi 1.0.43 - 28 April 2025</summary>
@@ -211,8 +197,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Pengoptimalan Pembuka Pdf</li>
 </ul>
 </details>
-
-<br>
 
 <details>
 <summary>Versi 1.0.37 build 3 - 1.0.38 build 35</summary>
@@ -227,8 +211,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
-<br>
-
 <details>
 <summary>Versi 1.0.36 build 2 - 1.0.37 build 3</summary>
 <ul>
@@ -238,8 +220,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Sinkronasi data team dengan firebase</li>
 </ul>
 </details>
-
-<br>
 
 <details>
 <summary>Versi 1.0.35 build 7 - 1.0.36 build 2</summary>
@@ -253,8 +233,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
-<br>
-
 <details>
 <summary>Versi 1.0.34 build 2 - 1.0.35 build 7</summary>
 <ul>
@@ -264,8 +242,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Perbaikan integrasi firebase</li>
 </ul>
 </details>
-
-<br>
 
 <details>
 <summary>Versi 1.0.30 build 8 - 1.0.34 build 2</summary>
@@ -286,8 +262,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
-<br>
-
 <details>
 <summary>Versi 1.0.30 build 8 - 1.0.35 build 7</summary>
 <ul>
@@ -296,8 +270,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Perbaikan fitur Analistik</li>
 </ul>
 </details>
-
-<br>
 
 <details>
 <summary>Versi 1.0.25 build 5 - 1.0.30 build 8</summary>
@@ -311,8 +283,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
-<br>
-
 <details>
 <summary>Versi 1.0.1 build 5 - 1.0.25 build 3</summary>
 <ul>
@@ -321,8 +291,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>Metode fetch warta agar dapat mendeteksi postingan terbaru di website.</li>
 </ul>
 </details>
-
-<br>
 
 <details>
 <summary>Versi 1.0.1 build 2</summary>
@@ -336,8 +304,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 
-<br>
-
 <details>
 <summary>Versi 1.0.0 build 8</summary>
 <ul>
@@ -347,8 +313,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>perbaikan info team agar dapat memunculkan pop up foto.</li>
 </ul>
 </details>
-
-<br>
 
 <details>
 <summary>Versi 1.0.0 build 3</summary>
