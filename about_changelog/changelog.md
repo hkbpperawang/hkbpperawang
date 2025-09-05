@@ -5,7 +5,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <details>
   <summary><strong>Versi 2.5.1 (Terbaru)</strong></summary>
   <ul>
-    <li>Perbaikan lag pada splash screen</li>
+    <li>Perbaikan lag pada saat kali pertama install aplikasi</li>
     <li>Perbaikan postingan blog yang menampilkan simbol-simbol</li>
     <li>blokir kode iklan web pada tampilan postingan android</li>
     <li>perbaikan fitur stiker teks berjalan</li>
