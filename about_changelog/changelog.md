@@ -15,7 +15,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.4.17 (Terbaru)</strong> - 03 September 2025</summary>
+  <summary><strong>Versi 2.4.17</strong></summary>
   <ul>
     <li>Perbaikan pengolahan cache yang menyebabkan aplikasi terhenti tiba-tiba</li>
     <li>Peningkatan peforma</li>
@@ -31,7 +31,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-  <summary><strong>Versi 2.4.11 </strong> - 25 Agustus 2025</summary>
+  <summary><strong>Versi 2.4.11</strong></summary>
   <ul>
     <li>Peningkatan keamanan dan logging</li>
     <li>Optimasi kinerja aplikasi</li>
