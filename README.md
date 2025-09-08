@@ -17,10 +17,6 @@ Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplika
 </p>
 
 <p align="center">
-  Versi Saat ini: <strong>v2.4.11</strong>
-</p>
-
-<p align="center">
   <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://www.hkbpperawang.org/wp-content/uploads/GetItOnGooglePlay_Badge_Web_color_Indonesian.png" alt="Dapatkan di Google Play" width="200"/></a>
 </p>
 
@@ -73,7 +69,7 @@ Berikut adalah tampilan antarmuka dari Aplikasi HKBP Perawang:
 
 ## 📜 **Changelog**
 
-Riwayat Perubahan dapat dilihat [Disini](https://github.com/hkbpperawang/hkbpperawang/blob/main/about_changelog/changelog.md)
+Riwayat Perubahan dapat dilihat [Disini](https://aplikasi.hkbpperawang.org/about_changelog/changelog)
 ---
 
 ## 🛠️ **Tech Stack & Tools**
