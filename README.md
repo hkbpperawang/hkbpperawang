@@ -20,6 +20,10 @@ Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplika
   <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://www.hkbpperawang.org/wp-content/uploads/GetItOnGooglePlay_Badge_Web_color_Indonesian.png" alt="Dapatkan di Google Play" width="200"/></a>
 </p>
 
+<p align="center">
+  Aplikasi versi Beta klik disini: https://play.google.com/apps/testing/org.hkbpperawang.app.
+</p>
+
 ---
 
 ## Persyaratan Sistem
