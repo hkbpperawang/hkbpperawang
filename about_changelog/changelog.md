@@ -3,7 +3,101 @@
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <details>
-  <summary><strong>Versi 2.5.1 (Terbaru)</strong></summary>
+  <summary><strong>Versi 2.7.0 (Terbaru)</strong></summary>
+  <ul>
+    <li>Ekstensi offline-first ke semua tabel jadwal & Partangiangan.</li>
+    <li>Konsistensi jadwal & cache offline untuk tabel.</li>
+    <li>JadwalMingguan & SermonParhalado: Dukungan cache instan + stream update</li>
+    <li>Partangiangan info kini render cache sinkron sebelum revalidasi</li>
+    <li>JadwalIbadahTable & JadwalPATable: Caching offline (ambil instan dari DataCacheManager lalu update background via stream saat online)</li>
+    <li>fallback offline pakai cache</li>
+    <li>Konversi widget jadwal lain menjadi Stateful untuk manajemen cache & subscription</li>
+    <li>jadwal_screen & home_screen: Pemanggilan diperbarui</li>
+    <li>Perubahan konstruktor Jadwal IbadahTable bersifat breaking minor</li>
+    <li>Masa kedaluwarsa cache jadwal: 7 hari</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Versi 2.6.5 - rilis dalam mode beta</strong></summary>
+  <ul>
+    <li>Optimisasi startup offline-first & pengurangan jank.</li>
+    <li>Revalidasi ringan jadwal hanya bila koneksi tersedia & data masih dari cache.</li>
+    <li>Revalidasi bertahap WartaAcara</li>
+    <li>Hapus logging build berulang</li>
+    <li> Warmup post-frame kini menerima context untuk akses provider aman dan menambahkan jadwal revalidation</li>
+    <li>Revalidasi multi-provider bertingkat + guard scheduler</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Versi 2.6.4 - rilis dalam mode beta</strong></summary>
+  <ul>
+    <li>Sinkronisasi Custom Notes ke HomeScreen.</li>
+    <li>Tambah render Custom Notes kategori 01 dan 02</li>
+    <li>Menjamin konsistensi informasi penting</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Versi 2.6.3 - rilis dalam mode beta</strong></summary>
+  <ul>
+    <li>Fokus stabilitas & pembersihan akhir PDF viewer + perbaikan lintas modul.</li>
+    <li>Perbaikan crash notifikasi firebase</li>
+    <li>Perbaikan Build gagal ekstensi Matrix4</li>
+    <li>Penyederhanaan controller & callback</li>
+    <li>Rewrite terstruktur + scroll aman</li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Versi 2.6.2 - rilis dalam mode beta</strong></summary>
+  <ul>
+    <li>Refactor & finalisasi arsitektur PDF + telemetry tambahan.</li>
+    <li>Prefetch hingga 8 PDF Warta</li>
+    <li>Penggunaan telemetry untuk pemantau kegagalan inisialisasi aplikasi</li>
+    <li>Perbaikan build berlebih saat aplikasi dijalankan</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Versi 2.6.1 - rilis dalam mode beta</strong></summary>
+  <ul>
+    <li>Ekstensi caching & observability</li>
+    <li>Penerapan SWR secara menyeluruh dalam pengolahan cache</li>
+    <li>Analisis kinerja aplikasi dalam Dashboard Admin</li>
+    <li>Fallback menggunakan pembaca lokal jika pembaca webview gagal dimuat</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Versi 2.6.0 - rilis dalam mode beta</strong></summary>
+  <ul>
+    <li>Fondasi fitur infra kinerja & offline.</li>
+    <li>antrian operasi dokumen/kategori + flush otomatis saat online</li>
+    <li>Penambahan fitur Prefetch untuk warta acara</li>
+    <li>Grace startup</li>
+    <li>Penerapan SWR untuk pengeola cache</li>
+    <li>Penundaan informasi offline untuk kasus false offline</li>
+    <li>Perbaiki banner indikasi offline menyebabkan flicker</li>
+    <li>UX offline diawal pembukaan aplikasi</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Versi 2.5.2 - rilis dalam mode beta</strong></summary>
+  <ul>
+    <li>Perbaikan beberapa halaman tertutup sistem navigasi perangkat</li>
+    <li>Mengatur jarak bawah halaman secara global</li>
+    <li>Pembersihan jarak bawah pada halaman-halaman lokal</li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Versi 2.5.1</strong></summary>
   <ul>
     <li>Perbaikan lag pada saat kali pertama install aplikasi</li>
     <li>Perbaikan postingan blog yang menampilkan simbol-simbol</li>
