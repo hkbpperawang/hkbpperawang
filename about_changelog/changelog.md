@@ -391,7 +391,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.1 - 1.0.25/summary>
+<summary>Versi 1.0.1 - 1.0.25</summary>
 <ul>
 <li>Perbaikan bug</li>
 <li>Pengelompokan halaman warta-acara berdasarkan kegiatan acara</li>
