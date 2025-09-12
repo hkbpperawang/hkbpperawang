@@ -7,13 +7,13 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   <ul>
     <li>Ekstensi offline-first ke semua tabel jadwal & Partangiangan.</li>
     <li>Konsistensi jadwal & cache offline untuk tabel.</li>
-    <li>JadwalMingguan & SermonParhalado: Dukungan cache instan + stream update</li>
-    <li>Partangiangan info kini render cache sinkron sebelum revalidasi</li>
-    <li>JadwalIbadahTable & JadwalPATable: Caching offline (ambil instan dari DataCacheManager lalu update background via stream saat online)</li>
+    <li>Jadwal Mingguan & Sermon Parhalado: Dukungan cache instan dan update latar belakang</li>
+    <li>Info Banner Partangiangan render cache sinkron lebih awal</li>
+    <li>Jadwal Ibadah & Jadwal PA/PHD: Caching offline (ambil instan dari Manajemen lalu update di latar belakang)</li>
     <li>fallback offline pakai cache</li>
-    <li>Konversi widget jadwal lain menjadi Stateful untuk manajemen cache & subscription</li>
-    <li>jadwal_screen & home_screen: Pemanggilan diperbarui</li>
-    <li>Perubahan konstruktor Jadwal IbadahTable bersifat breaking minor</li>
+    <li>Konversi widget jadwal untuk manajemen cache & pembaharuan instan</li>
+    <li>Halaman Home & Jadwal: Pemanggilan diperbarui</li>
+    <li>Perubahan konstruktor Jadwal Ibadah bersifat breaking minor</li>
     <li>Masa kedaluwarsa cache jadwal: 7 hari</li>
   </ul>
 </details>
