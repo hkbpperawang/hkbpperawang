@@ -19,7 +19,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.6.5 - rilis dalam mode beta</strong></summary>
+  <summary>Versi 2.6.5 - rilis dalam mode beta</summary>
   <ul>
     <li>Optimisasi startup offline-first & pengurangan jank.</li>
     <li>Revalidasi ringan jadwal hanya bila koneksi tersedia & data masih dari cache.</li>
@@ -31,7 +31,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.6.4 - rilis dalam mode beta</strong></summary>
+  <summary>Versi 2.6.4 - rilis dalam mode beta</summary>
   <ul>
     <li>Sinkronisasi Custom Notes ke HomeScreen.</li>
     <li>Tambah render Custom Notes kategori 01 dan 02</li>
@@ -40,7 +40,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.6.3 - rilis dalam mode beta</strong></summary>
+  <summary>Versi 2.6.3 - rilis dalam mode beta</summary>
   <ul>
     <li>Fokus stabilitas & pembersihan akhir PDF viewer + perbaikan lintas modul.</li>
     <li>Perbaikan crash notifikasi firebase</li>
@@ -54,7 +54,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.6.2 - rilis dalam mode beta</strong></summary>
+  <summary>Versi 2.6.2 - rilis dalam mode beta</summary>
   <ul>
     <li>Refactor & finalisasi arsitektur PDF + telemetry tambahan.</li>
     <li>Prefetch hingga 8 PDF Warta</li>
@@ -64,7 +64,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.6.1 - rilis dalam mode beta</strong></summary>
+  <summary>Versi 2.6.1 - rilis dalam mode beta</summary>
   <ul>
     <li>Ekstensi caching & observability</li>
     <li>Penerapan SWR secara menyeluruh dalam pengolahan cache</li>
@@ -74,7 +74,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.6.0 - rilis dalam mode beta</strong></summary>
+  <summary>Versi 2.6.0 - rilis dalam mode beta</summary>
   <ul>
     <li>Fondasi fitur infra kinerja & offline.</li>
     <li>antrian operasi dokumen/kategori + flush otomatis saat online</li>
@@ -88,7 +88,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.5.2 - rilis dalam mode beta</strong></summary>
+  <summary>Versi 2.5.2 - rilis dalam mode beta</summary>
   <ul>
     <li>Perbaikan beberapa halaman tertutup sistem navigasi perangkat</li>
     <li>Mengatur jarak bawah halaman secara global</li>
@@ -97,7 +97,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.5.1</strong></summary>
+  <summary>Versi 2.5.1</summary>
   <ul>
     <li>Perbaikan lag pada saat kali pertama install aplikasi</li>
     <li>Perbaikan postingan blog yang menampilkan simbol-simbol</li>
@@ -109,7 +109,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-  <summary><strong>Versi 2.4.17</strong></summary>
+  <summary>Versi 2.4.17</summary>
   <ul>
     <li>Perbaikan pengolahan cache yang menyebabkan aplikasi terhenti tiba-tiba</li>
     <li>Peningkatan peforma</li>
@@ -125,7 +125,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-  <summary><strong>Versi 2.4.11</strong></summary>
+  <summary>Versi 2.4.11</summary>
   <ul>
     <li>Peningkatan keamanan dan logging</li>
     <li>Optimasi kinerja aplikasi</li>
@@ -141,7 +141,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-  <summary><strong>versi 2.4.10</strong></summary>
+  <summary>versi 2.4.10</summary>
   <ul>
     <li>Tambah guard ekstra agar tidak ada akses ke controller sebelum siap saat frame awal</li>
     <li>Optimasi pembaca pdf lokal</li>
@@ -155,7 +155,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-  <summary><strong>versi 2.4.1 - 2.4.9</strong></summary>
+  <summary>versi 2.4.1 - 2.4.9</summary>
   <ul>
     <li>Redesign UI Pengaturan</li>
     <li>Otomasi Penghapus cache lebih dari 2 minggu</li>
@@ -175,7 +175,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-  <summary><strong>versi 2.2.2 - versi 2.4.0</strong></summary>
+  <summary>versi 2.2.2 - versi 2.4.0</summary>
   <ul>
     <li>Integrasi dropbox dan google drive untuk penyimpanan online</li>
     <li>Perubahan metode pengambilan postingan</li>
@@ -189,7 +189,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-  <summary><strong>versi 2.2.1</strong></summary>
+  <summary>versi 2.2.1</summary>
   <ul>
     <li>Integrasi crashlytic untuk non-fatal crash</li>
     <li></li>
@@ -203,7 +203,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-  <summary><strong>versi 2.2.0</strong></summary>
+  <summary>versi 2.2.0</summary>
   <ul>
     <li>Perubahan struktur metode implementasi Admin</li>
     <li>Sleksi User (untuk Admin)</li>
@@ -214,7 +214,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-  <summary><strong>Versi 2.1.0</strong> - 19 Agustus 2025</summary>
+  <summary>Versi 2.1.0 - 19 Agustus 2025</summary>
   <ul>
     <li>Perubahan arsitektur pengiriman notifikasi</li>
     <li>Penjadwalan notifikasi</li>
@@ -230,7 +230,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </ul>
 </details>
 <details>
-<summary><strong>Versi 1.0.58</strong> - 17 Agustus 2025</summary>
+<summary>Versi 1.0.58 - 17 Agustus 2025</summary>
 <ul>
 <li>Perbaikan force close pada versi 1.0.57</li>
 <li>Perbaikan fitur pencarian pada halaman blog</li>
@@ -240,7 +240,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 <details>
-<summary><strong>Versi 1.0.57</strong> - 15 Agustus 2025</summary>
+<summary>Versi 1.0.57 - 15 Agustus 2025</summary>
 <ul>
 <li>Perbaikan tombol "kembali ke atas"</li>
 <li>Perubahan halaman Tentang aplikasi</li>
@@ -253,7 +253,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </ul>
 </details>
 <details>
-<summary><strong>Versi 1.0.56</strong> - 07 Agustus 2025</summary>
+<summary>Versi 1.0.56 - 07 Agustus 2025</summary>
 <ul>
 <li>Perbaikan bug dan peningkatan performa</li>
 <li>Penambahan metode scrap PDF dari web dan GDrive</li>
@@ -306,7 +306,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.37 build 3 - 1.0.38 build 35</summary>
+<summary>Versi 1.0.37 - 1.0.38</summary>
 <ul>
 <li>Perbaikan Fug</li>
 <li>Perbaikan cache lokal</li>
@@ -319,7 +319,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.36 build 2 - 1.0.37 build 3</summary>
+<summary>Versi 1.0.36 - 1.0.37</summary>
 <ul>
 <li>Perbaikan Bug</li>
 <li>Memperbaiki fitur cache</li>
@@ -329,7 +329,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.35 build 7 - 1.0.36 build 2</summary>
+<summary>Versi 1.0.35 - 1.0.36</summary>
 <ul>
 <li>Perbaikan bug</li>
 <li>Migrasi penyimpanan dari hive ke hive_ce</li>
@@ -341,7 +341,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.34 build 2 - 1.0.35 build 7</summary>
+<summary>Versi 1.0.34 - 1.0.35</summary>
 <ul>
 <li>Perbaikan bug</li>
 <li>Integrasi ImageKit sebagai media utama penyimpanan file</li>
@@ -351,7 +351,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.30 build 8 - 1.0.34 build 2</summary>
+<summary>Versi 1.0.30 - 1.0.34/summary>
 <ul>
 <li>Meningkatkan stabilitas</li>
 <li>Mengubah metode fetch dokumen dan warta hanya oleh admin</li>
@@ -370,7 +370,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.30 build 8 - 1.0.35 build 7</summary>
+<summary>Versi 1.0.30 - 1.0.35</summary>
 <ul>
 <li>Perbaikan Bug</li>
 <li>Integrasi ImageKit sebagai Media Library</li>
@@ -379,7 +379,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.25 build 5 - 1.0.30 build 8</summary>
+<summary>Versi 1.0.25 - 1.0.30/summary>
 <ul>
 <li>Penambahan fitur popup pada foto info huria, fungsionaris, dan tim digital</li>
 <li>Penambahan menu Dokumen pada Sidebar</li>
@@ -391,7 +391,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.1 build 5 - 1.0.25 build 3</summary>
+<summary>Versi 1.0.1 - 1.0.25/summary>
 <ul>
 <li>Perbaikan bug</li>
 <li>Pengelompokan halaman warta-acara berdasarkan kegiatan acara</li>
@@ -400,7 +400,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.1 build 2</summary>
+<summary>Versi 1.0.1</summary>
 <ul>
 <li>Penambahan fitur analistik.</li>
 <li>Perbaikan beberapa bug.</li>
@@ -412,7 +412,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.0 build 8</summary>
+<summary>Versi 1.0.0</summary>
 <ul>
 <li>Perbaikan beberapa bug.</li>
 <li>penambahan pop up jika versi baru tersedia.</li>
@@ -422,7 +422,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.0 build 3</summary>
+<summary>Versi 1.0.0</summary>
 <ul>
 <li>Penambahan Halaman: Info Huria, Warta Jemaat, Jadwal Kegiatan, Blog, Info Aplikasi, Kebijakan Privasi, Fungsionaris, Tim Digital.</li>
 <li>Pemuatan Warta Jemaat menggunakan web_view ke situs https://www.hkbpperawang.org.</li>
