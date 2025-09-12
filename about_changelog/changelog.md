@@ -351,7 +351,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.30 - 1.0.34/summary>
+<summary>Versi 1.0.30 - 1.0.34</summary>
 <ul>
 <li>Meningkatkan stabilitas</li>
 <li>Mengubah metode fetch dokumen dan warta hanya oleh admin</li>
@@ -379,7 +379,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details>
-<summary>Versi 1.0.25 - 1.0.30/summary>
+<summary>Versi 1.0.25 - 1.0.30</summary>
 <ul>
 <li>Penambahan fitur popup pada foto info huria, fungsionaris, dan tim digital</li>
 <li>Penambahan menu Dokumen pada Sidebar</li>
