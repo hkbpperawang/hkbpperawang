@@ -2,6 +2,11 @@
 
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
+### Rilis Publik
+<details>
+  
+  <summary>Cek Detail</summary>
+<br/>
 <details>
   <summary><strong>Versi 2.7.0 (Terbaru)</strong></summary>
   <ul>
@@ -15,84 +20,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
     <li>Halaman Home & Jadwal: Pemanggilan diperbarui</li>
     <li>Perubahan konstruktor Jadwal Ibadah bersifat breaking minor</li>
     <li>Masa kedaluwarsa cache jadwal: 7 hari</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Versi 2.6.5 - rilis dalam mode beta</summary>
-  <ul>
-    <li>Optimisasi startup offline-first & pengurangan jank.</li>
-    <li>Revalidasi ringan jadwal hanya bila koneksi tersedia & data masih dari cache.</li>
-    <li>Revalidasi bertahap WartaAcara</li>
-    <li>Hapus logging build berulang</li>
-    <li> Warmup post-frame kini menerima context untuk akses provider aman dan menambahkan jadwal revalidation</li>
-    <li>Revalidasi multi-provider bertingkat + guard scheduler</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Versi 2.6.4 - rilis dalam mode beta</summary>
-  <ul>
-    <li>Sinkronisasi Custom Notes ke HomeScreen.</li>
-    <li>Tambah render Custom Notes kategori 01 dan 02</li>
-    <li>Menjamin konsistensi informasi penting</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Versi 2.6.3 - rilis dalam mode beta</summary>
-  <ul>
-    <li>Fokus stabilitas & pembersihan akhir PDF viewer + perbaikan lintas modul.</li>
-    <li>Perbaikan crash notifikasi firebase</li>
-    <li>Perbaikan Build gagal ekstensi Matrix4</li>
-    <li>Penyederhanaan controller & callback</li>
-    <li>Rewrite terstruktur + scroll aman</li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Versi 2.6.2 - rilis dalam mode beta</summary>
-  <ul>
-    <li>Refactor & finalisasi arsitektur PDF + telemetry tambahan.</li>
-    <li>Prefetch hingga 8 PDF Warta</li>
-    <li>Penggunaan telemetry untuk pemantau kegagalan inisialisasi aplikasi</li>
-    <li>Perbaikan build berlebih saat aplikasi dijalankan</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Versi 2.6.1 - rilis dalam mode beta</summary>
-  <ul>
-    <li>Ekstensi caching & observability</li>
-    <li>Penerapan SWR secara menyeluruh dalam pengolahan cache</li>
-    <li>Analisis kinerja aplikasi dalam Dashboard Admin</li>
-    <li>Fallback menggunakan pembaca lokal jika pembaca webview gagal dimuat</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Versi 2.6.0 - rilis dalam mode beta</summary>
-  <ul>
-    <li>Fondasi fitur infra kinerja & offline.</li>
-    <li>antrian operasi dokumen/kategori + flush otomatis saat online</li>
-    <li>Penambahan fitur Prefetch untuk warta acara</li>
-    <li>Grace startup</li>
-    <li>Penerapan SWR untuk pengeola cache</li>
-    <li>Penundaan informasi offline untuk kasus false offline</li>
-    <li>Perbaiki banner indikasi offline menyebabkan flicker</li>
-    <li>UX offline diawal pembukaan aplikasi</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Versi 2.5.2 - rilis dalam mode beta</summary>
-  <ul>
-    <li>Perbaikan beberapa halaman tertutup sistem navigasi perangkat</li>
-    <li>Mengatur jarak bawah halaman secara global</li>
-    <li>Pembersihan jarak bawah pada halaman-halaman lokal</li>
   </ul>
 </details>
 
@@ -432,4 +359,177 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <li>penambahan fitur user</li>
 <li>penambahan fitur statistik huria untuk memunculkan di halaman info huria.</li>
 </ul>
+</details>
+</details>
+
+### Rilis Beta
+<details>
+  <summary>Cek Detail</summary>
+  <br/>
+  
+  <details>
+    <summary>Versi 2.9.1 <strong>(Terbaru)</strong></summary>
+    <ul>
+      <li>Pembersihan cache memastikan file lokal diregenerasi saat versi server</li>
+      <li>Prefetch otomatis Partangiangan dijalankan di latar belakang</li>
+      <li>Cloud Function baru untuk mengirim FCM secara aman melalui backend dengan validasi peran admin</li>
+      <li>Pemuatan cache Partangiangan segera saat startup sehingga kartu langsung menampilkan data lokal</li>
+      <li>Inisialisasi Partangiangan kini memakai satu jalur fallback yang mengutamakan berkas lokal</li>
+      <li>Pemuatan snapshot fungsionaris dari cache Hive/DataCache segera setelah provider aktif</li>
+      <li>Tombol "Info Partangiangan Weyk" kini selalu aktif tanpa pesan unduhan</li>
+      <li>Tampilan penuh Partangiangan menampilkan banner "Harap Hubungkan ke Internet untuk mengambil Info Partangiangan" dan menonaktifkan tombol unduh ketika perangkat sedang offline.</li>
+      <li>Tombol **Clear Cache** di dasbor menaikkan versi cache di Firestore sehingga semua perangkat memaksa sinkron ulang dan mengosongkan salinan lama.</li>
+      <li>FCM dan utilitas terkait kini memakai Firebase Cloud Functions sehingga tidak lagi membaca kredensial service account dari bundle aplikasi</li>
+      <li>Penyederhanaan penggunaan Firebase API</li>
+      <li>Peningkatan keamanan file-file yang dapat diakses publik</li>
+      <li>Jadwal Ibadah, Daftar Dokumen, dan Kategori Post kini menyimpan cache dengan metode yang sama</li>
+      <li>Rutinitas warmup pasca-frame kini melibatkan `TeamProvider` untuk memicu revalidasi diam-diam ketika perangkat online</li>
+      <li>Penambahan kemampuan akses warta dalam mode offline menggunakan pembaca PDF lokal</li>
+      <li>Seluruh dialog dan snackbar lintas modul sudah menyimpan navigator/messenger sebelum operasi async</li>
+      <li>Penanda lingkungan (`Banner`) dibungkus dengan `Directionality` sehingga overlay label tidak lagi memicu runtime error</li>
+      <li>Tombol "Info Partangiangan Weyk" di beranda langsung membuka cache yang tersedia sehingga shimmer hanya muncul ketika aplikasi benar-benar mengambil data terbaru</li>
+      <li>Halaman Warta kembali menampilkan daftar arsip ketika perangkat luring karena provider kini selalu mundur ke cache lokal sebelum menghubungi Firestore</li>
+      <li>Konfigurasi lint Functions</li>
+      <li>Pengubahan Metode CACHE-FIRST untuk semua widget yanng mengambil data dari Firebase.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Versi 2.9.0</summary>
+    <ul>
+      <li>Skeleton shimmer global untuk halaman di tab utama</li>
+      <li>Penyesuaian template shimmer untuk grid, list, , detail</li>
+      <li>Resolusi jalur lokal Partangiangan kini mengenali path Windows dan URI</li>
+      <li>Kartu "Info Partangiangan Weyk" selalu aktif menampilkan cache awal</li>
+      <li>Fallback shimmer kartu Partangiangan kini ditampilkan maksimal selama validasi ulang jaringan</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Versi 2.8.6</summary>
+    <ul>
+      <li>Perbaikan loop saat data offline</li>
+      <li>Normalisasi pengambilan URL partangiangan</li>
+      <li>Widget smoke test diperbarui agar mengikuti alur bootstrap</li>
+      <li>Penambahan fallback agar perangkat tidak berhenti di splash screen</li>
+      <li>Halaman Blog dan Warta Acara memaksa pengecekan koneksi pasca-frame</li>
+      <li>Pembersihan indikator koneksi di main_page dan dipindahkan ke header</li>
+      <li>Koreksi deteksi konektivitas ganda</li>
+      <li>Banner offline kini menunggu setidaknya 3 detik setelah masa grace berakhir</li>
+      <li>Kartu jadwal Partangiangan di beranda kini tetap aktif menggunakan versi cache</li>
+      <li>Inisialisasi kartu Partangiangan memprioritaskan cache sinkron dan menampilkan indikator loading sampai data siap</li>
+      <li>Penyesuaian banner indikator offline</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Versi 2.8.5</summary>
+    <ul>
+      <li>Update versi dart, kotlin, AGP</li>
+      <li>Perbaikan aplikasi berhenti di flash screen</li>
+      <li>Perbaikan kotlin</li>
+      <li>Migrasi lanjutan build.gradle.kts</li>
+      <li>Integrasi arsip native-debug untuk keperluan playconsole</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Versi 2.8.4</summary>
+    <ul>
+      <li>Update framework flutter 3.35.4</li>
+      <li>Migrasi sinkron data admin dan editor</li>
+      <li>Penggantian metode usang</li>
+      <li>Integrasi verifikasi 2 langkah untuk admin dan editor</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Versi 2.7.1</summary>
+    <ul>
+      <li>Perbaikan kestabilan unduhan & guard UI</li>
+      <li>Crash fatal Null check</li>
+      <li>Perbaikan integrasi crashlytics</li>
+      <li>Perbaikan metode pengambilan koneksi</li>
+      <li>Perbaikan cache file pdf</li>
+    </ul>
+  </details>
+  
+  <details>
+  <summary>Versi 2.6.5</summary>
+  <ul>
+    <li>Optimisasi startup offline-first & pengurangan jank.</li>
+    <li>Revalidasi ringan jadwal hanya bila koneksi tersedia & data masih dari cache.</li>
+    <li>Revalidasi bertahap WartaAcara</li>
+    <li>Hapus logging build berulang</li>
+    <li> Warmup post-frame kini menerima context untuk akses provider aman dan menambahkan jadwal revalidation</li>
+    <li>Revalidasi multi-provider bertingkat + guard scheduler</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Versi 2.6.4</summary>
+  <ul>
+    <li>Sinkronisasi Custom Notes ke HomeScreen.</li>
+    <li>Tambah render Custom Notes kategori 01 dan 02</li>
+    <li>Menjamin konsistensi informasi penting</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Versi 2.6.3</summary>
+  <ul>
+    <li>Fokus stabilitas & pembersihan akhir PDF viewer + perbaikan lintas modul.</li>
+    <li>Perbaikan crash notifikasi firebase</li>
+    <li>Perbaikan Build gagal ekstensi Matrix4</li>
+    <li>Penyederhanaan controller & callback</li>
+    <li>Rewrite terstruktur + scroll aman</li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Versi 2.6.2</summary>
+  <ul>
+    <li>Refactor & finalisasi arsitektur PDF + telemetry tambahan.</li>
+    <li>Prefetch hingga 8 PDF Warta</li>
+    <li>Penggunaan telemetry untuk pemantau kegagalan inisialisasi aplikasi</li>
+    <li>Perbaikan build berlebih saat aplikasi dijalankan</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Versi 2.6.1</summary>
+  <ul>
+    <li>Ekstensi caching & observability</li>
+    <li>Penerapan SWR secara menyeluruh dalam pengolahan cache</li>
+    <li>Analisis kinerja aplikasi dalam Dashboard Admin</li>
+    <li>Fallback menggunakan pembaca lokal jika pembaca webview gagal dimuat</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Versi 2.6.0</summary>
+  <ul>
+    <li>Fondasi fitur infra kinerja & offline.</li>
+    <li>antrian operasi dokumen/kategori + flush otomatis saat online</li>
+    <li>Penambahan fitur Prefetch untuk warta acara</li>
+    <li>Grace startup</li>
+    <li>Penerapan SWR untuk pengeola cache</li>
+    <li>Penundaan informasi offline untuk kasus false offline</li>
+    <li>Perbaiki banner indikasi offline menyebabkan flicker</li>
+    <li>UX offline diawal pembukaan aplikasi</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Versi 2.5.2</summary>
+  <ul>
+    <li>Perbaikan beberapa halaman tertutup sistem navigasi perangkat</li>
+    <li>Mengatur jarak bawah halaman secara global</li>
+    <li>Pembersihan jarak bawah pada halaman-halaman lokal</li>
+  </ul>
+</details>
+
 </details>
