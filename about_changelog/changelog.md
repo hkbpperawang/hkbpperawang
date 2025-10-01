@@ -533,3 +533,13 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 </details>
+
+## Info Lainnya
+Kami menerima Kritik, Masukan, dan Saran Terkait Fitur dan Pengembangan Aplikasi. Bagi Amang Inang yang memiliki Ide, Permintaan terkait aplikasi dapat mengirimkan pesan pada sosial media HKBP Perawang.
+<ul>
+  <li><strong>Facebook:</strong> https://fb.com/HKBPPerawang</li>
+  <li><strong>Instagram:</strong> https://instagram.com/HKBPPerawang</li>
+</ul>
+
+Hormat Kami,
+- Devisi Digital Tim Multimedia HKBP Perawang
