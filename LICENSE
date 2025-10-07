@@ -1,16 +1,24 @@
-MIT License
+Copyright (c) [2024] [HKBP Perawang Ressort Perawang](https://www.hkbpperawang.org/).
 
-Copyright (c) 2025 HKBP Perawang
+Project: hkbp_perawang
+Technologies: Flutter, Dart, Kotlin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+*** ALL RIGHTS RESERVED ***
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This software is the proprietary and confidential property of the Copyright Holder.
+Unauthorized use, copying, modification, distribution, or dissemination of this software, or any portion of it, is strictly prohibited.
+
+NOTICE TO USER:
+
+This is not a free or open-source software. The source code is provided in this repository for private, reference purposes only by authorized individuals. No license, express or implied, is granted to any party under this agreement.
+
+You MAY NOT:
+1.  Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+2.  Publicly display or perform any part of the Software.
+3.  Use the Software for any commercial or non-commercial purpose.
+4.  Remove or alter any copyright, trademark, or other proprietary notices from the Software.
+
+Any use of the Software not expressly permitted by the Copyright Holder in a separate, written agreement is a violation of copyright law and is strictly forbidden.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -19,3 +27,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+For licensing inquiries, please contact the Copyright Holder directly.
