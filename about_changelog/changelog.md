@@ -374,7 +374,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   <br/>
 
   <details>
-    <summary></summary>
+    <summary>Versi 2.10.2 <strong>(Terbaru)</strong></summary>
     <ul>
       <li>Integrasi layanan Sentry pada Aplikasi</li>
       <li>Perubahan UI halaman "Kidung Nyanyian" dan "Isi Nyanyian"</li>
