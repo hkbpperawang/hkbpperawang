@@ -51,9 +51,12 @@ Aplikasi HKBP Perawang dilengkapi dengan berbagai fitur yang dirancang untuk mem
 
 * **📖 Renungan Harian:** Mulai hari Anda dengan santapan rohani melalui renungan harian yang tersedia setiap hari.
 * **⛪ Informasi Ibadah:** Lihat jadwal lengkap ibadah Minggu, ibadah keluarga, dan ibadah lainnya.
-* **📰 Warta Jemaat:** Akses warta jemaat digital kapan saja dan di mana saja untuk mengetahui berita terbaru, laporan keuangan, dan pengumuman penting.
+* **✝️ Warta Jemaat:** Akses warta jemaat digital kapan saja dan di mana saja untuk mengetahui berita terbaru, laporan keuangan, dan pengumuman penting.
 * **🗓️ Jadwal Kegiatan:** Tetap terinformasi tentang semua acara dan kegiatan yang akan datang di HKBP Perawang.
 * **🔔 Notifikasi:** Dapatkan pengingat dan pemberitahuan instan untuk acara penting dan berita terbaru.
+* **🎼 Kidung Nyanyian:** Tersedia lirik kidung nyanyian untuk `Buku Ende`, `Buku Nyanyian HKBP` dan `Kidung Jemaat`.
+* **🧾 Dokumen HKBP:** Tersedia Buku Dokumen HKBP Seperti: `Aturan Peraturan HKBP`, `Buku Penatalayanan HKBP`, `Juklah RPP`, `Konfessi HKBP`, dan `RPP`.
+* **📰 Blog:** Dapatkan informasi, tips, dan serba serbi yang disajikan pada halaman Blog pada Aplikasi Kami.
 
 ---
 
