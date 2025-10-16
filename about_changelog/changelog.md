@@ -398,12 +398,9 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
   </details>
 </details>
 
---
+---
 
-
---
-
-### Rilis Beta
+## Rilis Beta
 <details>
   <summary>Cek Detail</summary>
   <br/>
