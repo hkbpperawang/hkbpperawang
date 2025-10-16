@@ -22,6 +22,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 - **Stiker & Pengumuman:** Teks berjalan multi-item dengan pengaturan warna dan kecepatan
 - **Mode Offline-First:** Cache pintar dengan sinkronisasi otomatis di latar belakang
 - **Postingan:** Penambahan beberapa kategori Postingan
+- **Sentry:** Integrasi layanan sentry untuk memantau kerusakan pada user
 
 **Perbaikan & Peningkatan**
 - Perbaikan carousel artikel unggulan, filter kategori, dan sistem cache offline
@@ -129,7 +130,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.4.1 - 2.4.9</strong></summary>
+<summary><strong>Versi 2.4.9</strong></summary>
 
 <br/>
 
@@ -152,7 +153,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.2.2 - 2.4.0</strong></summary>
+<summary><strong>Versi 2.4.0</strong></summary>
 
 <br/>
 
@@ -192,7 +193,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.1.0</strong> - <em>19 Agustus 2025</em></summary>
+<summary><strong>Versi 2.1.0</strong></summary>
 
 <br/>
 
@@ -211,7 +212,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.58</strong> - <em>17 Agustus 2025</em></summary>
+<summary><strong>Versi 1.0.58</strong></summary>
 
 <br/>
 
@@ -224,7 +225,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.57</strong> - <em>15 Agustus 2025</em></summary>
+<summary><strong>Versi 1.0.57</strong></summary>
 
 <br/>
 
@@ -240,7 +241,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.56</strong> - <em>07 Agustus 2025</em></summary>
+<summary><strong>Versi 1.0.56</strong></summary>
 
 <br/>
 
@@ -256,7 +257,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.55</strong> - <em>02 Agustus 2025</em></summary>
+<summary><strong>Versi 1.0.55</strong></summary>
 
 <br/>
 
@@ -275,7 +276,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.50</strong> - <em>20 Juni 2025</em></summary>
+<summary><strong>Versi 1.0.50</strong></summary>
 
 <br/>
 
@@ -287,7 +288,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.43</strong> - <em>28 April 2025</em></summary>
+<summary><strong>Versi 1.0.43</strong></summary>
 
 <br/>
 
@@ -301,7 +302,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.37 - 1.0.38</strong></summary>
+<summary><strong>Versi 1.0.38</strong></summary>
 
 <br/>
 
@@ -316,7 +317,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.36 - 1.0.37</strong></summary>
+<summary><strong>Versi 1.0.37</strong></summary>
 
 <br/>
 
@@ -328,7 +329,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.35 - 1.0.36</strong></summary>
+<summary><strong>Versi 1.0.36</strong></summary>
 
 <br/>
 
@@ -342,7 +343,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.34 - 1.0.35</strong></summary>
+<summary><strong>Versi 1.0.35</strong></summary>
 
 <br/>
 
@@ -354,7 +355,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.30 - 1.0.34</strong></summary>
+<summary><strong>Versi 1.0.34</strong></summary>
 
 <br/>
 
@@ -375,7 +376,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.25 - 1.0.30</strong></summary>
+<summary><strong>Versi 1.0.30</strong></summary>
 
 <br/>
 
@@ -389,7 +390,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 1.0.1 - 1.0.25</strong></summary>
+<summary><strong>Versi 1.0.25</strong></summary>
 
 <br/>
 
