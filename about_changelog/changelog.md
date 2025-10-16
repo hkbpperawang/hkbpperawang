@@ -1,14 +1,46 @@
-## 📜 **Changelog**
+# 📜 **Changelog / Catatan Rilis**
 
 Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
-### Rilis Publik
+## Rilis Publik
 
 <details>
-  <summary>Cek Detail</summary>
+  <summary><h2>Cek Detail</h2></summary>
 <br/>
+
   <details>
-    <summary><strong>Versi 2.7.0 (Terbaru)</strong></summary>
+    <summary><h3><strong>Versi 2.10.10 (Terbaru)</strong></h3></summary>
+    <h3>Fitur Baru</h3>
+    <ul>
+      <li>Modul Kidung Nyanyian: Fitur lengkap untuk akses kidung digital, unduhan offline, navigasi keypad, pencarian lirik, zoom gesture, dan bagikan gambar lirik</li>
+      <li>Sistem Notifikasi: Penjadwalan otomatis, in-app messaging, histori lengkap (akses admin)</li>
+      <li>Stiker & Pengumuman: Teks berjalan multi-item dengan pengaturan warna dan kecepatan</li>
+      <li>Mode Offline-First: Cache pintar dengan sinkronisasi otomatis di latar belakang</li>
+      <li>Postingan: Penambahan beberapa kategori Postingan</li>
+    </ul>
+    <h3>Perbaikan & Peningkatan</h3>
+    <ul>
+      <li>Perbaikan carousel artikel unggulan, filter kategori, dan sistem cache offline</li>
+      <li>Optimisasi performa dan startup aplikasi</li>
+      <li>Perbaikan stabilitas (crash PDF, koneksi internet, splash screen)</li>
+      <li>Peningkatan antarmuka pengguna dengan desain modern</li>
+      <li>Perbaikan warta & PDF dengan prefetch otomatis</li>
+      <li>Peningkatan sistem tim dan notifikasi</li>
+    </ul>
+    <h3>Keamanan & Kompatibilitas</h3>
+    <ul>
+      <li>Firebase App Check untuk proteksi API</li>
+      <li>Kompatibilitas penuh Android 15 (API Level 35)</li>
+      <li>Migrasi ke Play Integrity API</li>
+    </ul>
+    <h4>Bug Yang Diketahui</h4>
+    <ul>
+      <li>Notifikasi tidak berkerja (sedang dalam pengerjaan)</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Versi 2.7.0</summary>
     <ul>
       <li>Ekstensi offline-first ke semua tabel jadwal & Partangiangan.</li>
       <li>Konsistensi jadwal & cache offline untuk tabel.</li>
@@ -365,6 +397,9 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
     </ul>
   </details>
 </details>
+
+--
+
 
 --
 
