@@ -36,10 +36,11 @@ Jika umpan balik Anda berkaitan dengan celah keamanan atau kerentanan data (vuln
 - Mohon untuk tidak mempublikasikannya di media sosial atau forum terbuka sebelum melaporkannya kepada kami.
 - Berikan kami waktu yang wajar untuk memperbaiki celah tersebut demi keamanan seluruh pengguna.
 
-6. Moderasi & Penghapusan
+## 6. Moderasi & Penghapusan
 Kami berhak sepenuhnya untuk:
 - Menghapus umpan balik yang melanggar poin nomor 2 (Standar Konten & Etika).
 - Memblokir akses pengguna ke fitur umpan balik jika ditemukan melakukan penyalahgunaan berulang (spamming/flooding).
 
 Jika Anda memiliki pertanyaan lebih lanjut mengenai kebijakan ini, silakan hubungi kami melalui <strong>[kontak@hkbpperawang.org](mailto:kontak@hkbpperawang.org)<strong>.
+
 
