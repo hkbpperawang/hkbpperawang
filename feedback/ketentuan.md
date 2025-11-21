@@ -41,4 +41,5 @@ Kami berhak sepenuhnya untuk:
 - Menghapus umpan balik yang melanggar poin nomor 2 (Standar Konten & Etika).
 - Memblokir akses pengguna ke fitur umpan balik jika ditemukan melakukan penyalahgunaan berulang (spamming/flooding).
 
-Jika Anda memiliki pertanyaan lebih lanjut mengenai kebijakan ini, silakan hubungi kami melalui kontak@hkbpperawang.org.
+Jika Anda memiliki pertanyaan lebih lanjut mengenai kebijakan ini, silakan hubungi kami melalui <strong>[kontak@hkbpperawang.org](mailto:kontak@hkbpperawang.org)<strong>.
+
