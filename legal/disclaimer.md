@@ -35,9 +35,9 @@ Anda menggunakan aplikasi ini **atas risiko Anda sendiri**. Gereja HKBP Perawang
 ### 2.1. Akurasi Informasi
 Kami berusaha sebaik mungkin untuk memastikan bahwa semua informasi dalam aplikasi ini akurat dan terkini. Namun:
 
-- ❗ **Jadwal ibadah dan acara** dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya
-- ❗ **Warta dan pengumuman** mungkin mengandung kesalahan cetak atau informasi yang ketinggalan zaman
-- ❗ **Informasi kontak** pengurus atau jemaat mungkin berubah tanpa update di aplikasi
+- ❗ **Jadwal ibadah datau acara** karena kesalahan pengaturan pada aplikasi dapat berubah sewaktu-waktu atau tidak sinkron tanpa pemberitahuan sebelumnya
+- ❗ **Warta dan pengumuman** mungkin mengandung kesalahan penulisan atau informasi yang ketinggalan zaman
+- ❗ **Informasi kontak** pengurus atau jemaat mungkin berupa atau bukan merupakan versi terbaru
 - ❗ **Dokumen PDF** mungkin memiliki format yang berbeda dari aslinya
 
 **Saran**: Untuk informasi penting atau kritis, harap konfirmasi langsung dengan kantor gereja.
