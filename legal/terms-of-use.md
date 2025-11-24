@@ -17,7 +17,7 @@ Aplikasi HKBP Perawang adalah aplikasi mobile resmi yang dikembangkan oleh **Tim
 
 ### 1.2. Tujuan Aplikasi
 Aplikasi ini ditujukan untuk:
-- **Tujuan Utama**: Melayani seluruh jemaat Gereja HKBP Perawang
+- **Tujuan Utama**: Media informasi dan bahan bacaan jemaat HKBP Perawang
 - **Tujuan Tambahan**: Memberikan informasi kepada publik umum yang tertarik dengan kegiatan HKBP Perawang
 
 ### 1.3. Platform yang Didukung
@@ -399,3 +399,4 @@ Aplikasi HKBP Perawang dikembangkan dengan dedikasi dan kasih oleh **Tim Multime
 *Dokumen ini dibuat dengan penuh tanggung jawab dan ditujukan untuk melindungi hak dan kepentingan semua pihak yang terlibat dalam ekosistem Aplikasi HKBP Perawang.*
 
 **© 2025 Gereja HKBP Perawang. All Rights Reserved.**
+
