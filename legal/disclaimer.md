@@ -23,7 +23,6 @@ Aplikasi HKBP Perawang disediakan **"SEBAGAIMANA ADANYA"** dan **"SEBAGAIMANA TE
 - Semua fitur akan selalu tersedia
 - Data akan selalu akurat dan terkini
 - Konten akan selalu sesuai dengan kebutuhan Anda
-- Aplikasi bebas dari virus, malware, atau komponen berbahaya lainnya
 
 ### 1.2. Penggunaan Atas Risiko Sendiri
 Anda menggunakan aplikasi ini **atas risiko Anda sendiri**. Gereja HKBP Perawang tidak bertanggung jawab atas kerugian atau kerusakan yang timbul dari penggunaan aplikasi.
