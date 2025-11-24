@@ -25,7 +25,7 @@ Aplikasi HKBP Perawang disediakan **"SEBAGAIMANA ADANYA"** dan **"SEBAGAIMANA TE
 - Konten akan selalu sesuai dengan kebutuhan Anda
 
 ### 1.2. Penggunaan Atas Risiko Sendiri
-Anda menggunakan aplikasi ini **atas risiko Anda sendiri**. Gereja HKBP Perawang tidak bertanggung jawab atas kerugian atau kerusakan yang timbul dari penggunaan aplikasi.
+Anda menggunakan aplikasi ini **atas risiko Anda sendiri**. Gereja HKBP Perawang tidak bertanggung jawab atas kerugian atau kerusakan yang timbul dari penyalahgunaan aplikasi yang tidak disarankan.
 
 ---
 
