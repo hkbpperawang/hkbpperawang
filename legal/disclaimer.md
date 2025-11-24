@@ -57,6 +57,7 @@ Artikel dan renungan dalam aplikasi ini mewakili perspektif dan interpretasi pen
 Untuk pengajaran doktrin resmi HKBP, silakan rujuk pada:
 - Konfesi HKBP
 - Tata Gereja HKBP
+- Aturan dan Peraturan HKBP
 - Pengajaran resmi dari MPH (Majelis Pusat Huria)
 
 ---
