@@ -118,3 +118,10 @@ Terimakasih untuk semua Beta Tester yang turut berperan dalam pengoptimalan pefo
 15. Alboin Silalahi
 16. Marlin Situmorang
 17. Sanmay Simanullang
+
+--
+
+## Legal
+- [Kebijakan Privasi](https://www.hkbpperawang.org/kebijakan-privasi/)
+- [Ketentuan Umpan Balik](https://aplikasi.hkbpperawang.org/feedback/ketentuan)
+- [Ketentuan Penggunaan](https://aplikasi.hkbpperawang.org/legal/terms-of-use)
