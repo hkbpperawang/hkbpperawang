@@ -16,14 +16,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <br/>
 
-**Fitur Baru**
-- **Modul Kidung Nyanyian:** Fitur lengkap untuk akses kidung digital, unduhan offline, navigasi keypad, pencarian lirik, zoom gesture, dan bagikan gambar lirik
-- **Sistem Notifikasi:** Penjadwalan otomatis, in-app messaging, histori lengkap (akses admin)
-- **Stiker & Pengumuman:** Teks berjalan multi-item dengan pengaturan warna dan kecepatan
-- **Mode Offline-First:** Cache pintar dengan sinkronisasi otomatis di latar belakang
-- **Postingan:** Penambahan beberapa kategori Postingan
-- **Sentry:** Integrasi layanan sentry untuk memantau kerusakan pada user
-
 **Perbaikan & Peningkatan**
 - Migrasi Notifikasi menggunakan Firebase
 - Perbaikan mengikuti Kebijakan Google Play
@@ -31,14 +23,8 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 - Perbaikan waktu sinkronasi interval aplikasi
 - Update depedensi dan versi framework
 - Perbaikan beberapa Bug
-
-**Keamanan & Kompatibilitas**
-- Firebase App Check untuk proteksi API
-- Kompatibilitas penuh Android 15 (API Level 35)
-- Migrasi ke Play Integrity API
-
-**Bug Yang Diketahui**
-- Notifikasi tidak berkerja (sedang dalam pengerjaan)
+- Menyimpan riwayat notifikasi langsung ke koleksi di Cloud Firestore dari sisi client
+- Menghapus ketergantungan pada Cloudflare Workers dan Cloud Functions.
 
 </details>
 
