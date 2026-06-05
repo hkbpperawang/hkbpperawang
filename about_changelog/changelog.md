@@ -503,7 +503,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.12.0</strong></summary>
+<summary><strong>Versi 2.12.0 ✨ (Terbaru)</strong></summary>
 
 <br/>
 
