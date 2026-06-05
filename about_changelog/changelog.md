@@ -12,7 +12,69 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.10.10 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.12.0 ✨ (Terbaru)</strong></summary>
+
+<br/>
+
+**Fitur Baru**
+- **Modul Kidung Nyanyian:** Fitur lengkap untuk akses kidung digital, unduhan offline, navigasi keypad, pencarian lirik, zoom gesture, dan bagikan gambar lirik
+- **Sistem Notifikasi:** Penjadwalan otomatis, in-app messaging, histori lengkap (akses admin)
+- **Stiker & Pengumuman:** Teks berjalan multi-item dengan pengaturan warna dan kecepatan
+- **Mode Offline-First:** Cache pintar dengan sinkronisasi otomatis di latar belakang
+- **Postingan:** Penambahan beberapa kategori Postingan
+- **Sentry:** Integrasi layanan sentry untuk memantau kerusakan pada user
+
+**Perbaikan & Peningkatan**
+- Migrasi Notifikasi menggunakan Firebase
+- Perbaikan mengikuti Kebijakan Google Play
+- Mencabut ijin pembacaan Gambar/Video pada perangkat pengguna
+- Perbaikan waktu sinkronasi interval aplikasi
+- Update depedensi dan versi framework
+- Perbaikan beberapa Bug
+
+**Keamanan & Kompatibilitas**
+- Firebase App Check untuk proteksi API
+- Kompatibilitas penuh Android 15 (API Level 35)
+- Migrasi ke Play Integrity API
+
+**Bug Yang Diketahui**
+- Notifikasi tidak berkerja (sedang dalam pengerjaan)
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.11.4</strong></summary>
+
+<br/>
+
+**Fitur Baru**
+- **Modul Kidung Nyanyian:** Fitur lengkap untuk akses kidung digital, unduhan offline, navigasi keypad, pencarian lirik, zoom gesture, dan bagikan gambar lirik
+- **Sistem Notifikasi:** Penjadwalan otomatis, in-app messaging, histori lengkap (akses admin)
+- **Stiker & Pengumuman:** Teks berjalan multi-item dengan pengaturan warna dan kecepatan
+- **Mode Offline-First:** Cache pintar dengan sinkronisasi otomatis di latar belakang
+- **Postingan:** Penambahan beberapa kategori Postingan
+- **Sentry:** Integrasi layanan sentry untuk memantau kerusakan pada user
+
+**Perbaikan & Peningkatan**
+- Perbaikan carousel artikel unggulan, filter kategori, dan sistem cache offline
+- Optimisasi performa dan startup aplikasi
+- Perbaikan stabilitas (crash PDF, koneksi internet, splash screen)
+- Peningkatan antarmuka pengguna dengan desain modern
+- Perbaikan warta & PDF dengan prefetch otomatis
+- Peningkatan sistem tim dan notifikasi
+
+**Keamanan & Kompatibilitas**
+- Firebase App Check untuk proteksi API
+- Kompatibilitas penuh Android 15 (API Level 35)
+- Migrasi ke Play Integrity API
+
+**Bug Yang Diketahui**
+- Notifikasi tidak berkerja (sedang dalam pengerjaan)
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.10.10</strong></summary>
 
 <br/>
 
@@ -441,7 +503,118 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.10.2 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.12.0</strong></summary>
+
+<br/>
+
+### Diperbaiki
+
+- **Migrasi Notifikasi FCM ke Client-Side HTTP v1 (Firebase Free/Spark Plan)**: Memindahkan seluruh pengiriman notifikasi push manual dari Firebase Cloud Functions & Cloudflare Worker ke pemanggilan langsung dari sisi client menggunakan FCM HTTP v1 REST API.
+- Mengintegrasikan pustaka `googleapis_auth` untuk menghasilkan token OAuth2 secara lokal dari aplikasi menggunakan kredensial Service Account.
+- Menyimpan riwayat notifikasi langsung ke koleksi di Cloud Firestore dari sisi client.
+- Menghapus ketergantungan pada Cloudflare Workers dan Cloud Functions.
+- Integrasi Firevase FCM
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.11.6</strong></summary>
+
+<br/>
+
+### Diperbaiki
+
+- **Error `onReorder` deprecated**: Memperbaiki peringatan deprecation serta menghapus penyesuaian indeks manual sesuai dengan pembaruan Flutter v3.41.0.
+- **Error `cacheExtent` deprecated**: Mengganti `cacheExtent` menjadi `scrollCacheExtent` pada `pdf_sidebar.dart` sesuai dengan pembaruan Flutter v3.41.0.
+- **Peringatan `use_null_aware_elements`**: Mengganti *null check* manual menjadi *null-aware map elements* (`?`) pada `nyanyian_config_service.dart` dan `nyanyian_song.dart` sesuai dengan *lint rules* Dart terbaru.
+- **Google Play Console Policy Violation**: Menghapus `READ_MEDIA_IMAGES` dan `READ_MEDIA_VIDEO` dari `AndroidManifest.xml` untuk mematuhi kebijakan Google Play Console terkait akses file media, karena aplikasi hanya melakukan operasi simpan (download) yang tidak memerlukan izin tersebut pada sistem Android modern.
+- **Error `TickerMode.of` deprecated**: Memperbaiki peringatan deprecation sesuai dengan pembaruan Flutter v3.35.0.
+- **Error `admin-restricted-operation` saat inisialisasi aplikasi**: Memperbaiki error FirebaseAuthException yang terjadi saat aplikasi dimulai.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.11.4</strong></summary>
+
+<br/>
+
+**Perbaikan**
+- **Error `Firebase App Check token is invalid` saat inisialisasi aplikasi**: Memperbaiki race condition kritis antara inisialisasi App Check dan query Firestore yang menyebabkan error saat aplikasi dimulai, terutama pada perangkat dengan koneksi lambat (Android 13-16). Perbaikan meliputi:
+	- Menambahkan method `AppCheckService.waitForValidToken()` untuk memastikan token App Check valid sudah tersedia sebelum melanjutkan operasi Firestore
+	- Update `AppInitializer._configureFirebaseServices()` untuk menunggu token App Check siap dengan retry logic (max 8 percobaan, exponential backoff dengan jitter)
+	- Menambahkan delay tambahan 200ms di `_handlePostFrameBootstrap()` sebelum memanggil `teamCategoryProvider.initialize()` untuk memberikan waktu ekstra bagi App Check pada perangkat lambat
+	- Logging yang lebih informatif untuk tracking status App Check token selama proses inisialisasi
+
+</details>
+
+
+<details markdown="1">
+<summary><strong>Versi 2.11.3</strong></summary>
+
+<br/>
+
+**Perbaikan**
+- **Error sintaks kritis** yang menyebabkan aplikasi crash: State class dan method yang hilang telah dipulihkan.
+- **Peringatan kompilasi** di `Home Screen`: removed unused variables dan memperbaiki const correctness di widget `_PartangianganLoadingCard`.
+- **Flash banner default** saat aplikasi dibuka: Banner Partangiangan kini langsung menampilkan data yang dikonfigurasi (title, deskripsi, icon) tanpa menampilkan "Info Partangiangan Weyk" terlebih dahulu dengan menambahkan method `getCachedPartangianganInfo()` untuk pembacaan cache sinkron.
+- **Error `UNAUTHENTICATED` saat mengirim notifikasi**: Memperbaiki race condition di `FCMService` yang menyebabkan Cloud Function `adminSendNotification` gagal dengan error `UNAUTHENTICATED` ketika sesi Firebase Auth user berakhir atau menjadi invalid di antara proses validasi token dan pemanggilan Cloud Function. Perbaikan meliputi:
+- Validasi ulang user setelah `user.reload()` di `_ensureAuthenticated()` dan `_refreshUserToken()` untuk memastikan sesi masih valid
+- Penambahan pemeriksaan autentikasi final tepat sebelum `callable.call()` untuk meminimalkan jeda waktu antara validasi auth dan pemanggilan Cloud Function
+- Peningkatan error handling untuk mendeteksi dan melaporkan masalah auth state dengan lebih baik, termasuk menghentikan retry jika user sudah logout
+- Pesan error yang lebih jelas dan actionable untuk memandu pengguna melakukan login ulang ketika sesi berakhir
+
+**Perubahan**
+- Opsi pengiriman notifikasi kini memakai radio Pop Up/Notifikasi, sekaligus menghapus pengaturan Penjadwalan dan Kadaluarsa dari form kirim notifikasi.
+- Mode Pop Up dikirim sebagai pesan data-only dan hanya muncul di dalam aplikasi; pesan ini tidak disimpan ke Firestore maupun status bar karena Cloud Function dan `NotificationHandler` melewati penulisan riwayat ketika `isPopup` aktif.
+- Pengiriman notifikasi kini memaksa refresh token Firebase saat kena error `UNAUTHENTICATED` serta menolak pengiriman jika sesi login sudah habis, menghindari kegagalan callable `adminSendNotification`.
+- Tambahan refresh token dan App Check sebelum setiap percobaan callable memastikan sesi terbaru selalu dipakai saat memanggil `adminSendNotification`.
+- Fungsi callable kembali memakai instance default (us-central1) dengan fallback not-found, menyesuaikan lokasi deploy aktual.
+- Optimisasi tombol refresh di *Tambah Postingan* kini mendeteksi perubahan konten (HTML/teks) menggunakan hashing SHA-256, mengatasi masalah di mana perubahan isi postingan tidak terdeteksi sebelumnya.
+- Indikator "Diubah" pada daftar postingan kini langsung hilang segera setelah postingan berhasil disimpan, memberikan umpan balik instan tanpa perlu refresh manual.
+- Daftar icon banner Partangiangan dikurasi dan dibersihkan: dihapus icon yang tidak relevan (love, music, people, transport, maps, weather, communication seperti guitar, mic, bubble chat) dan ditambahkan icon khusus perayaan.
+- `HomeScreen` kini menggunakan data cache sebagai nilai awal di `StreamBuilder` sebelum stream data tersedia, memberikan pengalaman loading yang lebih mulus.
+- Reference ke icon map sekarang menggunakan `PartangianganIcons`.
+
+**Penambahan**
+- Fitur **Manajemen Banner Partangiangan** yang dinamis: Admin kini dapat mengubah judul, deskripsi, dan visibilitas banner langsung dari aplikasi tanpa perlu update kodingan.
+- Dukungan **Realtime Updates**: Perubahan pada konfigurasi banner langsung terefleksi di Home Screen semua pengguna yang sedang membuka aplikasi.
+- Validasi URL gambar yang lebih fleksibel (mendukung ekstensi .JPG, .PNG, dll secara case-insensitive) dan tombol hapus cepat pada field input URL.
+- Opsi URL gambar opsional: Banner tetap dapat ditampilkan dengan judul dan deskripsi saja meskipun tanpa gambar (menampilkan pesan "Gambar tidak tersedia" saat diketuk).
+- Fitur **Pilih Semua** / **Batal Pilih Semua** di layar *Tambah Postingan* untuk memudahkan seleksi massal, lengkap dengan dukungan filter "Tampilkan yang diubah".
+- Mekanisme invalidasi cache otomatis pada detail postingan: aplikasi kini mendeteksi perubahan konten (hash SHA-256) dan otomatis mengunduh ulang data terbaru tanpa interaksi pengguna.
+- **Library icon terpusat** dengan ~50 icon yang relevan dari FontAwesome dan Material Icons untuk pemilihan icon banner Partangiangan.
+- **Icon Material Design untuk perayaan**: Ditambahkan `Icons.celebration` (kembang api tahun baru), `Icons.auto_awesome` (kilauan), dan `Icons.flare` sebagai alternatif icon perayaan tanpa menambah dependensi.
+- Method PartangianganService untuk membaca data cache Partangiangan secara sinkron, mencegah flash konten default.
+
+**Penghapusan**
+- Seluruh modul penjadwalan notifikasi (layanan Flutter, layar/admin widget, aturan Firestore, fallback koleksi `scheduled_notifications`, fungsi terjadwal, serta template/infra penjadwal) dihapus sejalan dengan penghentian fitur kadaluarsa pengiriman.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.10.15</strong></summary>
+
+<br/>
+
+**Perbaikan**
+- Menyeragamkan line ending dan membungkus baris panjang pada skrip Firebase Functions sehingga lint berbasis Unix line ending kembali lulus tanpa mengubah versi dependensi Node 22 / Firebase Functions.
+- Inisialisasi Sentry kini memprioritaskan `--dart-define=SENTRY_DSN` dengan fallback ke `.env`, serta menampilkan peringatan saat DSN absen agar build rilis tidak diam-diam berjalan tanpa pelaporan.
+- Menambahkan aturan ProGuard khusus Sentry agar auto-instrumentation, transport, dan AndroidX Startup tidak dipangkas saat rilis, sehingga pelaporan crash & performa tetap lengkap.
+- Migrasi parameter `androidProvider` dan `appleProvider` yang usang pada `AppCheckService` menjadi `providerAndroid` dan `providerApple` sesuai rekomendasi Firebase App Check terbaru.
+- Mengunci App Check debug token supaya nilai token konsisten saat run/debug (F5) dan tidak lagi berubah sehingga App Check tidak gagal dengan `App attestation failed`.
+- Memanggil `_loadData` di Halaman jadwal setelah frame pertama selesai dibangun supaya Jadwal tidak memicu `notifyListeners` saat fase build, menghilangkan error Crashlytics "setState() or markNeedsBuild() called during build."
+- Timeout prefetch PDF Google Drive kini dicatat sebagai log debug (tanpa warning Crashlytics) sehingga retry background tidak lagi memunculkan error non-fatal saat jaringan lambat atau link membutuhkan waktu lebih lama untuk merespons.
+- Indikator carousel posting unggulan di `BlogScreen` kini memeriksa jumlah attach PageView sebelum membaca `PageController.page`, mencegah assertion "page property cannot be read when multiple PageViews are attached" saat navigasi antar tab.
+- Tombol "Muat Lebih Banyak" di Warta Acara kini menampilkan shimmer list selama penambahan data dan tidak lagi langsung menunjukkan pesan "Semua file sudah dimuat" sebelum snapshot baru datang, menyelaraskan perilaku dengan halaman blog.
+
+**Perubahan**
+- Refaktor animasi load more pada WartaAcaraScreen agar menampilkan skeleton loader sebagai item daftar individual, menyamakan perilaku dengan BlogScreen untuk pengalaman pengguna yang lebih mulus.
+- Tombol "Kirim error uji coba ke Sentry" pada halaman Tentang Aplikasi kini hanya muncul saat aplikasi berjalan dalam mode debug, mencegah pengguna produksi memicu laporan kesalahan palsu.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.10.2</strong></summary>
 
 <br/>
 
