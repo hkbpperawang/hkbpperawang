@@ -21,6 +21,7 @@ Terimakasih untuk semua Beta Tester dan Kontributor yang turut berperan dalam pe
 17. Sanmay Simanullang
 
 Bagi Amang/Inang, Saudara/i yang memiliki masukan atau menemukan crash bisa langsunng menghubungi:
-- Tim MultimediaHKBP Perawang
-  - multimedia@hkbpperawang.org
-  - dev@hkbpperawang.org
+- Tim Multimedia HKBP Perawang
+ - multimedia@hkbpperawang.org
+ - dev@hkbpperawang.org
+ - atau Sosial Media HKBP Perawang
