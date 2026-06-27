@@ -43,8 +43,8 @@ Bagi Jemaat atau Rekan Umum yang ingin mengajukan materi promosi (berupa banner 
 - **Alamat:** Jl. Gajah Tunggal, Tualang, Kec. Tualang, Kabupaten Siak, Riau 28772
 - **Email:** kontak@hkbpperawang.org
 - **Media Sosial:**
-  - Facebook: HKBP Perawang
-  - Instagram: @hkbpperawang
-  - YouTube: HKBP Perawang
-  - Spotify: Podcast HKBP Perawang
-  - Facebook Messenger: m.me/hkbpperawang
+  - Facebook: [HKBP Perawang](https://www.facebook.com/hkbpperawang)
+  - Instagram: [@hkbpperawang](https://www.instagram.com/hkbpperawang)
+  - YouTube: [HKBP Perawang](https://www.youtube.com/channel/UCbWMPAbFAq9dTlpHVoxfr0Q)
+  - Spotify: [Podcast HKBP Perawang](https://open.spotify.com/show/2BiiKXFQNgZLGJAPFMQgjs)
+  - Facebook [Messenger: m.me/hkbpperawang](https://m.me/hkbpperawang)
