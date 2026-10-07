@@ -12,7 +12,35 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.12.0 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.14.6 ✨ (Terbaru)</strong></summary>
+
+<br/>
+
+**Perbaikan & Peningkatan**
+- Perbaikan beberapa bug.
+- Perbaikan sistem analisis.
+- Kompatibillitas dengan android 16
+- Pembersihan sistem kadaluarsa
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.1</strong></summary>
+
+<br/>
+
+**Perbaikan & Peningkatan**
+- Fitur Kunci Warta Jemaat (Admin)
+- Hapus fungsi webview pada artikel
+- Integrasi Markdown dan Sumber Github
+- Migrasi koleksi postingan
+- Optimasi postingan terkait dalam artikel
+- Perbaikan bug
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.12.0</strong></summary>
 
 <br/>
 
