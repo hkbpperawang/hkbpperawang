@@ -12,7 +12,66 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.14.6 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.14.9 ✨ (Terbaru)</strong></summary>
+
+<br/>
+
+**Perbaikan & Peningkatan**
+- 🧹 [code health] Remove dead branch for last opened docs in https://github.com/hkbpperawang/hkbp_perawang/pull/27
+- 🔒 Fix unrestricted JavaScript execution in WebView in https://github.com/hkbpperawang/hkbp_perawang/pull/28
+- ⚡ Optimize Sequential Cache Operations in Sync Offline Data in https://github.com/hkbpperawang/hkbp_perawang/pull/29
+- ⚡ Optimize cache manager key filtering in https://github.com/hkbpperawang/hkbp_perawang/pull/30
+- ⚡ Batch parallel cache removals for better performance in https://github.com/hkbpperawang/hkbp_perawang/pull/31
+- 🧹 [code health improvement] Remove dead type check in AdminDashboard in https://github.com/hkbpperawang/hkbp_perawang/pull/32
+- Fix safe access to ImageKitConfig variables in https://github.com/hkbpperawang/hkbp_perawang/pull/33
+- 🧹 [code health improvement] Simplify `createdAt` parsing in `ScrapedPostModel` in https://github.com/hkbpperawang/hkbp_perawang/pull/34
+- ⚡ [Performance Improvement] Optimize Nyanyian Cache Validation in https://github.com/hkbpperawang/hkbp_perawang/pull/35
+- 🔒 Fix insecure PDF Viewer WebView Configuration in https://github.com/hkbpperawang/hkbp_perawang/pull/36
+- 🧹 Fix unreachable catch block for TimeoutException in EditProfileScreen in https://github.com/hkbpperawang/hkbp_perawang/pull/37
+- ⚡ No changes needed: N+1 Web Scraping optimization already implemented in https://github.com/hkbpperawang/hkbp_perawang/pull/38
+- 🔒 Replace MD5 with SHA-256 in data_cache_manager.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/40
+- 🔒 Fix cryptographically weak algorithm (MD5) usage for team hashing in https://github.com/hkbpperawang/hkbp_perawang/pull/39
+- 🧹 Code Health: Remove Unreachable DateTime Conversion for Partangiangan in https://github.com/hkbpperawang/hkbp_perawang/pull/42
+- 🧹 [Code Health] Remove dead string parsing branch in AnalyticsData in https://github.com/hkbpperawang/hkbp_perawang/pull/43
+- 🧹 [Code Health] Remove unreachable String to DateTime conversion in `NyanyianFolder` in https://github.com/hkbpperawang/hkbp_perawang/pull/45
+- 🧹 [Code Health] Remove Unused Timestamp Formatting in NyanyianFolder in https://github.com/hkbpperawang/hkbp_perawang/pull/46
+- 🧹 Refactor `PostModel` date parsing to remove dead string check in https://github.com/hkbpperawang/hkbp_perawang/pull/47
+- 🧹 Code Health: Remove unreachable DateTime parsing in warta screen in https://github.com/hkbpperawang/hkbp_perawang/pull/41
+- 🧹 [Code Health] Simplify unreachable document typecasting logic in https://github.com/hkbpperawang/hkbp_perawang/pull/44
+- 🧹 Code Health: Remove unreachable return in ConnectivityService in https://github.com/hkbpperawang/hkbp_perawang/pull/48
+- ⚡ Performance: Parallelize Warta API requests using Future.wait in https://github.com/hkbpperawang/hkbp_perawang/pull/51
+- ⚡ [Performance] Execute API cache clearing concurrently in https://github.com/hkbpperawang/hkbp_perawang/pull/49
+- ⚡ Optimize Firestore operations in DocumentService using WriteBatch in https://github.com/hkbpperawang/hkbp_perawang/pull/50
+- 🧹 Remove dead offline cache fallback in WartaAcaraProvider in https://github.com/hkbpperawang/hkbp_perawang/pull/52
+- 🧪 [Testing Improvement] Add tests for color_utils.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/53
+- 🧪 Add tests for extractFirstImage in HtmlUtils in https://github.com/hkbpperawang/hkbp_perawang/pull/55
+- 🧪 [testing improvement] Add tests for HtmlUtils.buildHtmlContent in https://github.com/hkbpperawang/hkbp_perawang/pull/54
+- 🧹 Code Health Improvement: Remove unreachable Cache List Mapping in jadwal_provider.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/56
+- ⚡ Optimize Nyanyian folder validation using Future.wait in https://github.com/hkbpperawang/hkbp_perawang/pull/58
+- 🧪 Add error test for malformed JSON in cache manager in https://github.com/hkbpperawang/hkbp_perawang/pull/57
+- 🧹 code health: remove redundant PDF loading/prefetching logic from `itemBuilder` in https://github.com/hkbpperawang/hkbp_perawang/pull/63
+- 🧪 Add tests for platform_helper.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/59
+- 🧪 Add comprehensive test for string_utils.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/60
+- 🧪 [Testing] Add unit tests for DateFormatter in https://github.com/hkbpperawang/hkbp_perawang/pull/61
+- 🧪 Add unit tests for HtmlUtils string manipulation methods in https://github.com/hkbpperawang/hkbp_perawang/pull/64
+- 🧪 Testing Improvement: Add comprehensive tests for parseDateString in https://github.com/hkbpperawang/hkbp_perawang/pull/62
+- 🧪 [Testing Improvement] Add AppException and test getErrorMessage in https://github.com/hkbpperawang/hkbp_perawang/pull/65
+- 🧪 Add error handling tests for DownloadHelper in https://github.com/hkbpperawang/hkbp_perawang/pull/67
+- 🧪 Add missing tests for error_handler.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/66
+- 🧪 [Testing Improvement] Map exceptions to AppException in FirebaseSafety in https://github.com/hkbpperawang/hkbp_perawang/pull/69
+- 🧪 [test] unit tests for SecurityManager.isTokenValid in https://github.com/hkbpperawang/hkbp_perawang/pull/68
+- 🧪 [Add tests for FirebaseSafety] in https://github.com/hkbpperawang/hkbp_perawang/pull/70
+- 🧪 [test] unit tests for WebConfig.isFeatureEnabled in https://github.com/hkbpperawang/hkbp_perawang/pull/72
+- 🧪 [test] unit tests for GlobalErrorHandler.handleError in https://github.com/hkbpperawang/hkbp_perawang/pull/73
+- 🧪 Add tests for PermissionHelper and permissions logic in https://github.com/hkbpperawang/hkbp_perawang/pull/71
+- 🧪 Add unit tests for AppLocalizations in https://github.com/hkbpperawang/hkbp_perawang/pull/74
+
+</details>
+
+<br/>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.6</strong></summary>
 
 <br/>
 
