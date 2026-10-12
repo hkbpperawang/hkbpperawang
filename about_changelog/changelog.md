@@ -576,7 +576,74 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.12.0 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.14.10 ✨ (Terbaru)</strong></summary>
+
+<br/>
+
+### Diperbaiki
+
+* ⚡ Optimize Statistik Order Updates using WriteBatch in https://github.com/hkbpperawang/hkbp_perawang/pull/75
+* ⚡ Optimize team reordering with concurrent Firestore queries in https://github.com/hkbpperawang/hkbp_perawang/pull/76
+* ⚡ Optimize `_fetchKategoriTabel` to use `WriteBatch` in https://github.com/hkbpperawang/hkbp_perawang/pull/77
+* 🔒 Fix disabled Firebase App Check verification in Firestore rules in https://github.com/hkbpperawang/hkbp_perawang/pull/78
+* ⚡ Optimize _deleteKategori to resolve N+1 delete queries using Firestore WriteBatch in https://github.com/hkbpperawang/hkbp_perawang/pull/79
+* 🧹 [Remove dead code in Hive parsing flow] in https://github.com/hkbpperawang/hkbp_perawang/pull/82
+* 🧹 Code health: Remove unreachable exception wrapper in global handler in https://github.com/hkbpperawang/hkbp_perawang/pull/83
+* 🧹 [code health improvement]: Remove dead code in `_toDateTime` mapping in https://github.com/hkbpperawang/hkbp_perawang/pull/85
+* 🧹 Remove unreachable exception wrapper in safeFirebaseCall in https://github.com/hkbpperawang/hkbp_perawang/pull/84
+* 🔒 Restrict public access to user data in Firestore rules in https://github.com/hkbpperawang/hkbp_perawang/pull/81
+* 🧹 Remove unreachable dead code in `lastUpdated` parsing in https://github.com/hkbpperawang/hkbp_perawang/pull/86
+* 🔒 Fix Incomplete User Deletion (Firestore Only) in https://github.com/hkbpperawang/hkbp_perawang/pull/80
+* Cleanup: Remove FIX comment for isOnline parameter in https://github.com/hkbpperawang/hkbp_perawang/pull/90
+* chore: remove obsolete fix comment in documents_screen.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/88
+* Refactor route removal to use Routes.home constant in https://github.com/hkbpperawang/hkbp_perawang/pull/89
+* Remove obsolete AppStorage comments in jadwal_provider in https://github.com/hkbpperawang/hkbp_perawang/pull/87
+* Fix proper type casting in jadwal provider in https://github.com/hkbpperawang/hkbp_perawang/pull/95
+* Remove stale FIX comments for ImageKit safe getters in https://github.com/hkbpperawang/hkbp_perawang/pull/93
+* Remove obsolete AppFooter comment in https://github.com/hkbpperawang/hkbp_perawang/pull/94
+* chore: remove outdated FIX comments from documents_screen.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/92
+* chore: remove obsolete FIX comments in imagekit_service.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/91
+* 🧪 [Test Coverage] Add PlayIntegrityService Tests in https://github.com/hkbpperawang/hkbp_perawang/pull/97
+* 🧪 [Test Coverage] Add tests for UpdateChecker in https://github.com/hkbpperawang/hkbp_perawang/pull/96
+* 🧪 Add AppCheckService tests in https://github.com/hkbpperawang/hkbp_perawang/pull/98
+* 🧪 [testing improvement] Add unit tests for NotificationTemplateService in https://github.com/hkbpperawang/hkbp_perawang/pull/102
+* 🧪 Add PerformanceMonitor unit tests in https://github.com/hkbpperawang/hkbp_perawang/pull/100
+* 🧪 test(storage): add unit tests for StorageService in https://github.com/hkbpperawang/hkbp_perawang/pull/103
+* 🧪 add unit tests for WebScrapingService in https://github.com/hkbpperawang/hkbp_perawang/pull/104
+* 🧪 Add tests for security_checker.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/101
+* 🧪 Add test coverage for warta_acara_service in https://github.com/hkbpperawang/hkbp_perawang/pull/105
+* 🧪 Add test coverage for SecureApiService in https://github.com/hkbpperawang/hkbp_perawang/pull/108
+* 🧪 Add unit tests for FirebaseAPI legacy wrapper in https://github.com/hkbpperawang/hkbp_perawang/pull/106
+* 🧪 Add test file for database_warta_service in https://github.com/hkbpperawang/hkbp_perawang/pull/107
+* 🧪 [Test] Add tests for IntegrityTestScreen in https://github.com/hkbpperawang/hkbp_perawang/pull/99
+* 🧪 test: Add test coverage for UpdateService in https://github.com/hkbpperawang/hkbp_perawang/pull/109
+* 🧪 test(services): add tests for ImageKitService in https://github.com/hkbpperawang/hkbp_perawang/pull/111
+* 🧪 Add test coverage for ApiService in https://github.com/hkbpperawang/hkbp_perawang/pull/112
+* 🧪 [Testing Improvement] Add unit tests for FCMService in https://github.com/hkbpperawang/hkbp_perawang/pull/114
+* 🧪 test: add unit tests for DocumentService in https://github.com/hkbpperawang/hkbp_perawang/pull/113
+* 🧪 test: add unit tests for PartangianganService in https://github.com/hkbpperawang/hkbp_perawang/pull/110
+* 🧪 [testing] Add JadwalService tests and dependency injection in https://github.com/hkbpperawang/hkbp_perawang/pull/115
+* ⚡ perf: parallelize category fetch in Warta Acara Screen in https://github.com/hkbpperawang/hkbp_perawang/pull/117
+* 🔒 fix: remove hardcoded app check debug token template in https://github.com/hkbpperawang/hkbp_perawang/pull/119
+* 🔒 Fix insecure HTTP URL allowance in DownloadHelper in https://github.com/hkbpperawang/hkbp_perawang/pull/118
+* ⚡ perf: Optimize notification deletion with WriteBatch in https://github.com/hkbpperawang/hkbp_perawang/pull/121
+* ⚡ Optimize N+1 query in bulk team category updates in https://github.com/hkbpperawang/hkbp_perawang/pull/122
+* 🧹 [Code Health] Refactor extremely long build method in sidebar_dashboard.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/123
+* ⚡ Optimize Warta Cache Clearance with Concurrent Execution in https://github.com/hkbpperawang/hkbp_perawang/pull/120
+* ⚡ perf: Optimize Firestore Document Category Deletion N+1 Query in https://github.com/hkbpperawang/hkbp_perawang/pull/125
+* 🧹 [Refactor] Extract duplicate error handling in update_service.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/124
+* ⚡ [performance] Fix N+1 sequential updates in fallback in https://github.com/hkbpperawang/hkbp_perawang/pull/126
+* ⚡ perf: optimize jadwal ibadah reordering with firestore batch writes in https://github.com/hkbpperawang/hkbp_perawang/pull/128
+* Fix map casting and data parsing in _loadCachedJadwal in https://github.com/hkbpperawang/hkbp_perawang/pull/129
+* 🧹 [Code Health] Remove code duplication in UpdateService in https://github.com/hkbpperawang/hkbp_perawang/pull/127
+* 🧹 Refactor duplicated offline checks in api_service.dart in https://github.com/hkbpperawang/hkbp_perawang/pull/130
+
+</details>
+
+<br/>
+
+<details markdown="1">
+<summary><strong>Versi 2.12.0</strong></summary>
 
 <br/>
 
