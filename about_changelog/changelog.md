@@ -544,63 +544,20 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <br/>
 
-### Diperbaiki
+### 🚀 Peningkatan Kecepatan & Performa
+- Jadwal & Tim Lebih Responsif: Mengatur ulang urutan Jadwal Ibadah dan susunan Tim kini berjalan instan tanpa jeda (lag).
+- Warta Acara Lebih Cepat: Memuat kategori pada halaman Warta Acara kini jauh lebih gesit.
+- Hapus Data Tanpa Menunggu: Proses menghapus banyak data sekaligus (seperti riwayat notifikasi, kategori dokumen, atau kategori lainnya) kini diproses seketika di latar belakang.
+- Pembaruan Statistik: Sistem kini menghitung dan memperbarui data statistik jauh lebih efisien dan cepat.
 
-* ⚡ Optimize Statistik Order Updates using WriteBatch 
-* ⚡ Optimize team reordering with concurrent Firestore queries 
-* ⚡ Optimize `_fetchKategoriTabel` to use `WriteBatch` 
-* 🔒 Fix disabled Firebase App Check verification in Firestore rules 
-* ⚡ Optimize _deleteKategori to resolve N+1 delete queries using Firestore WriteBatch 
-* 🧹 [Remove dead code in Hive parsing flow] 
-* 🧹 Code health: Remove unreachable exception wrapper in global handler 
-* 🧹 [code health improvement]: Remove dead code in `_toDateTime` mapping 
-* 🧹 Remove unreachable exception wrapper in safeFirebaseCall 
-* 🔒 Restrict public access to user data in Firestore rules 
-* 🧹 Remove unreachable dead code in `lastUpdated` parsing 
-* 🔒 Fix Incomplete User Deletion (Firestore Only) 
-* Cleanup: Remove FIX comment for isOnline parameter 
-* chore: remove obsolete fix comment in documents_screen.dart 
-* Refactor route removal to use Routes.home constant 
-* Remove obsolete AppStorage comments in jadwal_provider 
-* Fix proper type casting in jadwal provider 
-* Remove stale FIX comments for ImageKit safe getters 
-* Remove obsolete AppFooter comment 
-* chore: remove outdated FIX comments from documents_screen.dart 
-* chore: remove obsolete FIX comments in imagekit_service.dart 
-* 🧪 [Test Coverage] Add PlayIntegrityService Tests 
-* 🧪 [Test Coverage] Add tests for UpdateChecker 
-* 🧪 Add AppCheckService tests 
-* 🧪 [testing improvement] Add unit tests for NotificationTemplateService
-* 🧪 Add PerformanceMonitor unit tests
-* 🧪 test(storage): add unit tests for StorageService
-* 🧪 add unit tests for WebScrapingService
-* 🧪 Add tests for security_checker.dart
-* 🧪 Add test coverage for warta_acara_service
-* 🧪 Add test coverage for SecureApiService
-* 🧪 Add unit tests for FirebaseAPI legacy wrapper
-* 🧪 Add test file for database_warta_service
-* 🧪 [Test] Add tests for IntegrityTestScreen 
-* 🧪 test: Add test coverage for UpdateService
-* 🧪 test(services): add tests for ImageKitService
-* 🧪 Add test coverage for ApiService
-* 🧪 [Testing Improvement] Add unit tests for FCMService
-* 🧪 test: add unit tests for DocumentService
-* 🧪 test: add unit tests for PartangianganService
-* 🧪 [testing] Add JadwalService tests and dependency injection
-* ⚡ perf: parallelize category fetch in Warta Acara Screen
-* 🔒 fix: remove hardcoded app check debug token template
-* 🔒 Fix insecure HTTP URL allowance in DownloadHelper
-* ⚡ perf: Optimize notification deletion with WriteBatch
-* ⚡ Optimize N+1 query in bulk team category updates
-* 🧹 [Code Health] Refactor extremely long build method in sidebar_dashboard.dart
-* ⚡ Optimize Warta Cache Clearance with Concurrent Execution
-* ⚡ perf: Optimize Firestore Document Category Deletion N+1 Query
-* 🧹 [Refactor] Extract duplicate error handling in update_service.dart
-* ⚡ [performance] Fix N+1 sequential updates in fallback
-* ⚡ perf: optimize jadwal ibadah reordering with firestore batch writes
-* Fix map casting and data parsing in _loadCachedJadwal
-* 🧹 [Code Health] Remove code duplication in UpdateService
-* 🧹 Refactor duplicated offline checks in api_service.dart
+### 🔒 Keamanan & Perlindungan Privasi
+- Privasi Data Pengguna Lebih Ketat: Menutup celah akses publik, sehingga data pribadi pengguna terlindungi dengan standar keamanan yang lebih tinggi.
+- Penghapusan Akun Tuntas: Memperbaiki sistem penghapusan pengguna agar memastikan seluruh data yang berkaitan benar-benar terhapus bersih dari server tanpa sisa.
+- Keamanan Unduhan: Aplikasi kini secara otomatis memblokir proses unduhan file dari tautan internet yang tidak aman (tanpa enkripsi).
+- Verifikasi Sistem: Peningkatan keamanan di lapisan dalam (backend) untuk memastikan hanya aplikasi resmi yang dapat mengakses sistem (mencegah akses tidak sah/bot).
+
+### 🛠 Perbaikan Kendala (Bug Fixes)
+- Perbaikan Tampilan Jadwal: Memperbaiki masalah di mana Jadwal Ibadah terkadang gagal ditampilkan atau error saat dimuat ulang dari penyimpanan offline (cache).
 
 </details>
 
