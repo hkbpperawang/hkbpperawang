@@ -16,55 +16,19 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <br/>
 
-**Perbaikan & Peningkatan**
-- 🧹 [code health] Remove dead branch for last opened docs
-- 🔒 Fix unrestricted JavaScript execution in WebView
-- ⚡ Optimize Sequential Cache Operations in Sync Offline Data
-- ⚡ Optimize cache manager key filtering
-- ⚡ Batch parallel cache removals for better performance
-- 🧹 [code health improvement] Remove dead type check in AdminDashboard
-- Fix safe access to ImageKitConfig variables
-- 🧹 [code health improvement] Simplify `createdAt` parsing in `ScrapedPostModel`
-- ⚡ [Performance Improvement] Optimize Nyanyian Cache Validation
-- 🔒 Fix insecure PDF Viewer WebView Configuration
-- 🧹 Fix unreachable catch block for TimeoutException in EditProfileScreen
-- ⚡ No changes needed: N+1 Web Scraping optimization already implemented
-- 🔒 Replace MD5 with SHA-256 in data_cache_manager.dart
-- 🔒 Fix cryptographically weak algorithm (MD5) usage for team hashing
-- 🧹 Code Health: Remove Unreachable DateTime Conversion for Partangiangan
-- 🧹 [Code Health] Remove dead string parsing branch in AnalyticsData
-- 🧹 [Code Health] Remove unreachable String to DateTime conversion in `NyanyianFolder`
-- 🧹 [Code Health] Remove Unused Timestamp Formatting in NyanyianFolder
-- 🧹 Refactor `PostModel` date parsing to remove dead string check
-- 🧹 Code Health: Remove unreachable DateTime parsing in warta screen
-- 🧹 [Code Health] Simplify unreachable document typecasting logic
-- 🧹 Code Health: Remove unreachable return in ConnectivityService
-- ⚡ Performance: Parallelize Warta API requests using Future.wait
-- ⚡ [Performance] Execute API cache clearing concurrently
-- ⚡ Optimize Firestore operations in DocumentService using WriteBatch
-- 🧹 Remove dead offline cache fallback in WartaAcaraProvider
-- 🧪 [Testing Improvement] Add tests for color_utils.dart
-- 🧪 Add tests for extractFirstImage in HtmlUtils
-- 🧪 [testing improvement] Add tests for HtmlUtils.buildHtmlContent
-- 🧹 Code Health Improvement: Remove unreachable Cache List Mapping in jadwal_provider.dart
-- ⚡ Optimize Nyanyian folder validation using Future.wait
-- 🧪 Add error test for malformed JSON in cache manager
-- 🧹 code health: remove redundant PDF loading/prefetching logic from `itemBuilder`
-- 🧪 Add tests for platform_helper.dart
-- 🧪 Add comprehensive test for string_utils.dart
-- 🧪 [Testing] Add unit tests for DateFormatter
-- 🧪 Add unit tests for HtmlUtils string manipulation methods
-- 🧪 Testing Improvement: Add comprehensive tests for parseDateString
-- 🧪 [Testing Improvement] Add AppException and test getErrorMessage
-- 🧪 Add error handling tests for DownloadHelper
-- 🧪 Add missing tests for error_handler.dart
-- 🧪 [Testing Improvement] Map exceptions to AppException in FirebaseSafety
-- 🧪 [test] unit tests for SecurityManager.isTokenValid
-- 🧪 [Add tests for FirebaseSafety]
-- 🧪 [test] unit tests for WebConfig.isFeatureEnabled
-- 🧪 [test] unit tests for GlobalErrorHandler.handleError
-- 🧪 Add tests for PermissionHelper and permissions logic
-- 🧪 Add unit tests for AppLocalizations
+**🚀 Peningkatan Kecepatan & Performa**
+- Warta & Nyanyian Lebih Cepat: Menu Warta dan daftar Nyanyian kini dapat dimuat dan dibuka jauh lebih cepat dari sebelumnya.
+- Mode Offline Lebih Lancar: Proses sinkronisasi data saat Anda menggunakan aplikasi tanpa koneksi internet telah dioptimalkan agar tidak memakan waktu lama.
+- Pemuatan Dokumen: Membuka dan membaca dokumen PDF di dalam aplikasi kini berjalan lebih mulus dan ringan.
+- Kinerja Keseluruhan: Aplikasi kini bekerja lebih cerdas dalam memproses data di latar belakang sehingga secara umum terasa lebih cepat dan responsif.
+
+**🔒 Peningkatan Keamanan**
+- Penampil Web & PDF yang Aman: Celah keamanan yang ada saat Anda membuka halaman web atau dokumen PDF langsung dari dalam aplikasi telah ditutup.
+- Perlindungan Data: Standar enkripsi dan keamanan data internal aplikasi telah ditingkatkan ke sistem yang lebih modern dan tangguh.
+
+**🛠 Perbaikan Kendala (Bug Fixes)**
+- Memperbaiki masalah koneksi lambat (timeout) yang terkadang terjadi saat pengguna menyimpan perubahan di halaman Edit Profil.
+- Memperbaiki kestabilan sistem dalam memuat gambar agar tidak terjadi error.
 
 </details>
 
