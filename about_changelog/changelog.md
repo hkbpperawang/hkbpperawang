@@ -7,7 +7,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 ## 🚀 Rilis Publik
 
 <details markdown="1">
-<summary><strong>Cek Detail</strong></summary>
+<summary><strong>Cek Detail </strong>(Klik disini)</summary>
 
 <br/>
 
@@ -535,7 +535,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 ## 🧪 Rilis Beta
 
 <details markdown="1">
-<summary><strong>Cek Detail</strong></summary>
+<summary><strong>Cek Detail </strong>(Klik disini)</summary>
 
 <br/>
 
