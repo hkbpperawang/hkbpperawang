@@ -6,7 +6,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 ## 🚀 Rilis Publik
 
-<details open markdown="1">
+<details markdown="1">
 <summary><strong>Cek Detail</strong></summary>
 
 <br/>
