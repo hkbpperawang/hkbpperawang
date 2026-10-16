@@ -938,6 +938,43 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 </details>
 
+## 🔬 Rilis Aplha
+
+_**<strong>catatan:</strong> rilis alpha adalah rilis percobaan / sangat tidak stabil, diharapkan tidak mengupdate/install versi ini pada perangkat_
+<details markdown="1">
+<summary><strong>Cek Detail </strong>(Klik disini)</summary>
+
+<br/>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.13 ✨ (Terbaru)</strong></summary>
+
+<br/>
+
+### 🚀 Peningkatan Kecepatan & Performa
+
+- Warta Acara Lebih Gesit: Proses memuat dan menampilkan kategori pada halaman Warta Acara kini berjalan jauh lebih cepat.
+- Manajemen Penyimpanan (Cache) Lebih Cerdas: Sistem penghitungan ukuran dan pembersihan data sementara (seperti cache dokumen PDF dan Warta) telah dioptimalkan agar diproses secara bersamaan, sehingga aplikasi terasa lebih ringan.
+- Sinkronisasi & Pembaruan Instan: Proses sinkronisasi data yang tertunda dan pembaruan data statistik kini bekerja lebih efisien di latar belakang tanpa membebani aplikasi.
+- Pengaturan Jadwal & Tim Tanpa Jeda: Menyusun ulang urutan Jadwal Ibadah dan daftar Tim kini berjalan seketika (responsif) tanpa waktu tunggu.
+- Penghapusan Data Cepat: Menghapus banyak data sekaligus (seperti riwayat notifikasi atau kategori dokumen) kini dieksekusi lebih cepat dari sebelumnya.
+
+### 🔒 Keamanan & Perlindungan Privasi
+
+- Perlindungan Tautan (Link) & Unduhan: Aplikasi kini secara otomatis mendeteksi dan mencegah Anda membuka tautan berbahaya dari konten teks, serta memblokir unduhan file dari koneksi yang tidak aman.
+- Privasi Data Pengguna Lebih Ketat: Menutup celah akses publik sehingga data pribadi Anda mendapatkan perlindungan privasi yang maksimal.
+- Penghapusan Akun Tuntas: Memperbaiki sistem agar saat akun dihapus, seluruh data yang terkait benar-benar terhapus bersih dari server.
+- Verifikasi Sistem Internal: Peningkatan keamanan sistem belakang (backend) untuk memastikan hanya aplikasi resmi dan aman yang dapat mengakses database.
+
+### 🛠 Stabilitas & Perbaikan Kendala (Bug Fixes)
+
+- Anti-Crash Saat Aplikasi Dibuka: Memperbaiki masalah yang terkadang menyebabkan aplikasi keluar dengan sendirinya (crash) saat baru dibuka, terutama ketika sistem sedang memuat data jaringan di latar belakang.
+- Tampilan Pesan (Notifikasi) Lebih Aman: Memperbaiki error sistem yang sesekali muncul ketika aplikasi mencoba menampilkan pesan pemberitahuan di layar pada halaman yang keburu ditutup oleh pengguna.
+- Tampilan Jadwal Mode Offline: Memperbaiki masalah sistem pembacaan data yang terkadang membuat Jadwal Ibadah gagal ditampilkan saat aplikasi dibuka tanpa koneksi internet (offline).
+
+</details>
+</details>
+
 ---
 
 ## 📬 Info Lainnya
