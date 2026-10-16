@@ -32,8 +32,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 </details>
 
-<br/>
-
 <details markdown="1">
 <summary><strong>Versi 2.14.6</strong></summary>
 
@@ -566,8 +564,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 </details>
 
-<br/>
-
 <details markdown="1">
 <summary><strong>Versi 2.14.10</summary>
 
@@ -589,8 +585,6 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 - Perbaikan Tampilan Jadwal: Memperbaiki masalah di mana Jadwal Ibadah terkadang gagal ditampilkan atau error saat dimuat ulang dari penyimpanan offline (cache).
 
 </details>
-
-<br/>
 
 <details markdown="1">
 <summary><strong>Versi 2.12.0</strong></summary>
