@@ -967,6 +967,22 @@ _**<strong>catatan:</strong> rilis alpha adalah rilis percobaan / sangat tidak s
 - Tampilan Jadwal Mode Offline: Memperbaiki masalah sistem pembacaan data yang terkadang membuat Jadwal Ibadah gagal ditampilkan saat aplikasi dibuka tanpa koneksi internet (offline).
 
 </details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.12</strong></summary>
+
+<br/>
+
+### 🚀 Peningkatan Kecepatan & Performa
+- Sistem Notifikasi Lebih Cepat: Kami telah mengoptimalkan cara aplikasi memproses data notifikasi, sehingga berjalan lebih ringan dan menghemat waktu pemrosesan secara signifikan.
+- Pembersihan Memori Lebih Gesit: Proses menghapus memori sementara (cache) untuk dokumen PDF kini diproses secara bersamaan di latar belakang, membuat performa aplikasi tetap terjaga dan lebih responsif.
+
+### 🛠 Stabilitas & Perbaikan Kendala (Bug Fixes)
+- Anti-Crash Saat Aplikasi Dibuka: Memperbaiki masalah sistem yang terkadang menyebabkan aplikasi menutup sendiri secara paksa (crash) sesaat setelah dibuka, terutama ketika koneksi jaringan sedang lambat dalam memuat data awal.
+- Stiker Tetap Lancar Tanpa Internet: Meningkatkan kestabilan sistem pemuatan Stiker. Kini, jika koneksi internet Anda terputus atau tidak stabil, aplikasi akan dengan pintar beralih memuat stiker dari penyimpanan offline tanpa memunculkan error.
+
+</details>
+
 </details>
 
 ---
