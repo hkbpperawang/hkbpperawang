@@ -530,6 +530,7 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 ---
 
+
 ## 🧪 Rilis Beta
 
 <details markdown="1">
@@ -932,9 +933,11 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 </details>
 
+---
+
 ## 🔬 Rilis Aplha
 
-_**<strong>catatan:</strong> rilis alpha adalah rilis percobaan / sangat tidak stabil, diharapkan tidak mengupdate/install versi ini pada perangkat_
+> _<p>**<strong>catatan:</strong> rilis alpha adalah rilis percobaan / sangat tidak stabil, diharapkan tidak mengupdate/install versi ini pada perangkat</p>_
 <details markdown="1">
 <summary><strong>Cek Detail </strong>(Klik disini)</summary>
 
@@ -986,6 +989,8 @@ _**<strong>catatan:</strong> rilis alpha adalah rilis percobaan / sangat tidak s
 </details>
 
 ---
+
+<br/>
 
 ## 📬 Info Lainnya
 
