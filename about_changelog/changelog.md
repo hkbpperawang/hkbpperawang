@@ -935,9 +935,9 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 ---
 
-## 🔬 Rilis Aplha
+## 🔬 Rilis Alpha _(Early Access)_
 
-> _<p>**<strong>catatan:</strong> rilis alpha adalah rilis percobaan / sangat tidak stabil, diharapkan tidak mengupdate/install versi ini pada perangkat</p>_
+> _<p>**<strong>catatan:</strong> rilis alpha adalah rilis percobaan / sangat tidak stabil, diharapkan tidak mengupdate/install versi ini pada perangkat yang digunakan sehari-hari.</p>_
 <details markdown="1">
 <summary><strong>Cek Detail </strong>(Klik disini)</summary>
 
