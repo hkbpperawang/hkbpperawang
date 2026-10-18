@@ -944,7 +944,23 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.14.13 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.14.14 ✨ (Terbaru)</strong></summary>
+
+### 🚀 Peningkatan Kinerja & Mode Offline
+
+- Akses Tanpa Internet Lebih Pintar: Aplikasi kini jauh lebih mulus dalam menangani gangguan jaringan. Jika koneksi internet Anda tiba-tiba tidak stabil saat memuat Jadwal Ibadah atau daftar Tim, aplikasi akan langsung menampilkan data simpanan terakhir (offline) tanpa memunculkan pesan error yang mengganggu.
+- Hemat Kuota di Versi Web (Komputer): Sistem kini menghentikan pemuatan data otomatis di latar belakang yang tidak diperlukan pada versi web, sehingga penggunaan memori lebih ringan dan kuota internet Anda lebih hemat.
+
+### 🛠 Stabilitas & Perbaikan Kendala (Bug Fixes)
+
+- Bebas Gagal Muat di Web: Memperbaiki masalah sistem yang sesekali menyebabkan aplikasi versi web gagal terbuka (crash) saat baru pertama kali dimuat.
+- Kestabilan Pemuatan Data: Memperbaiki kendala internal yang sebelumnya berpotensi membuat aplikasi macet secara tiba-tiba saat memuat memori (cache) atau membuka daftar Kidung Nyanyian.
+- Sinkronisasi Kategori Tim: Memperbaiki jalur pembacaan data untuk Kategori Tim agar sistem selalu menampilkan data yang paling akurat dari server.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.13</strong></summary>
 
 <br/>
 
