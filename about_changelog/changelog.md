@@ -15,41 +15,22 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <summary><strong>Versi 2.14.15 ✨ (Terbaru)</strong></summary>
 
 ### 🚀 Peningkatan Kinerja & Mode Offline
-
-- Akses Tanpa Internet Lebih Pintar: Aplikasi kini jauh lebih mulus dalam menangani gangguan jaringan. Jika koneksi internet Anda tiba-tiba tidak stabil saat memuat Jadwal Ibadah atau daftar Tim, aplikasi akan langsung menampilkan data simpanan terakhir (offline) tanpa memunculkan pesan error yang mengganggu.
-- Hemat Kuota di Versi Web (Komputer): Sistem kini menghentikan pemuatan data otomatis di latar belakang yang tidak diperlukan pada versi web, sehingga penggunaan memori lebih ringan dan kuota internet Anda lebih hemat.
-- Manajemen Penyimpanan (Cache) Lebih Cerdas: Sistem penghitungan ukuran dan pembersihan data sementara (seperti cache dokumen PDF dan Warta) telah dioptimalkan agar diproses secara bersamaan, sehingga aplikasi terasa lebih ringan.
-- Sinkronisasi & Pembaruan Instan: Proses sinkronisasi data yang tertunda dan pembaruan data statistik kini bekerja lebih efisien di latar belakang tanpa membebani aplikasi.
-- Penghapusan Data Cepat: Menghapus banyak data sekaligus (seperti riwayat notifikasi atau kategori dokumen) kini dieksekusi lebih cepat dari sebelumnya.
-- Sistem Notifikasi Lebih Cepat: Kami telah mengoptimalkan cara aplikasi memproses data notifikasi, sehingga berjalan lebih ringan dan menghemat waktu pemrosesan secara signifikan.
-- Pembersihan Memori Lebih Dioptimalkan: Proses menghapus memori sementara (cache) untuk dokumen PDF kini diproses secara bersamaan di latar belakang, membuat performa aplikasi tetap terjaga dan lebih responsif.
-- Warta Acara Lebih Cepat: Proses memuat dan menampilkan kategori pada halaman Warta Acara kini berjalan jauh lebih cepat.
-- Jadwal & Tim Lebih Responsif: Mengatur ulang urutan Jadwal Ibadah dan susunan Tim kini berjalan instan tanpa jeda (lag).
-- Hapus Data Tanpa Menunggu: Proses menghapus banyak data sekaligus (seperti riwayat notifikasi, kategori dokumen, atau kategori lainnya) kini diproses seketika di latar belakang.
-- Pembaruan Statistik: Sistem kini menghitung dan memperbarui data statistik jauh lebih efisien dan cepat.
+- Tetap Lancar Tanpa Internet: Saat sinyal tidak stabil atau tanpa kuota, halaman Jadwal Ibadah, daftar Tim, dan Stiker akan otomatis menampilkan data yang sudah tersimpan tanpa memunculkan pesan error.
+- Buka Menu Lebih Cepat: Halaman Warta Acara kini terbuka lebih cepat. Mengubah urutan Jadwal Ibadah dan susunan Tim juga langsung tersimpan tanpa jeda.
+- Aplikasi Lebih Ringan: Pembersihan file sementara (seperti bekas bacaan PDF dan Warta) serta pemrosesan notifikasi dan data statistik kini bekerja lebih ringkas di latar belakang, sehingga aplikasi tidak membebani memori HP.
+- Hapus Banyak Data Sekaligus: Menghapus riwayat notifikasi atau kategori dokumen dalam jumlah banyak kini selesai seketika tanpa perlu menunggu lama.
+- Hemat Kuota di Versi Web: Menghentikan pemuatan data otomatis yang tidak diperlukan saat membuka aplikasi lewat browser komputer, sehingga lebih hemat kuota dan ringan.
 
 ### 🔒 Keamanan & Perlindungan Privasi
+- Cegah Link & Unduhan Berbahaya: Aplikasi otomatis memblokir tautan (link) mencurigakan dan mencegah pengunduhan file dari sumber internet yang tidak aman.
+- Data Pribadi Lebih Terlindungi: Keamanan sistem ditingkatkan untuk memastikan data pribadi pengguna tetap tertutup dari akses luar dan hanya bisa dibuka melalui aplikasi resmi.
+- Hapus Akun Secara Bersih: Jika akun dihapus, seluruh data yang berkaitan dengan akun tersebut kini dipastikan terhapus sepenuhnya dari sistem.
 
-- Perlindungan Tautan (Link) & Unduhan: Aplikasi kini secara otomatis mendeteksi dan mencegah Anda membuka tautan berbahaya dari konten teks, serta memblokir unduhan file dari koneksi yang tidak aman.
-- Privasi Data Pengguna Lebih Ketat: Menutup celah akses publik sehingga data pribadi Anda mendapatkan perlindungan privasi yang maksimal.
-- Penghapusan Akun Tuntas: Memperbaiki sistem agar saat akun dihapus, seluruh data yang terkait benar-benar terhapus bersih dari server.
-- Verifikasi Sistem Internal: Peningkatan keamanan sistem belakang (backend) untuk memastikan hanya aplikasi resmi dan aman yang dapat mengakses database.
-- Perlindungan Tautan (Link) & Unduhan: Aplikasi kini secara otomatis mendeteksi dan mencegah Anda membuka tautan berbahaya dari konten teks, serta memblokir unduhan file dari koneksi yang tidak aman.
-- Verifikasi Sistem Internal: Peningkatan keamanan sistem belakang (backend) untuk memastikan hanya aplikasi resmi dan aman yang dapat mengakses database.
-- Privasi Data Pengguna Lebih Ketat: Menutup celah akses publik, sehingga data pribadi pengguna terlindungi dengan standar keamanan yang lebih tinggi.
-- Keamanan Unduhan: Aplikasi kini secara otomatis memblokir proses unduhan file dari tautan internet yang tidak aman (tanpa enkripsi).
-
-### 🛠 Stabilitas & Perbaikan Kendala (Bug Fixes)
-
-- Bebas Gagal Muat di Web: Memperbaiki masalah sistem yang sesekali menyebabkan aplikasi versi web gagal terbuka (crash) saat baru pertama kali dimuat.
-- Kestabilan Pemuatan Data: Memperbaiki kendala internal yang sebelumnya berpotensi membuat aplikasi macet secara tiba-tiba saat memuat memori (cache) atau membuka daftar Kidung Nyanyian.
-- Sinkronisasi Kategori Tim: Memperbaiki jalur pembacaan data untuk Kategori Tim agar sistem selalu menampilkan data yang paling akurat dari server.
-- Anti-Crash Saat Aplikasi Dibuka: Memperbaiki masalah yang terkadang menyebabkan aplikasi keluar dengan sendirinya (crash) saat baru dibuka, terutama ketika sistem sedang memuat data jaringan di latar belakang.
-- Tampilan Pesan (Notifikasi) Lebih Aman: Memperbaiki error sistem yang sesekali muncul ketika aplikasi mencoba menampilkan pesan pemberitahuan di layar pada halaman yang keburu ditutup oleh pengguna.
-- Tampilan Jadwal Mode Offline: Memperbaiki masalah sistem pembacaan data yang terkadang membuat Jadwal Ibadah gagal ditampilkan saat aplikasi dibuka tanpa koneksi internet (offline).
-- Stiker Tetap Lancar Tanpa Internet: Meningkatkan kestabilan sistem pemuatan Stiker. Kini, jika koneksi internet Anda terputus atau tidak stabil, aplikasi akan dengan pintar beralih memuat stiker dari penyimpanan offline tanpa memunculkan error.
-- Anti-Crash Saat Aplikasi Dibuka: Memperbaiki masalah yang terkadang menyebabkan aplikasi keluar dengan sendirinya (crash) saat baru dibuka, terutama ketika sistem sedang memuat data jaringan di latar belakang.
-- Tampilan Pesan (Notifikasi) Lebih Aman: Memperbaiki error sistem yang sesekali muncul ketika aplikasi mencoba menampilkan pesan pemberitahuan di layar pada halaman yang keburu ditutup oleh pengguna.
+### 🛠 Perbaikan Kendala (Bug Fixes)
+- Tidak Keluar Sendiri Saat Dibuka: Memperbaiki masalah aplikasi (baik di HP maupun versi Web) yang terkadang tertutup sendiri (crash) saat baru pertama kali dibuka.
+- Buka Kidung Nyanyian Lebih Stabil: Memperbaiki kendala yang terkadang membuat layar macet saat membuka daftar Kidung Nyanyian.
+- Perbaikan Data Kategori Tim: Memastikan daftar Kategori Tim selalu menampilkan data terbaru dan akurat.
+- Pesan Pemberitahuan Lebih Rapi: Menghilangkan pesan error yang sesekali muncul saat Anda berpindah halaman dengan cepat.
 
 </details>
 
