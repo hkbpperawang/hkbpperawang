@@ -1,7 +1,7 @@
 # KEBIJAKAN KEAMANAN
 ## APLIKASI HKBP PERAWANG
 
-**Terakhir diperbarui: 25 November 2025**
+*Terakhir diperbarui: 20 Oktober 2026*
 
 ---
 
@@ -223,9 +223,7 @@ Untuk semua pertanyaan terkait keamanan:
 **Security Team**: Tim Multimedia HKBP Perawang  
 **Email**: kontak@hkbpperawang.org  
 **Subject**: "Security Issue - [Brief Description]"  
-**WhatsApp**: +1 (220) 222-4575 (untuk issues non-
-
-urgent)
+**WhatsApp**: +62 815 3220 0181 (untuk issues non-urgent)
 
 **Alamat**: Jl. Gajah Tunggal, Tualang, Kec. Tualang, Kabupaten Siak, Riau 28772  
 **Website**: https://www.hkbpperawang.org

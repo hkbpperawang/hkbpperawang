@@ -1,6 +1,6 @@
 # PEDOMAN KONTEN APLIKASI HKBP PERAWANG
 
-**Terakhir diperbarui: 25 November 2025**
+*Terakhir diperbarui: 20 Oktober 2026*
 
 ---
 
@@ -104,22 +104,22 @@ Konten dapat ditulis dalam bahasa:
 Konten berikut **TIDAK AKAN** dipublikasikan:
 
 ### 4.1. Konten yang Melanggar Ajaran Kristen
-❌ Konten yang bertentangan dengan Alkitab
-❌ Ajaran yang menyesatkan atau sesat (heresy)
-❌ Konten yang mempromosikan praktik okultisme, mistisisme non-Kristen, atau kepercayaan bertentangan dengan iman Kristen
+❌ Konten yang bertentangan dengan Alkitab<br/>
+❌ Ajaran yang menyesatkan atau sesat (heresy)<br/>
+❌ Konten yang mempromosikan praktik okultisme, mistisisme non-Kristen, atau kepercayaan bertentangan dengan iman Kristen<br/>
 ❌ Konten yang meragukan kebenaran Alkitab atau keilahian Yesus Kristus
 
 ### 4.2. Konten yang Tidak Pantas
-❌ Konten pornografi, cabul, atau tidak senonoh
-❌ Bahasa kasar, profanity, atau kata-kata kotor
-❌ Kekerasan grafis atau menggambarkan kekejaman
-❌ Konten yang mengandung SARA (diskriminasi berdasarkan suku, agama, ras, atau golongan)
+❌ Konten pornografi, cabul, atau tidak senonoh<br/>
+❌ Bahasa kasar, profanity, atau kata-kata kotor<br/>
+❌ Kekerasan grafis atau menggambarkan kekejaman<br/>
+❌ Konten yang mengandung SARA (diskriminasi berdasarkan suku, agama, ras, atau golongan)<br/>
 ❌ Ujaran kebencian (hate speech) dalam bentuk apapun
 
 ### 4.3. Konten yang Menyinggung Pihak Lain
-❌ **Konten yang menyinggung atau menghina denominasi Kristen lain** (Katolik, Protestan, Pentakosta, dll)
-❌ Konten yang memfitnah, mencemarkan nama baik, atau merugikan individu/kelompok tertentu
-❌ Konten yang merendahkan, menghakimi, atau mengutuk kelompok tertentu
+❌ **Konten yang menyinggung atau menghina denominasi Kristen lain** (Katolik, Protestan, Pentakosta, dll)<br/>
+❌ Konten yang memfitnah, mencemarkan nama baik, atau merugikan individu/kelompok tertentu<br/>
+❌ Konten yang merendahkan, menghakimi, atau mengutuk kelompok tertentu<br/>
 ❌ Perbandingan denominasi dengan nada superioritas atau meremehkan
 
 ### 4.4. Konten Politik (dengan Batasan)
@@ -136,23 +136,23 @@ Konten berikut **TIDAK AKAN** dipublikasikan:
    - Tidak ada kaitan dengan pengajaran Alkitab
 
 ### 4.5. Konten Komersial
-❌ Promosi produk atau jasa komersial
-❌ Iklan atau endorsement berbayar
-❌ Multi-level marketing (MLM) atau skema piramida
-❌ Link afiliasi atau referral untuk keuntungan pribadi
+❌ Promosi produk atau jasa komersial<br/>
+❌ Iklan atau endorsement berbayar<br/>
+❌ Multi-level marketing (MLM) atau skema piramida<br/>
+❌ Link afiliasi atau referral untuk keuntungan pribadi<br/>
 ❌ Penggalangan dana tanpa persetujuan gereja
 
 **Pengecualian**: Promosi buku Kristen, musik rohani, atau acara pelayanan dapat dipertimbangkan dengan persetujuan Admin
 
 ### 4.6. Konten Curang atau Menyesatkan
-❌ Plagiarisme (menjiplak karya orang lain tanpa atribusi)
-❌ Berita palsu (hoax) atau disinformasi
-❌ Clickbait atau judul yang menyesatkan
+❌ Plagiarisme (menjiplak karya orang lain tanpa atribusi)<br/>
+❌ Berita palsu (hoax) atau disinformasi<br/>
+❌ Clickbait atau judul yang menyesatkan<br/>
 ❌ Konten yang meniru atau berpura-pura menjadi tokoh/institusi tertentu
 
 ### 4.7. Konten Ilegal
-❌ Konten yang melanggar hukum Indonesia
-❌ Konten yang melanggar hak cipta atau kekayaan intelektual
+❌ Konten yang melanggar hukum Indonesia<br/>
+❌ Konten yang melanggar hak cipta atau kekayaan intelektual<br/>
 ❌ Konten yang mempromosikan aktivitas ilegal
 
 ---
@@ -162,7 +162,7 @@ Konten berikut **TIDAK AKAN** dipublikasikan:
 ### 5.1. Cara Mengajukan Konten
 Jemaat dapat mengajukan konten melalui:
 1. **Email**: kontak@hkbpperawang.org
-2. **WhatsApp**: +1 (220) 222-4575
+2. **WhatsApp**: +62 815 3220 0181
 3. **Formulir Online** (jika tersedia di website)
 
 ### 5.2. Format Pengajuan
@@ -257,7 +257,7 @@ Gereja HKBP Perawang berhak untuk:
 ### 9.1. Cara Melaporkan
 Jika Anda menemukan konten yang melanggar pedoman, silakan laporkan melalui:
 - **Email**: kontak@hkbpperawang.org atau copyright@hkbpperawang.org
-- **WhatsApp**: +1 (220) 222-4575
+- **WhatsApp**: +62 815 3220 0181
 - **Formulir Laporan** (jika tersedia)
 
 ### 9.2. Informasi yang Diperlukan
@@ -310,7 +310,7 @@ Perubahan akan diberitahukan melalui:
 Jika Anda memiliki pertanyaan tentang Pedoman Konten ini, silakan hubungi:
 
 - **Email**: kontak@hkbpperawang.org
-- **WhatsApp**: +1 (220) 222-4575
+- **WhatsApp**: +62 815 3220 0181
 - **Alamat**: Jl. Gajah Tunggal, Tualang, Kec. Tualang, Kabupaten Siak, Riau 28772
 - **Website**: https://www.hkbpperawang.org
 

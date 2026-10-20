@@ -1,7 +1,7 @@
 # LISENSI OPEN SOURCE
 ## APLIKASI HKBP PERAWANG
 
-**Terakhir diperbarui: 25 November 2025**
+*Terakhir diperbarui: 20 Oktober 2026*
 
 ---
 

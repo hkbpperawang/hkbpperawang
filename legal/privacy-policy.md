@@ -1,7 +1,7 @@
 # KEBIJAKAN PRIVASI
 ## HKBP PERAWANG - WEBSITE & APLIKASI MOBILE
 
-**Terakhir diperbarui: 25 November 2025**
+*Terakhir diperbarui: 20 Oktober 2026*
 
 ---
 
@@ -388,4 +388,4 @@ Untuk informasi lengkap tentang privasi dan keamanan data Anda, silakan baca jug
 
 ---
 
-**© 2021 - 2025 Gereja HKBP Perawang. All Rights Reserved.**
+**© 2025 Gereja HKBP Perawang. All Rights Reserved.**

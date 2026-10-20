@@ -1,7 +1,7 @@
 # KEBIJAKAN RETENSI DATA
 ## APLIKASI HKBP PERAWANG
 
-**Terakhir diperbarui: 25 November 2025**
+*Terakhir diperbarui: 20 Oktober 2026*
 
 ---
 
@@ -157,9 +157,9 @@ Anda dapat meminta penghapusan data melalui:
 ### 4.3. Data yang Tidak Dapat Dihapus
 Beberapa data **tidak dapat dihapus** karena alasan legal, arsip, atau operasional:
 
-❌ **Warta dan dokumen resmi gereja** (arsip permanen)  
-❌ **Data transaksi atau log audit** (required by law)  
-❌ **Data yang sudah di-anonimkan** (tidak lagi identifiable)  
+❌ **Warta dan dokumen resmi gereja** (arsip permanen)<br/>
+❌ **Data transaksi atau log audit** (required by law)<br/>
+❌ **Data yang sudah di-anonimkan** (tidak lagi identifiable)<br/>
 ❌ **Backup arsip tahunan** (sampai periode retensi backup selesai)
 
 Namun, kami dapat **meng-anonimkan** data Anda sehingga tidak lagi dapat diidentifikasi.

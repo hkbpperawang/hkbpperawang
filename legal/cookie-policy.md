@@ -1,6 +1,6 @@
 # KEBIJAKAN COOKIE APLIKASI HKBP PERAWANG
 
-**Terakhir diperbarui: 25 November 2025**
+**Terakhir diperbarui: 26 Oktober 2026**
 
 ---
 
@@ -301,7 +301,7 @@ Website kami ramah untuk semua usia, termasuk anak-anak. Namun:
 Jika Anda memiliki pertanyaan tentang Kebijakan Cookie ini, silakan hubungi:
 
 - **Email**: kontak@hkbpperawang.org
-- **WhatsApp**: +1 (220) 222-4575
+- **WhatsApp**: +62 815 3220 0181
 - **Alamat**: Jl. Gajah Tunggal, Tualang, Kec. Tualang, Kabupaten Siak, Riau 28772
 - **Website**: https://www.hkbpperawang.org
 

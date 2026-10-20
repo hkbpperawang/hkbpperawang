@@ -1,7 +1,7 @@
 # KEBIJAKAN HAK CIPTA DAN DMCA
 ## APLIKASI HKBP PERAWANG
 
-**Terakhir diperbarui: 25 November 2025**
+*Terakhir diperbarui: 20 Oktober 2026*
 
 ---
 
@@ -47,19 +47,19 @@ Beberapa konten dalam aplikasi berasal dari pihak ketiga (misalnya kutipan buku,
 ### 3.1. Lisensi untuk Pengguna Aplikasi
 Dengan menggunakan aplikasi ini, Gereja HKBP Perawang memberikan Anda **lisensi terbatas, non-eksklusif, tidak dapat dialihkan** untuk:
 
-✅ **Mengakses dan melihat** konten dalam aplikasi untuk penggunaan pribadi dan non-komersial
-✅ **Mengunduh dokumen PDF** (warta, jadwal) untuk penggunaan pribadi
-✅ **Membagikan link** ke konten aplikasi atau website
+✅ **Mengakses dan melihat** konten dalam aplikasi untuk penggunaan pribadi dan non-komersial<br/>
+✅ **Mengunduh dokumen PDF** (warta, jadwal) untuk penggunaan pribadi<br/>
+✅ **Membagikan link** ke konten aplikasi atau website<br/>
 ✅ **Mengutip konten** dengan mencantumkan sumber yang jelas
 
 ### 3.2. Batasan Penggunaan
 Anda **TIDAK DIIZINKAN** untuk:
 
-❌ Menjual, melisensikan, atau mengomersilkan konten tanpa izin tertulis
-❌ Memodifikasi, mengubah, atau membuat karya turunan dari konten
-❌ Menghapus atribusi hak cipta atau watermark
-❌ Menggunakan konten untuk tujuan yang melanggar hukum atau merugikan
-❌ Scraping, data mining, atau crawling konten secara otomatis dalam jumlah besar
+❌ Menjual, melisensikan, atau mengomersilkan konten tanpa izin tertulis<br/>
+❌ Memodifikasi, mengubah, atau membuat karya turunan dari konten<br/>
+❌ Menghapus atribusi hak cipta atau watermark<br/>
+❌ Menggunakan konten untuk tujuan yang melanggar hukum atau merugikan<br/>
+❌ Scraping, data mining, atau crawling konten secara otomatis dalam jumlah besar<br/>
 ❌ Reverse engineering, decompile, atau disassemble aplikasi
 
 ---
@@ -79,7 +79,7 @@ Dalam kondisi tertentu, penggunaan konten berhak cipta tanpa izin dapat diperbol
 ### 4.2. Meminta Izin
 Untuk menggunakan konten di luar fair use, silakan kirim permintaan izin ke:
 - **Email**: copyright@hkbpperawang.org atau kontak@hkbpperawang.org
-- **WhatsApp**: +1 (220) 222-4575
+- **WhatsApp**: +62 815 3220 0181
 
 Sertakan informasi berikut:
 - Konten yang ingin digunakan (link atau deskripsi)
@@ -102,7 +102,7 @@ Jika Anda yakin bahwa konten dalam aplikasi kami melanggar hak cipta Anda, Anda 
 Kirimkan pemberitahuan tertulis ke:
 
 **Email**: copyright@hkbpperawang.org atau kontak@hkbpperawang.org  
-**WhatsApp**: +1 (220) 222-4575  
+**WhatsApp**: +62 815 3220 0181  
 **Subjek Email**: "DMCA Takedown Notice - [Nama Konten]"
 
 ### 5.3. Informasi yang Harus Disertakan
@@ -243,7 +243,7 @@ Untuk semua pertanyaan terkait hak cipta, silakan hubungi:
 
 **Copyright Agent**: Tim Multimedia HKBP Perawang  
 **Email**: copyright@hkbpperawang.org atau kontak@hkbpperawang.org  
-**WhatsApp**: +1 (220) 222-4575  
+**WhatsApp**: +62 815 3220 0181  
 **Alamat**: Jl. Gajah Tunggal, Tualang, Kec. Tualang, Kabupaten Siak, Riau 28772, Indonesia  
 **Website**: https://www.hkbpperawang.org
 

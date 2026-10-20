@@ -1,6 +1,6 @@
 # KETENTUAN PENGGUNAAN APLIKASI HKBP PERAWANG
 
-**Terakhir diperbarui: 25 November 2025**
+*Terakhir diperbarui: 20 Oktober 2026*
 
 ---
 
@@ -354,7 +354,7 @@ Jika Anda memiliki pertanyaan, masukan, atau keluhan mengenai Ketentuan Pengguna
 ### Informasi Kontak:
 - **Nama Gereja**: HKBP Perawang
 - **Email**: kontak@hkbpperawang.org
-- **Telepon/WhatsApp**: +1 (220) 222-4575
+- **Telepon/WhatsApp**: +62 815 3220 0181
 - **Alamat**: Jl. Gajah Tunggal, Tualang, Kec. Tualang, Kabupaten Siak, Riau 28772, Indonesia
 - **Website**: https://www.hkbpperawang.org
 - **Tim Multimedia**: Tim Multimedia HKBP Perawang

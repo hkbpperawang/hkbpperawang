@@ -1,7 +1,7 @@
 # PERNYATAAN AKSESIBILITAS
 ## APLIKASI HKBP PERAWANG
 
-**Terakhir diperbarui: 25 November 2025**
+*Terakhir diperbarui: 20 Oktober 2026*
 
 ---
 
@@ -121,7 +121,7 @@ Jika Anda memerlukan akomodasi aksesibilitas khusus yang tidak tersedia saat ini
 
 - **Email**: kontak@hkbpperawang.org
 - **Subject**: "Accessibility Accommodation Request"
-- **WhatsApp**: +1 (220) 222-4575
+- **WhatsApp**: +62815 3220 0181
 
 **Informasi yang Diperlukan**:
 1. Jenis disabilitas atau kebutuhan aksesibilitas
@@ -143,7 +143,7 @@ Jika Anda mengalami kesulitan mengakses bagian aplikasi karena masalah aksesibil
 
 - **Email**: kontak@hkbpperawang.org
 - **Subject**: "Accessibility Issue - [Brief Description]"
-- **WhatsApp**: +1 (220) 222-4575
+- **WhatsApp**: +62815 3220 0181
 - **Fitur Feedback**: Menu Pengaturan → Kirim Feedback
 
 **Informasi yang Membantu**:
@@ -191,39 +191,16 @@ Kami mendorong jemaat yang membuat konten untuk:
 
 ---
 
-## 10. ROADMAP AKSESIBILITAS
 
-### **Q1 2026**
-- [ ] Font scaling untuk seluruh aplikasi
-- [ ] Keyboard navigation untuk web version
-- [ ] Improved color contrast
+## 10. SUMBER DAYA AKSESIBILITAS
 
-### **Q2 2026**
-- [ ] Screen reader full support (TalkBack & VoiceOver)
-- [ ] High contrast mode
-- [ ] Semantic HTML untuk web version
-
-### **Q3 2026**
-- [ ] Video captions
-- [ ] Switch access support
-- [ ] Accessibility audit dengan external experts
-
-### **Q4 2026**
-- [ ] WCAG 2.1 Level AA certification
-- [ ] User testing dengan focus group penyandang disabilitas
-- [ ] Comprehensive accessibility documentation
-
----
-
-## 11. SUMBER DAYA AKSESIBILITAS
-
-### 11.1. Panduan Pengguna
+### 10.1. Panduan Pengguna
 Kami sedang mengembangkan panduan khusus untuk pengguna dengan disabilitas, yang akan mencakup:
 - Cara mengaktifkan fitur aksesibilitas
 - Tutorial menggunakan aplikasi dengan screen reader
 - Tips dan tricks untuk pengalaman yang lebih baik
 
-### 11.2. Referensi Eksternal
+### 10.2. Referensi Eksternal
 Untuk informasi lebih lanjut tentang aksesibilitas:
 - **W3C WCAG**: https://www.w3.org/WAI/WCAG21/quickref/
 - **Android Accessibility**: https://developer.android.com/guide/topics/ui/accessibility
@@ -231,24 +208,21 @@ Untuk informasi lebih lanjut tentang aksesibilitas:
 
 ---
 
-## 12. KONTAK
+## 11. KONTAK
 
 Untuk semua pertanyaan terkait aksesibilitas:
 
 **Accessibility Coordinator**: Tim Multimedia HKBP Perawang  
 **Email**: kontak@hkbpperawang.org  
-**WhatsApp**: +1 (220) 222-4575  
+**WhatsApp**: +62 815 3220 0181  
 **Alamat**: Jl. Gajah Tunggal, Tualang, Kec. Tualang, Kabupaten Siak, Riau 28772  
 **Website**: https://www.hkbpperawang.org
 
 ---
 
-## 13. PERUBAHAN PERNYATAAN
+## 12. PERUBAHAN PERNYATAAN
 
 Pernyataan Aksesibilitas ini akan diperbarui secara berkala untuk mencerminkan peningkatan fitur aksesibilitas dan compliance dengan standar.
-
-**Terakhir diperbarui**: 25 November 2025  
-**Tinjauan Berikutnya**: 25 Mei 2026
 
 ---
 
