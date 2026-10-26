@@ -17,7 +17,7 @@ Selamat datang di repositori resmi **Aplikasi HKBP Perawang**! Ini adalah aplika
 </p>
 
 <p align="center">
-  <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://aplikasi.hkbpperawang.org/badge/Google%20Play/GetItOnGooglePlay_Badge_Web_color_Indonesian.png" alt="Dapatkan di Google Play" width="200"/></a>
+  <a href="https://play.google.com/store/apps/details?id=org.hkbpperawang.app"><img src="https://aplikasi.hkbpperawang.org/assets/badges/Google%20Play/GetItOnGooglePlay_Badge_Web_color_Indonesian.png" alt="Dapatkan di Google Play" width="200"/></a>
 </p>
 
 <p align="center">
