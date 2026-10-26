@@ -987,7 +987,19 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.14.14 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.14.18 ✨ (Terbaru) - 2026-10-27</strong></summary>
+
+### 🔒 Keamanan & Sistem Rilis
+
+- **Perlindungan Data Konfigurasi:** Menghapus berkas konfigurasi mentah dari paket instalasi aplikasi (`.aab` dan `.apk`) agar kunci akses internal tidak dapat dibaca oleh pihak luar.
+- **Enkripsi Konfigurasi Otomatis:** Menyematkan pengaturan sistem langsung ke dalam kode kompilasi aplikasi secara otomatis saat proses pembuatan versi rilis.
+- **Standarisasi Tanda Tangan Digital:** Menyelaraskan pengaturan sertifikat keamanan aplikasi (*keystore*) agar hasil pembuatan aplikasi selalu konsisten dan terverifikasi.
+- **Pembaruan Modul Layanan:** Meningkatkan cara aplikasi membaca konfigurasi keamanan, layanan gambar, dan notifikasi agar lebih aman di versi rilis namun tetap fleksibel saat pengembangan.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.14</strong></summary>
 
 ### 🚀 Peningkatan Kinerja & Mode Offline
 
