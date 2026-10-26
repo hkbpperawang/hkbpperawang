@@ -12,7 +12,29 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.14.15 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.14.17 ✨ (Terbaru)</strong></summary>
+
+### 🔒 Peningkatan Keamanan & Privasi
+- Perlindungan Jaringan Lebih Ketat: Membatasi izin koneksi jaringan hanya ke sumber resmi untuk mencegah akses tidak sah dari luar.
+- Keamanan Layanan Data: Meningkatkan metode penyimpanan kunci akses internal (khususnya pada layanan data Nyanyian) agar lebih terlindungi.
+- Dukungan Perangkat Lebih Luas: Menyesuaikan sistem verifikasi keamanan (App Check) agar aplikasi tetap berjalan lancar di berbagai jenis perangkat Android dan emulator.
+
+### 🚀 Peningkatan Kecepatan & Performa
+- Pembersihan Cache PDF Lebih Cepat: Mengoptimalkan proses penghapusan file PDF sementara dan data pengaturan secara paralel, sehingga tidak membuat aplikasi melambat.
+- Perhitungan Penyimpanan Instan: Mempercepat proses pengecekan ukuran cache saat Anda membuka menu manajemen penyimpanan.
+- Proses Login Lebih Responsif: Mengoptimalkan pencarian akun dan pembuatan identitas unik sistem agar waktu tunggu saat masuk ke aplikasi menjadi lebih singkat.
+
+### 🛠 Perbaikan Masalah & Stabilitas (Anti-Crash)
+- Perbaikan Layar Pembaca PDF: Mengatasi masalah aplikasi yang terkadang keluar sendiri (force close) jika pengguna menekan tombol kembali (back) terlalu cepat saat dokumen PDF Warta/aturan sedang dimuat.
+- Sinkronisasi Latar Belakang Lebih Stabil: Memperbaiki kendala izin akses saat aplikasi memperbarui data di latar belakang, serta meningkatkan stabilitas halaman Jadwal Ibadah, Jadwal PA, dan Sermon.
+- Manajemen File Anti-Bentrok: Mencegah error ketika beberapa fitur aplikasi membersihkan atau memperbarui file cache yang sama secara bersamaan.
+- Tangguh Saat Sinyal Lemah: Meningkatkan cara aplikasi menangani unduhan file dan PDF yang terputus akibat koneksi internet tidak stabil atau saat offline.
+- Optimalisasi Notifikasi & Sistem: Menyempurnakan proses pendaftaran notifikasi saat aplikasi baru dibuka serta meningkatkan akurasi pencatatan sistem diagnostik aplikasi.
+
+</details/>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.15</strong></summary>
 
 ### 🚀 Peningkatan Kinerja & Mode Offline
 - Tetap Lancar Tanpa Internet: Saat sinyal tidak stabil atau tanpa kuota, halaman Jadwal Ibadah, daftar Tim, dan Stiker akan otomatis menampilkan data yang sudah tersimpan tanpa memunculkan pesan error.
