@@ -115,16 +115,42 @@ flowchart LR
 
 ## 5. Etika Berkontribusi
 
-Setiap kontributor wajib menghormati dan mematuhi [Kode Etik (CODE_OF_CONDUCT.md)](CODE_OF_CONDUCT.md) serta [Pedoman Konten (legal/content-guidelines.md)](https://aplikasi.hkbpperawang.org/legal/content-guidelines) yang berlaku di lingkungan HKBP Perawang.
+Setiap kontributor wajib menghormati dan mematuhi [Kode Etik (CODE_OF_CONDUCT.md)](CODE_OF_CONDUCT.md) serta [Pedoman Konten (legal/content-guidelines.md)](legal/content-guidelines.md) yang berlaku di lingkungan HKBP Perawang.
 
 ---
 
-## 6. Referensi Dokumen Legal
+## 6. Apresiasi Kontributor Awal & Tim Beta Tester (Pondasi Peluncuran Google Play)
+
+Kehadiran dan keberhasilan publikasi resmi Aplikasi HKBP Perawang di Google Play Store tidak lepas dari dedikasi dan dukungan luar biasa dari para kontributor awal. Kami memberikan apresiasi dan rasa terima kasih yang mendalam kepada **17 Kontributor Pertama & Tim Penguji (Beta Tester)** yang telah mendedikasikan waktu dalam uji coba intensif, pelaporan kendala, optimalisasi performa, serta memenuhi seluruh kriteria pengujian hingga aplikasi resmi diterima dan disetujui oleh Google:
+
+1. **Jepriadi Siahaan**
+2. **Desy Simanjuntak**
+3. **Michael Simamora**
+4. **Edi Siahaan**
+5. **Tasya Sitindaon**
+6. **Febri Silaban**
+7. **Indra Gultom**
+8. **Jonathan Munte**
+9. **Marvel Sitompul**
+10. **Michael Simamora**
+11. **Ricky Marbun**
+12. **Riko Siagian**
+13. **Ruth Manullang**
+14. **Rejeki Sidebang**
+15. **Alboin Silalahi**
+16. **Marlin Situmorang**
+17. **Sanmay Simanullang**
+
+Sebagai pendukung utama fondasi awal berdirinya aplikasi ini, peran mereka menjadi bagian tak terpisahkan dari sejarah digitalisasi pelayanan di Gereja HKBP Perawang.
+
+---
+
+## 7. Referensi Dokumen Legal
 
 - [Lisensi Proprietary Proyek](LICENSE)
-- [Kebijakan Hak Cipta & DMCA](https://aplikasi.hkbpperawang.org/legal/copyright-policy)
-- [Kebijakan Keamanan](SECURITY.md) & [Security Policy](https://aplikasi.hkbpperawang.org/legal/security-policy)
-- [Ketentuan Penggunaan](https://aplikasi.hkbpperawang.org/legal/terms-of-use)
+- [Kebijakan Hak Cipta & DMCA](legal/copyright-policy.md)
+- [Kebijakan Keamanan](SECURITY.md) & [legal/security-policy.md](legal/security-policy.md)
+- [Ketentuan Penggunaan](legal/terms-of-use.md)
 
 ---
 
