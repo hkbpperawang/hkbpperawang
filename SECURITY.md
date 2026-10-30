@@ -2,7 +2,7 @@
 
 Keamanan data, privasi jemaat, dan integritas sistem informasi HKBP Perawang adalah prioritas utama kami. Dokumen ini menjelaskan kebijakan pelaporan kerentanan (*responsible disclosure*), cakupan versi yang didukung, serta prosedur penanganan insiden keamanan.
 
-Kebijakan lengkap dapat dibaca pada dokumen resmi [**legal/security-policy.md**](https://aplikasi.hkbpperawang.org/legal/security-policy).
+Kebijakan lengkap dapat dibaca pada dokumen resmi [**security policy**](https://aplikasi.hkbpperawang.org/legal/security-policy).
 
 ---
 
