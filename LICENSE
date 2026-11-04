@@ -1,21 +1,151 @@
-MIT License
+ENGLISH:
+==============================================================================
+                         PROPRIETARY SOFTWARE LICENSE
+                             ALL RIGHTS RESERVED
+                     (ENGLISH TRANSLATION / VERSI INGGRIS)
+==============================================================================
 
-Copyright (c) 2026 HKBP Perawang
+Project: hkbp_perawang
+Technologies: Flutter, Dart, Kotlin, Swift
+Author / Principal Architect: Hendric Simarmata (Initiator & Lead Developer)
+Co-Authors / Contributors: HKBP Perawang Multimedia Team (Technical Contributors)
+Designated Licensee / Beneficiary: Gereja HKBP Perawang
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Copyright (c) 2024-2026 Hendric Simarmata & HKBP Perawang Multimedia Team.
+All rights reserved. Complete copyright of the source code, architecture, and
+underlying intellectual property is retained by the Original Author (Creator).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Dedicated and Licensed for Official Operational Use to:
+Gereja HKBP Perawang Ressort Perawang
+Website: https://www.hkbpperawang.org/
+Portal : https://aplikasi.hkbpperawang.org/
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+==============================================================================
+OWNERSHIP NOTICE AND TERMS OF USE:
+
+1. COPYRIGHT OWNERSHIP AND OPERATIONAL LICENSE GRANT
+   a. All software code, database structures, business logic, user interface
+      designs, and software architecture within this repository are the exclusive
+      intellectual property of the Original Author (Hendric Simarmata) together
+      with the HKBP Perawang Multimedia Team, and are protected under the Copyright
+      Law of the Republic of Indonesia (Law No. 28 of 2014) as well as international
+      treaties (Berne Convention).
+   b. The Author grants an exclusive, non-transferable, voluntary operational
+      license to Gereja HKBP Perawang for ministry, congregational services, and
+      church operational activities. This license DOES NOT constitute an assignment,
+      sale, or transfer of the underlying source code copyright from the Author
+      to any entity or third party.
+   c. This software is PROPRIETARY and CLOSED-SOURCE (NON-FREE SOFTWARE).
+   d. This software is an independent initiative and intellectual creation of the
+      Original Author (Hendric Simarmata) conceived prior to the establishment of
+      the Multimedia Team. Contributions by Multimedia Team members or third parties
+      constitute technical/voluntary assistance and do not transfer, dilute, or
+      diminish the primary copyright held by the Original Author.
+
+2. CONTRIBUTIONS AND FURTHER DEVELOPMENT
+   a. Any proposed contributions, including feature additions, bug fixes,
+      optimizations, derivative modifications, or Pull Requests (PRs), MUST be
+      formally reviewed and approved by the Lead Developer prior to merging
+      into production branches.
+   b. Any voluntary contributor acknowledges and agrees that all integrated code
+      remains governed by the terms of this license and does not invalidate,
+      diminish, or transfer the primary authorship and architectural ownership
+      held by the Original Author.
+
+3. RESTRICTIONS
+   Except as explicitly authorized in writing by the Principal Copyright Holder,
+   all parties are STRICTLY PROHIBITED from:
+   a. Selling, sublicensing, leasing, renting, distributing, or commercially
+      exploiting the source code, compiled binaries, or assets outside official
+      church ministry purposes.
+   b. Falsely claiming authorship, ownership, or exclusive rights (whether in
+      whole or in part) over the software.
+   c. Republishing, redistributing, or mirroring this source code as a public
+      open-source repository without prior written consent from the Lead Developer.
+   d. Removing, altering, obscuring
+
+INDONESIA:
+
+==============================================================================
+                         PROPRIETARY SOFTWARE LICENSE
+                             ALL RIGHTS RESERVED
+==============================================================================
+
+Project: hkbp_perawang
+Technologies: Flutter, Dart, Kotlin, Swift
+Author / Principal Architect: Hendric Simarmata (Inisiator & Lead Developer)
+Co-Authors / Kontributor: Tim Multimedia HKBP Perawang (Kontributor Teknis)
+Designated Licensee / Beneficiary: Gereja HKBP Perawang
+
+Copyright (c) 2024-2026 Hendric Simarmata & Tim Multimedia HKBP Perawang.
+Hak Cipta dilindungi undang-undang. Seluruh hak cipta kode sumber dan arsitektur
+dimiliki oleh Pengembang Asli (Pencipta).
+
+Didedikasikan dan Dilisensikan untuk Penggunaan Resmi:
+Gereja HKBP Perawang Ressort Perawang
+Website: https://www.hkbpperawang.org/
+Portal : https://aplikasi.hkbpperawang.org/
+
+==============================================================================
+PEMBERITAHUAN KEPEMILIKAN DAN SYARAT KETENTUAN PENGGUNAAN:
+
+1. KEPEMILIKAN HAK CIPTA DAN PEMBERIAN LISENSI OPERASIONAL
+   a. Seluruh kode program, struktur data, logika bisnis, dan arsitektur aplikasi
+      di dalam repositori ini merupakan karya intelektual dari Pengembang Asli
+      (Hendric Simarmata) bersama Tim Multimedia HKBP Perawang, dan dilindungi di
+      bawah Undang-Undang Hak Cipta Republik Indonesia (UU No. 28 Tahun 2014)
+      serta traktat internasional (Konvensi Bern).
+   b. Pencipta memberikan hak eksklusif penggunaan operasional, penayangan, dan
+      pemanfaatan aplikasi ini secara sukarela kepada Gereja HKBP Perawang untuk
+      pelayanan jemaat. Lisensi ini TIDAK mengalihkan kepemilikan hak cipta kode
+      sumber dari Pencipta kepada pihak manapun.
+   c. Perangkat lunak ini BUKAN perangkat lunak bebas atau sumber terbuka
+      (PROPRIETARY / NON-FREE SOFTWARE).
+   d. Perangkat lunak ini merupakan inisiatif dan karya cipta mandiri dari
+      Pengembang Asli (Hendric Simarmata) sebelum pembentukan Tim Multimedia.
+      Keterlibatan anggota Tim Multimedia dan kontributor lainnya berstatus
+      sebagai bantuan teknis/sukarela (contributor) dan tidak mengalihkan atau
+      membatalkan status hak cipta dasar dari Pencipta Asli.
+
+2. KONTRIBUSI DAN PENGEMBANGAN LANJUTAN
+   a. Setiap kontribusi berupa penambahan fitur, perbaikan celah/bug, modifikasi,
+      maupun Pull Request (PR) dari kontributor lain WAJIB ditinjau dan disetujui
+      langsung oleh Pengembang Utama (Lead Developer) sebelum digabungkan ke
+      dalam branch utama (production).
+   b. Setiap pihak yang berkontribusi secara sukarela mengakui bahwa integrasi
+      kode ke dalam repositori ini tunduk pada lisensi ini dan tidak membatalkan
+      atau mencabut hak kepemilikan arsitektur utama oleh Pencipta.
+
+3. PEMBATASAN PENGGUNAAN (RESTRICTIONS)
+   Tanpa izin tertulis resmi dari Pemegang Hak Cipta Utama, pihak manapun
+   DILARANG KERAS untuk:
+   a. Menjual, menyewakan, meminjamkan, mendistribusikan ulang, atau mengeksploitasi
+      kode sumber maupun biner aplikasi ini untuk tujuan komersial maupun pribadi
+      di luar lingkup resmi pelayanan Gereja HKBP Perawang.
+   b. Mengklaim kepemilikan hak cipta (claim of authorship), baik sebagian
+      maupun keseluruhan, atas aplikasi ini.
+   c. Menerbitkan ulang kode sumber ini sebagai repositori open-source publik baru
+      tanpa persetujuan tertulis dari Pengembang Utama.
+   d. Menghapus, mengganti, atau mengaburkan atribusi hak cipta, nama pencipta,
+      atau tanda kepemilikan teknis yang tertera di dalam berkas kode program.
+   e. Melakukan reverse-engineering, decompilation, atau disassembly terhadap file
+      rilis aplikasi di luar batas wajar yang diatur peraturan perundang-undangan.
+
+4. PENYANGKALAN JAMINAN (DISCLAIMER OF WARRANTY)
+   PERANGKAT LUNAK INI DISEDIAKAN "SEBAGAIMANA ADANYA" (AS IS), TANPA JAMINAN
+   DALAM BENTUK APA PUN, BAIK TERSURAT MAUPUN TERSIRAT. DALAM KONDISI APA PUN,
+   PENCIPTA/PENGEMBANG TIDAK BERTANGGUNG JAWAB ATAS SEGALA BENTUK TUNTUTAN,
+   KERUGIAN LANGSUNG MAUPUN TIDAK LANGSUNG, ATAU KEWAJIBAN HUKUM LAINNYA YANG
+   TIMBUL DARI PEMANFAATAN ATAU KETIDAKMAMPUAN MENGGUNAKAN PERANGKAT LUNAK INI.
+
+==============================================================================
+KONTAK DAN ATRIBUSI:
+- Lead Developer  : dev@hkbpperawang.org
+- Tim Pelayanan   : support@hkbpperawang.org
+- Sekretariat     : kontak@hkbpperawang.org
+
+Alamat:
+Gereja HKBP Perawang Ressort Perawang
+Jl. Gajah Tunggal, Tualang, Kec. Tualang, Kab. Siak, Riau 28772, Indonesia
+Dokumen Kebijakan Lengkap: legal/copyright-policy.md
+==============================================================================
