@@ -987,7 +987,62 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.14.18 ✨ (Terbaru) - 2026-10-27</strong></summary>
+<summary><strong>Versi 2.14.21 ✨ (Terbaru) - 2026-11-04</strong></summary>
+
+## [2.14.21+114] - 2026-11-04
+
+### 🔒 Penguatan Keamanan Sistem
+* **Aturan Otorisasi Firestore (`firestore.rules` - SEC-03 & SEC-04):**
+  * Membatasi akses baca `/users/{userId}` khusus pemilik akun atau peran Admin guna mencegah kebocoran data profil (*PII enumeration*).
+  * Membatasi hak pembuatan notifikasi publik `/notifications/{docId}` hanya untuk peran Admin dan Editor.
+  * Menyelaraskan alur registrasi (`AuthService.signUp`) dengan mengunci peran default pengguna baru ke `viewer` untuk mencegah eskalasi hak akses mandiri.
+* **Otorisasi Notifikasi Siaran (`FCMService` - SEC-01):**
+  * Menambahkan validasi peran pengguna pada `_ensureAuthenticated()` untuk memastikan hanya Admin dan Editor yang dapat mengirim broadcast notifikasi FCM.
+* **Perlindungan Kredensial Media (`ImageKitService` - SEC-02):**
+  * Mematikan pencatatan header otentikasi pada `LogInterceptor` untuk mencegah tereksposnya kunci otentikasi di console log.
+  * Mengisolasi pencatatan log hanya pada mode *debug* (`kDebugMode`) dan memvalidasi ketersediaan `IMAGEKIT_PRIVATE_KEY` sebelum proses unggah dimulai.
+* **Integritas Request & Kriptografi (`SecureApiService` - SEC-06):**
+  * Meningkatkan pembuatan *header* `X-Request-Signature` menggunakan HMAC-SHA256 berotentikasi dengan fallback digest 64-karakter hex.
+* **Keamanan Hosting & Header Web (`firebase.json` - SEC-05):**
+  * Menambahkan *security headers* (`X-Frame-Options: DENY`, `X-Content-Type-Options: nosniff`, dan `Referrer-Policy: strict-origin-when-cross-origin`) untuk melindungi portal web dari potensi *clickjacking* dan *MIME-sniffing*.
+* **Guard Multiplatform (`SecurityManager` - SEC-07):**
+  * Membatasi pemanggilan Google Play Integrity API khusus untuk perangkat Android native non-web, mencegah crash `MissingPluginException` saat aplikasi dijalankan di platform Web atau Desktop.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.20 - 2026-10-27</strong></summary>
+
+### 🛠️ Fitur & Penataan Jadwal Ibadah
+- **Deduplikasi & Penataan Kategori:** Menyelaraskan kueri kueri `whereIn` pada `JadwalService` untuk menangani variasi penulisan nama kategori (huruf besar/kecil dan padding spasi), mencegah duplikasi dokumen atau jadwal tersembunyi.
+- **Konsistensi Slot & Urutan:** Mengoptimalkan pemetaan kode slot semantik (`buildSlotCodeMap`) dan cache lokal dokumen slot (`_categoryDocSlots`), memastikan urutan jadwal dan catatan kustom tetap konsisten di mode luring (*offline*).
+- **Pengamanan Form & Dialog:** Dialog tambah/edit/migrasi kategori kini berstatus non-dismissible saat proses penulisan berjalan (`isSubmitting`), mempertahankan input pengguna jika terjadi kendala jaringan.
+- **Widget Lifecycle:** Menambahkan `ValueKey` dan `didUpdateWidget` pada widget tabel jadwal (`JadwalIbadahTable`, `JadwalPATable`, `SermonParhalado`, dll.) untuk mencegah data usang (*stale data*) saat urutan kategori berubah dinamis.
+
+### 📇 Pembaruan & Ketahanan Modul Kontak
+- **Pencegahan Data Yatim & Transaksi Atomik:** Membungkus operasi tambah, rename, delete, dan seeding default kontak ke dalam `runTransaction` Firestore dengan verifikasi `categoryId` yang ketat.
+- **Konsistensi Cache Offline:** Memperbaiki `_reconcileKontakData` pada `kontak_screen.dart` agar cache lokal tidak tertimpa daftar kosong saat offline, serta mempertahankan status penghapusan data secara persisten.
+- **Proteksi UI & Dialog:** Menambahkan dialog konfirmasi sebelum reset kontak bawaan dan mencegah penutupan dialog secara tidak sengaja di tengah proses transaksi.
+- **Firestore Security Rules:** Menambahkan aturan akses baca dan tulis pada koleksi `kategori_kontak_claims`.
+
+### 🐛 Stabilitas & Penanganan Error (Crash Fixes)
+- **Cache Parsing:** Memperbaiki `TypeError: List<dynamic> is not a subtype of List<KontakCategory>` pada `_loadFromCache` dengan pengecekan tipe dan pemetaan aman `.whereType()`.
+- **Inisialisasi Firebase & Nyanyian:** Mencegah error `[core/no-app]` dan inisialisasi provider gagal dengan membuat akses Firestore bersifat malas (*lazy*) dan menambahkan proteksi `Firebase.apps.isEmpty`.
+- **Kompatibilitas Web:** Menambahkan proteksi `!kIsWeb` pada kompresi/dekompresi gzip `DataCacheManager` untuk mencegah `UnsupportedError` di browser.
+- **Crashlytics & Sentry:** 
+  - Membungkus pelaporan Crashlytics native dalam `try-catch` guna mencegah `IllegalStateException` merusak alur logging aplikasi.
+  - Menangani ketiadaan berkas `.env` secara anggun pada mode rilis produksi (karena menggunakan `--dart-define`).
+  - Menghapus logging duplikat palsu dan menyaring sinyal crash sintetis dari Google Play Robo Runner.
+
+### ⚙️ Sistem Build & Pengujian
+- **Gradle & Resource AGP 9.5+:** Mengeliminasi tabrakan simbol resource duplikat Crashlytics (`com.crashlytics...` vs `com_crashlytics...`) pada `strings.xml` dan `keep.xml`.
+- **Gradle Task:** Menambahkan penjagaan `onlyIf` pada `copyCustomNamedAab` agar hanya memindahkan AAB jika proses build rilis berhasil sempurna.
+- **Unit Tests:** Memperbarui cakupan uji regresi pada `test/unit/sentry_fixes_test.dart` untuk verifikasi pemetaan slot dan konsistensi kategori jadwal.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.18 - 2026-10-27</strong></summary>
 
 ### 🔒 Keamanan & Sistem Rilis
 
