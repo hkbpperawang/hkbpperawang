@@ -99,9 +99,9 @@ Aplikasi ini dibuat dan di kembangkan oleh Tim Digital HKBP Perawang Ressort Per
 
 ---
 
-## Beta Tester
+## Apresiasi Kontributor Awal & Tim Beta Tester (Pondasi Peluncuran Google Play)
 
-Terimakasih untuk semua Beta Tester yang turut berperan dalam pengoptimalan peforma dan awal aplikasi ini dibentuk
+Kehadiran dan keberhasilan publikasi resmi Aplikasi HKBP Perawang di Google Play Store tidak lepas dari dedikasi dan dukungan luar biasa dari para kontributor awal. Kami memberikan apresiasi dan rasa terima kasih yang mendalam kepada **17 Kontributor Pertama & Tim Penguji (Beta Tester)** yang telah mendedikasikan waktu dalam uji coba intensif, pelaporan kendala, optimalisasi performa, serta memenuhi seluruh kriteria pengujian hingga aplikasi resmi diterima dan disetujui oleh Google:
 
 1. Jepriadi Siahaan
 2. Desy Simanjuntak
@@ -116,10 +116,12 @@ Terimakasih untuk semua Beta Tester yang turut berperan dalam pengoptimalan pefo
 11. Ricky Marbun
 12. Riko Siagian
 13. Ruth Manullang
-14. Sidebang Fortune
+14. Rejeki Sidebang
 15. Alboin Silalahi
 16. Marlin Situmorang
 17. Sanmay Simanullang
+
+Sebagai pendukung utama fondasi awal berdirinya aplikasi ini, peran mereka menjadi bagian tak terpisahkan dari sejarah digitalisasi pelayanan di Gereja HKBP Perawang.
 
 --
 
