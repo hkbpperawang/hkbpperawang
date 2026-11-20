@@ -987,7 +987,170 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.14.21 ✨ (Terbaru) - 2026-11-04</strong></summary>
+<summary><strong>Versi 2.20.0+127 - ✨ (Terbaru) - 2026-11-20</strong></summary>
+
+### ✨ Fitur Baru
+- Warta Acara kini punya kategori utama dan sub-kategori yang tersusun rapi di bawah kategori induknya.
+- Warta yang aktif kini juga tampil di Blog, bisa difilter berdasarkan kategori, dicari, dan dibuka langsung sebagai PDF.
+
+### 🎨 Tampilan & Pengalaman Pengguna
+- Kartu warta tampil lebih ringkas, dengan tanggal ibadah yang jelas di bagian kiri kartu.
+
+### 🔒 Peningkatan Keamanan & Privasi
+- Admin kini bisa mengatur warta mana saja yang tampil di Blog, baik per kategori maupun per warta.
+- Pengaturan yang sudah disimpan admin tidak lagi hilang atau tertimpa saat sinkronisasi warta.
+
+### 🚀 Peningkatan Kecepatan & Performa
+- Daftar warta di Blog kini lebih stabil, tidak berkedip atau tiba-tiba hilang saat dimuat.
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Peringatan bahasa Indonesia yang muncul saat aplikasi pertama dibuka sudah diperbaiki.
+- Membuka aplikasi dari pintasan atau notifikasi kini tetap menampilkan header dan menu bawah, tanpa membuka halaman ganda.
+- Sinkronisasi warta sudah diperbaiki, kategori dan pengaturan lama tetap terjaga.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.19.1+126 - 2026-11-19</strong></summary>
+
+### ✨ Fitur Baru
+- Menu Warta Acara di dashboard kini lebih rapi, dengan sub-menu untuk semua warta dan untuk kategori.
+- Kategori warta kini bisa disinkronkan otomatis dari konten yang ada, dan admin bisa memilih mana kategori utama dan mana sub-kategori.
+
+### 🎨 Tampilan & Pengalaman Pengguna
+- Ikon pintasan di layar utama kini tampil lebih rapi dengan warna biru dan ukuran yang pas.
+- Label kategori di kartu warta kini lebih mudah dibedakan, kategori Bahasa Batak ditandai dengan warna merah.
+
+### 🔒 Peningkatan Keamanan & Privasi
+- Hanya admin dan editor yang bisa mengubah kategori Warta Acara.
+
+### 🚀 Peningkatan Kecepatan & Performa
+- Aplikasi kini lebih ringan dan lancar di ponsel spesifikasi rendah, tidak lagi sering macet saat memuat postingan.
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Memperbaiki aplikasi yang tiba-tiba menutup saat membuka Blog.
+- Perbaikan sinkronisasi kategori agar daftar kategori tidak hilang, tidak duplikat, dan namanya tetap benar.
+- Aplikasi kini bisa dipasang di lebih banyak perangkat Android.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.17.0+123 - 2026-11-19</strong></summary>
+
+### ✨ Fitur Baru
+- Kategori blog kini tersinkron otomatis dari artikel yang ada, dan jumlah artikel per kategori dihitung lebih akurat.
+- Admin kini bisa mengatur sendiri apakah sebuah kategori tampil di Blog, di Warta Acara, atau keduanya, tanpa perlu pembaruan aplikasi.
+- Tab kategori di Blog dan Warta Acara kini diperbarui otomatis saat admin mengubah pengaturan.
+
+### 🔒 Peningkatan Keamanan & Privasi
+- Pengaturan tampilan kategori yang sudah diatur admin tidak lagi tertimpa saat sinkronisasi.
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Perbaikan sinkronisasi kategori agar tidak ada kategori yang hilang atau muncul kosong saat jaringan bermasalah.
+- Perbaikan tampilan kategori agar tidak duplikat dan tetap sesuai dengan artikel aslinya.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.16.0+122 - 2026-11-18</strong></summary>
+
+### ✨ Fitur Baru
+- Galeri foto kini bisa dibuka sebagai tampilan geser, dengan tombol sebelum dan sesudah, penanda nomor foto, perbesar dengan cubit, dan deretan gambar kecil di bawah.
+- Mengetuk gambar di dalam artikel kini langsung membuka galeri dari gambar tersebut.
+- Info penulis artikel kini tampil di kartu tersendiri yang lebih jelas, lengkap dengan nama, peran, dan foto.
+- Judul banner Partangiangan kini mengikuti judul yang sudah diatur, termasuk saat dibagikan atau diunduh.
+- Warta Acara kini bisa disinkronkan dari sumber baru, lebih cepat diperbarui dan tidak duplikat.
+
+### 🎨 Tampilan & Pengalaman Pengguna
+- Tampilan galeri dipercantik dengan tombol navigasi di bawah foto, deretan gambar kecil, tombol bagikan, dan mode layar penuh saat foto diketuk.
+
+### 🔒 Peningkatan Keamanan & Privasi
+- Aplikasi disiapkan agar sumber konten tetap aman jika di masa depan dipindah ke akses privat.
+
+### 🚀 Peningkatan Kecepatan & Performa
+- Gambar kecil di galeri kini dimuat lebih hemat memori dan hanya saat dibutuhkan, sehingga galeri dengan banyak foto tetap ringan.
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Perbaikan saat membuka artikel galeri agar tidak tertahan di layar pemuatan.
+- Perbaikan pembacaan artikel agar teks dengan garis atau tabel tidak terpotong.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.15.3+121 - 2026-11-18</strong></summary>
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Penyesuaian internal pada panduan pengembangan agar lebih konsisten.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.15.2+120 - 2026-11-17</strong></summary>
+
+### 🎨 Tampilan & Pengalaman Pengguna
+- Pembaruan besar pada tampilan aplikasi ke versi terbaru, semua layar diperbarui agar tetap modern dan konsisten.
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Aplikasi tetap stabil dan kompatibel dengan versi terbaru, dan semua pengujian berhasil lulus.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.15.1+119 - 2026-11-17</strong></summary>
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Perbaikan kompatibilitas dengan versi terbaru agar tampilan tetap berjalan normal.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.15.0+118 - 2026-11-15</strong></summary>
+
+### 🚀 Peningkatan Kecepatan & Performa
+- Sumber artikel kini dipindah ke tempat baru, dan gambar artikel tampil dengan benar.
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Artikel yang disimpan ulang tidak lagi membuat duplikat, termasuk saat judulnya hanya berbeda tanda hubung atau spasi.
+- Kategori artikel kini terbaca lebih akurat.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.24+117 - 2026-11-15</strong></summary>
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Perbaikan pencocokan judul agar artikel yang diganti nama tidak membuat dokumen duplikat saat disimpan ulang.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.23+116 - 2026-11-13</strong></summary>
+
+### 🛠 Perbaikan Masalah & Stabilitas
+- Perbaikan error di versi web agar gambar dan konten tetap tampil normal.
+- Notifikasi tetap stabil saat perangkat sedang offline ketika aplikasi dibuka.
+- Gambar yang rusak dari internet tidak lagi menyebabkan error, dan hanya dicatat sebagai peringatan.
+- Perbaikan pemuatan data tim agar kegagalan jaringan sesaat tidak lagi dilaporkan sebagai error.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.22+115 - 2026-11-05</strong></summary>
+
+### 🔒 Peningkatan Keamanan & Privasi
+- Menutup celah akses data tanpa izin, hanya admin dan editor yang bisa mengubah konten.
+- Login dengan username kini lebih aman tanpa membuka data pengguna lain.
+- Tautan eksternal dan tampilan web di dalam aplikasi kini hanya menerima tautan yang aman.
+- Pemeriksaan keamanan perangkat diperkuat.
+- Akses file aplikasi di Android dibatasi hanya ke folder yang diperlukan.
+
+### 🚀 Peningkatan Kecepatan & Performa
+- Proses pembuatan aplikasi menjadi lebih bersih dan efisien.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.14.21 - 2026-11-04</strong></summary>
 
 ## [2.14.21+114] - 2026-11-04
 
