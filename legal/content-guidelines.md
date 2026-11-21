@@ -89,7 +89,7 @@ Semua konten yang diusulkan **HARUS** memenuhi kriteria berikut:
 Konten dapat ditulis dalam bahasa:
 - **Bahasa Indonesia** (prioritas utama)
 - **Bahasa Inggris**
-- **Bahasa Batak** (dengan transliterasi Latin)
+- **Bahasa Batak**
 
 ### 3.3. Panjang Konten
 - **Tidak ada batasan panjang minimum atau maksimum**
@@ -163,7 +163,7 @@ Konten berikut **TIDAK AKAN** dipublikasikan:
 Jemaat dapat mengajukan konten melalui:
 1. **Email**: kontak@hkbpperawang.org
 2. **WhatsApp**: +62 815 3220 0181
-3. **Formulir Online** (jika tersedia di website)
+3. **Facebook Messenger**: [m.me/HKBPPerawang](https://m.me/HKBPPerawang)
 
 ### 5.2. Format Pengajuan
 Saat mengajukan konten, harap sertakan:
@@ -258,7 +258,7 @@ Gereja HKBP Perawang berhak untuk:
 Jika Anda menemukan konten yang melanggar pedoman, silakan laporkan melalui:
 - **Email**: kontak@hkbpperawang.org atau copyright@hkbpperawang.org
 - **WhatsApp**: +62 815 3220 0181
-- **Formulir Laporan** (jika tersedia)
+- **Facebook Messenger**: [m.me/HKBPPerawang](https://m.me/HKBPPerawang)
 
 ### 9.2. Informasi yang Diperlukan
 Saat melaporkan, harap sertakan:
