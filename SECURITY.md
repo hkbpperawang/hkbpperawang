@@ -13,9 +13,8 @@ Pembaruan keamanan dan perbaikan kerentanan aktif disediakan untuk versi rilis s
 | Platform | Versi Didukung | Status Dukungan |
 | :--- | :--- | :--- |
 | **Android** | Versi rilis stabil terbaru (Play Store / APK resmi) | :white_check_mark: Didukung penuh |
-| **Web Portal** (`aplikasi.hkbpperawang.org` / `parhalado.hkbpperawang.org`) | Versi produksi aktif di server | :white_check_mark: Didukung penuh |
-| **Desktop / Lainnya** | Versi rilis terkini | :white_check_mark: Didukung penuh |
-| **Versi Legacy (< 6 bulan ke belakang)** | Versi lama | :x: Tidak didukung (disarankan segera memperbarui aplikasi) |
+| **Web Portal** (`www.hkbpperawang.org` / `hkbpperawang.org`) | Versi produksi aktif di server | :white_check_mark: Didukung penuh |
+| **Desktop / Lainnya** | Versi rilis terkini | :x: Belum merilis versi desktop dan ios |
 
 ---
 
