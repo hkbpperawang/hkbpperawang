@@ -49,9 +49,11 @@ Sebelum menulis atau mengubah kode, kontributor **wajib** mematuhi pedoman tekni
 - `build_runner` hanya diperbolehkan untuk generator **Hive CE TypeAdapters** (`hive_ce_generator`) dan mocks pengujian.
 
 ### Kebijakan Media & Penyimpanan Cloud
-- **Firebase Storage TIDAK DIGUNAKAN** (keterbatasan Spark plan / free tier).
+- **Firebase Storage TIDAK DIGUNAKAN**.
 - Semua unggahan media, foto profil, warta PDF, dan gambar **wajib menggunakan ImageKit (`ImageKitService` / `uploadBytes`)** atau Google Drive.
 - Dilarang mengunggah langsung ke Google Cloud Storage bucket atau mengonfigurasi CORS GCP.
+- Semua file Dokumen disinkronkan dengan Box dengan domain [hkbpperawang.account.box.com](https://hkbpperawang.account.box.com).
+- Amazon AWS Storage.
 
 ### Multiplatform & Kompatibilitas Web
 - Panggilan ke `FirebaseCrashlytics` dan `FlutterNativeSplash.preserve` **wajib dibungkus pengecekan `if (!kIsWeb)`** untuk menghindari runtime exception pada web.
