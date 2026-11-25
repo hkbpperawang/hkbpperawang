@@ -1034,7 +1034,7 @@ Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.25.0+138 - 2026-November-25</strong></summary>
+<summary><strong>Versi 2.25.0+138 - 2026-11-25</strong></summary>
 
 ### ✨ Fitur Baru
 - **Auto-cache latar belakang Warta Acara (`DrivePdfViewerScreen`, `PDFViewerService`):** Warta yang dibuka via WebView otomatis diunduh ke cache lokal setelah PDF tampil, dan tetap selesai walau pengguna kembali ke `WartaAcaraScreen`.
@@ -1058,7 +1058,7 @@ Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.24.3+137 - 2026-November-25</strong></summary>
+<summary><strong>Versi 2.24.3+137 - 2026-11-25</strong></summary>
 
 ### ✨ Fitur Baru
 - **Menu Pengaturan Tim (`Dashboard > Teams > Settings`):** URL foto profil default tim diatur global di Firestore `config/team_settings` lewat `TeamSettingsProvider` dan `TeamSettingsScreen`.
@@ -1080,7 +1080,7 @@ Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.24.2+136 - 2026-November-25</strong></summary>
+<summary><strong>Versi 2.24.2+136 - 2026-11-25</strong></summary>
 
 ### ✨ Fitur Baru
 - **Kategori tim dinamis via Firestore & Dashboard Admin (`CategoryTeam`, `TeamCategoryProvider`, `DynamicTeamPageSections`):** penambahan, pemindahan, pengurutan, penggantian gaya judul, dan penyembunyian kategori langsung berlaku tanpa mengubah kode aplikasi.
@@ -1101,7 +1101,7 @@ Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.24.1+135 - 2026-November-25</strong></summary>
+<summary><strong>Versi 2.24.1+135 - 2026-11-25</strong></summary>
 
 ### ✨ Fitur Baru
 - **Data real & aksi cepat Admin Dashboard (`HomeDashboard`):** seksi `"Ringkasan Data Pelayanan"` dan `"Aksi Cepat Parhalado"` (`Kelola Warta`, `Kirim Notifikasi`, `Jadwal Ibadah`, `Tambah Postingan`) dengan `RefreshIndicator`.
@@ -1122,7 +1122,7 @@ Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.24.0+134 - 2026-November-24</strong></summary>
+<summary><strong>Versi 2.24.0+134 - 2026-11-24</strong></summary>
 
 ### ✨ Fitur Baru
 - **Mode Gelap & Terang menyeluruh (`ThemeProvider`, `AppTheme`, `AppColorTokens`):** 3 mode (`ThemeMode.system`, `ThemeMode.light`, `ThemeMode.dark`) yang tersimpan di `SharedPreferences`.
@@ -1145,7 +1145,7 @@ Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.23.0+133 - 2026-November-23</strong></summary>
+<summary><strong>Versi 2.23.0+133 - 2026-11-23</strong></summary>
 
 ### ✨ Fitur Baru
 - **Popup pemutar video YouTube dalam aplikasi (`YouTubeHelper`, `YouTubeVideoPopup`):** untuk postingan `format: video` / `post_format: video`, dengan mode layar penuh, rotasi otomatis mengikuti rasio video, aksi Bagikan & Buka di YouTube.
@@ -1164,7 +1164,7 @@ Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.22.2+132 - 2026-November-22</strong></summary>
+<summary><strong>Versi 2.22.2+132 - 2026-11-22</strong></summary>
 
 ### 🛠 Perbaikan / Patch
 - **`HKBP_PERAWANG-8Q` (`DrivePdfViewerScreen`):** error sub-resource dan jaringan transien WebView dicatat sebagai info; error main frame menampilkan pesan ramah dengan opsi *Muat Ulang* / *Buka dengan Penampil Bawaan*.
@@ -1173,7 +1173,7 @@ Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
 </details>
 
 <details markdown="1">
-<summary><strong>Versi 2.22.1+131 - 2026-November-21</strong></summary>
+<summary><strong>Versi 2.22.1+131 - 2026-11-21</strong></summary>
 
 ### ✨ Fitur Baru
 - **Bottom control bar terpadu (`DrivePdfViewerScreen`):** navigasi halaman (`‹  1 / 40  ›`), dialog *"Lompat ke Halaman"*, dan zoom ringkas (`−  100%  +`).
