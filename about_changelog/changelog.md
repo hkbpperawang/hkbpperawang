@@ -11,8 +11,55 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 
 <br/>
 
+## Versi 2.25.0+138 - ✨ (Terbaru)
+
+Gabungan perubahan dari versi `2.22.1+131` sampai `2.25.0+138`.
+
+### ✨ Fitur Baru
+- **Mode Gelap & Terang menyeluruh (`ThemeProvider`, `ThemeModeSwitcher`, `CircularThemeReveal`):** 3 mode (`Sistem / Terang / Gelap`) dengan animasi sapuan melingkar, dipasang di `Sidebar`, `DashboardSidebar`, dan `SettingsScreen`. Seluruh layar Jemaat, penampil PDF, dan Admin Dashboard menyesuaikan kedua mode.
+- **Popup pemutar video YouTube dalam aplikasi (`YouTubeVideoPopup`, `YouTubeHelper`):** untuk postingan `format: video`, dengan mode layar penuh, rotasi otomatis, aksi Bagikan & Buka di YouTube, antrean *Sebelumnya / Berikutnya*, dan *Resume Playback*.
+- **Seksi "Video Terbaru" di Beranda & tab "Video" di Blog (`LatestVideosSection`)**, ditambah **Video Tersimpan** (`BookmarkedVideosSheet`) dan **Mode Hemat Kuota Video YouTube** (`settings_video_data_saver`).
+- **Warta Acara offline otomatis (`PDFViewerService`, `PDFCacheService`):** Warta yang dibuka via WebView otomatis diunduh ke cache lokal, 2 Warta terbaru di-prefetch saat Wi-Fi, dan ada preferensi `"Simpan cache PDF otomatis di jaringan seluler"` (default aktif).
+- **Indikator status 3-simbol Warta Acara (`WartaPdfStatusIcon`):** hijau = `Tersedia offline`, oren = `Belum diunduh`, merah = `Link tidak tersedia`, dengan ikon berputar selama berkas diunduh.
+- **Bar kontrol bawah di kedua penampil PDF (`PdfBottomControlBar`, `PdfJumpToPageDialog`):** navigasi halaman, lompat ke halaman, dan zoom (`-`, `100%`, `+`) di `DrivePdfViewerScreen` maupun `PDFViewerScreen`, termasuk zoom native Android WebView (`WebViewZoomPlugin.kt`).
+- **Pindah dua arah WebView dan Pembaca Bawaan**, dengan halaman baca terakhir yang tersinkron di kedua mode (`PdfReadingProgressService`).
+- **Popup berbagi file PDF (`PdfShareSheet`, `PdfShareService`):** bagikan ke **WhatsApp**, **Telegram**, **Gmail**, dan **Lainnya**, ditambah **"Unduh ke folder download"**.
+- **Revalidasi otomatis cache PDF:** banner *"Versi terbaru dokumen tersedia — [Muat Ulang]"* dan tombol `Muat Ulang` di `PDFHeader`.
+- **Kategori tim dinamis via Firestore & Dashboard Admin (`TeamCategoryProvider`, `CategoriesTeamScreen`, `DynamicTeamPageSections`):** tambah, pindah, urutkan (drag-and-drop), ganti gaya `Kartu`/`Badge`, dan sembunyikan kategori tanpa mengubah kode aplikasi.
+- **Redesain daftar tim selaras web `hkbpperawang.org` (`TeamSectionHeaderCard`, `TeamSubCategoryBadge`, `TeamMemberWrapGrid`):** kartu judul bergradien, badge sub-kategori, dan potret bundar responsif untuk Fungsionaris, Info Huria, dan Tim Multimedia.
+- **Menu Pengaturan Tim (`Dashboard > Teams > Settings`):** foto profil default tim diatur global (`Periksa URL`, `Upload Foto`, `Media Library`, `Default Bawaan`), dengan utilitas **Bersihkan URL Default Lama** dan **Audit Foto Profil Kustom Tim**.
+- **Data real & aksi cepat Admin Dashboard (`HomeDashboard`):** seksi `"Ringkasan Data Pelayanan"` dan `"Aksi Cepat Parhalado"` dengan `RefreshIndicator`.
+- Efek suara notifikasi baru (`notification_sound.mp3`).
+
+### 🛠 Perbaikan / Patch
+- **`HKBP_PERAWANG-8M`:** notifikasi kini tampil saat aplikasi di *foreground* pada build rilis, dengan fallback suara default sistem.
+- **`HKBP_PERAWANG-8R`:** kegagalan jaringan sementara di `AuthService.getCurrentUser()` tidak lagi dikirim sebagai error.
+- **`HKBP_PERAWANG-8S`:** `NetworkImageLoadException` 403/410 pada foto profil diatasi dengan `SafeAvatarImage`.
+- **`HKBP_PERAWANG-8T`, `-8K`, `-8P`, `-8Q`:** error izin, attestasi App Check, dan jaringan transien pada stream publik serta WebView dicatat sebagai info, bukan tiket Sentry palsu.
+- **`HKBP_PERAWANG-6H`:** crash sintetis `SIGSEGV` dari Google Play Robo Test disaring.
+- **Loop shimmer bagian tim `InfoHuriaScreen`** dan **double shimmer `MainPage`** diperbaiki.
+- **`RenderFlex` overflow header `BlogScreen`** pada layar `320px-360px` maupun skala font besar diperbaiki.
+- Tombol zoom `DrivePdfViewerScreen` yang hanya menambah jarak antar halaman diganti jalur native.
+- Muat ulang dokumen tidak lagi melompat kembali ke halaman lama (Sentry `21104559/0`).
+- `WartaAcaraScreen` memeriksa status cache seluruh URL, bukan hanya 20 item pertama; kategori preload lama `'13'` diselaraskan dengan `'15'`.
+- Konten GitHub di menu Tentang (`WebContentScreen`) tampil bersih, gambar dan tautan relatif terbuka dengan benar.
+- Error assertion `ListTile` saat mengganti tema diperbaiki.
+
+### 🔒 Peningkatan dan Keamanan
+- **Eviksi cache PDF berbasis LRU (`DataCacheManager`):** maksimal 50 MB atau 50 file tanpa menghapus berkas gambar non-PDF, dengan deduplikasi unduhan paralel.
+- Validasi *magic header* `%PDF-` dan refresh non-destruktif atomik, sehingga cache lama tetap aman bila unduhan pengganti gagal.
+- `firestore.rules`: validasi `/config/team_settings` (baca publik, tulis oleh `admin`/`editor`) dan otorisasi *fail-closed* pada pengelolaan kategori tim.
+- Tautan `.md` dari host tak tepercaya dialihkan ke browser eksternal; injeksi skrip zoom hanya untuk URL tepercaya Google Drive/Docs.
+- **Tema *edge-to-edge* Android 15/16 (`values-v35/styles.xml`)** tanpa atribut terdepresiasi.
+- **Sentralisasi arsitektur tema (`lib/core/theme/`)** dengan token warna berkontras WCAG 2.2 AA.
+- **Lebar konten responsif (`ResponsiveContentConstraint`):** `maxWidth: 960px` untuk tablet/desktop/web.
+- Beranda lebih cepat: delay simulasi 2 detik di `HomeScreen` dihapus dan skeleton menyerupai tata letak nyata.
+- Preferensi `"Buka langsung Pembaca Bawaan jika sudah di-cache"` kini default aktif; kartu skor sintetis di dashboard dan pengaturan dihapus.
+- Kategori **`Pegawai Gereja`** dipindah dari `InfoHuriaScreen` ke bagian bawah `FungsionarisScreen`.
+- Regression tests baru di setiap versi; pembaruan aturan kerja di `AGENTS.md`.
+
 <details markdown="1">
-<summary><strong>Versi 2.14.17 ✨ (Terbaru)</strong></summary>
+<summary><strong>Versi 2.14.17</strong></summary>
 
 ### 🔒 Peningkatan Keamanan & Privasi
 - Perlindungan Jaringan Lebih Ketat: Membatasi izin koneksi jaringan hanya ke sumber resmi untuk mencegah akses tidak sah dari luar.
@@ -987,7 +1034,173 @@ Lihat riwayat pembaruan dan penambahan fitur pada aplikasi di bawah ini.
 <br/>
 
 <details markdown="1">
-<summary><strong>Versi 2.20.0+127 - ✨ (Terbaru) - 2026-11-20</strong></summary>
+<summary><strong>Versi 2.25.0+138 - 2026-November-25</strong></summary>
+
+### ✨ Fitur Baru
+- **Auto-cache latar belakang Warta Acara (`DrivePdfViewerScreen`, `PDFViewerService`):** Warta yang dibuka via WebView otomatis diunduh ke cache lokal setelah PDF tampil, dan tetap selesai walau pengguna kembali ke `WartaAcaraScreen`.
+- **Sakelar jaringan seluler (`SettingsScreen`):** preferensi baru `"Simpan cache PDF otomatis di jaringan seluler"` (default aktif). Prefetch daftar otomatis tetap khusus Wi-Fi.
+- **Indikator progres unduhan (`WartaPdfStatusIcon`):** ikon berputar selama berkas diunduh, lalu menjadi centang hijau `Tersedia offline`; statis saat mode *Reduce Motion* aktif.
+- **Footer navigasi halaman & zoom Pembaca Bawaan (`PdfBottomControlBar`, `PdfJumpToPageDialog`):** halaman sebelumnya/berikutnya, lompat halaman, dan zoom (`-`, `100%`, `+`) yang sinkron dengan gestur pinch-zoom.
+- **Popup berbagi file PDF (`PdfShareSheet`, `PdfShareService`):** tombol unduh di header diganti tombol bagikan ke **WhatsApp**, **Telegram**, **Gmail**, dan **Lainnya**, ditambah **"Unduh ke folder download"**.
+- **Sinkronisasi halaman terakhir dua arah (`PdfReadingProgressService`):** halaman baca terakhir kini tersimpan juga di mode WebView dan sama dengan Pembaca Bawaan.
+
+### 🛠 Perbaikan / Patch
+- Muat ulang dokumen tidak lagi melompat kembali ke halaman lama (Sentry `21104559/0`).
+- `WartaAcaraScreen` kini memeriksa status cache seluruh URL per batch 20, bukan hanya 20 item pertama.
+- Kategori preload lama `'13'` diselaraskan dengan kategori aktif `'15'`, dan tautan Google Drive `/view` & `/preview` dinormalisasi (Sentry `21103563/0`).
+
+### 🔒 Peningkatan dan Keamanan
+- **Eviksi cache PDF berbasis LRU (`DataCacheManager`, `PDFCacheService`):** cache PDF dibatasi maksimal 50 MB atau 50 file tanpa menghapus berkas gambar non-PDF (Sentry `21102285/0`).
+- **Deduplikasi unduhan paralel:** beralih ke Pembaca Bawaan saat auto-cache masih berjalan akan menunggu unduhan aktif, bukan mengunduh berkas ganda (Sentry `21104559/1`).
+- Validasi `%PDF-` pada antrean unduhan offline.
+- Badge angka halaman ganda di `PDFHeader` dihapus karena indikator halaman kini berada di footer.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.24.3+137 - 2026-November-25</strong></summary>
+
+### ✨ Fitur Baru
+- **Menu Pengaturan Tim (`Dashboard > Teams > Settings`):** URL foto profil default tim diatur global di Firestore `config/team_settings` lewat `TeamSettingsProvider` dan `TeamSettingsScreen`.
+- **Manajemen foto default:** tombol `Periksa URL`, `Upload Foto` (ImageKit), `Media Library`, `Default Bawaan`, atau ganti URL manual, dengan peringatan otomatis bila URL gagal dimuat (HTTP 403/404/410).
+- **Utilitas baru:** **Bersihkan URL Default Lama** dan **Audit Foto Profil Kustom Tim**.
+- Anggota dengan foto kustom tetap memakai fotonya; menghapus foto di `AddEditTeamScreen` otomatis kembali ke foto default aktif.
+
+### 🛠 Perbaikan / Patch
+- **`HKBP_PERAWANG-8S`:** `NetworkImageLoadException` 403/410 diatasi dengan widget `SafeAvatarImage` pada layar profil & dashboard.
+- **`HKBP_PERAWANG-8T`:** `cloud_firestore/permission-denied` di `QuickActionsService` kini dicatat sebagai info, bukan error.
+- Seluruh 11 temuan review Sentry PR #233 diselesaikan.
+
+### 🔒 Peningkatan dan Keamanan
+- `firestore.rules`: pemisahan `/config/sticker` dan validasi `/config/team_settings` (baca publik, tulis oleh `admin`/`editor`).
+- Transaksi atomik `runTransaction` pada `saveDefaultProfileImageUrl()` agar pembaruan tidak saling menimpa.
+- Regression tests baru, `flutter analyze` bebas isu & 62/62 tes lulus.
+- Pembaruan aturan kerja & kebijakan versi aplikasi di `AGENTS.md`.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.24.2+136 - 2026-November-25</strong></summary>
+
+### ✨ Fitur Baru
+- **Kategori tim dinamis via Firestore & Dashboard Admin (`CategoryTeam`, `TeamCategoryProvider`, `DynamicTeamPageSections`):** penambahan, pemindahan, pengurutan, penggantian gaya judul, dan penyembunyian kategori langsung berlaku tanpa mengubah kode aplikasi.
+- **`CategoriesTeamScreen`:** 4 tab halaman (`Fungsionaris`, `Info Huria`, `Tim Multimedia`, `Semua`), drag-and-drop urutan, sakelar tampil/sembunyi, serta gaya `Kartu`/`Badge`.
+- **Redesain daftar tim selaras web `hkbpperawang.org` (`TeamSectionHeaderCard`, `TeamSubCategoryBadge`, `TeamMemberWrapGrid`):** kartu judul bergradien, badge sub-kategori, dan potret bundar (2 kolom di ponsel, 3-4 kolom di tablet/desktop).
+- **Tim Multimedia** dikelompokkan otomatis per sub-divisi (`Devisi Digital`, `Devisi Dokumentasi`, `Devisi Publikasi`).
+
+### 🛠 Perbaikan / Patch
+- **Loop shimmer bagian tim `InfoHuriaScreen`:** `TeamProvider.teamsStream` kini mengirim snapshot terakhir ke setiap *late subscriber*, sehingga data cache tampil instan tanpa kedipan.
+- Listener debug redundan di `InfoHuriaScreen` dihapus.
+
+### 🔒 Peningkatan dan Keamanan
+- Verifikasi otorisasi sisi klien *fail-closed* (`admin`/`editor`) pada pengelolaan kategori.
+- *Cascade rename* atomik: mengganti nama kategori memperbarui seluruh dokumen `teams` terkait (Sentry `21034757/0`).
+- Kategori **`Pegawai Gereja`** dipindah dari `InfoHuriaScreen` ke bagian bawah `FungsionarisScreen`.
+- Pengujian unit & widget baru (`42/42 All tests passed!`).
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.24.1+135 - 2026-November-25</strong></summary>
+
+### ✨ Fitur Baru
+- **Data real & aksi cepat Admin Dashboard (`HomeDashboard`):** seksi `"Ringkasan Data Pelayanan"` dan `"Aksi Cepat Parhalado"` (`Kelola Warta`, `Kirim Notifikasi`, `Jadwal Ibadah`, `Tambah Postingan`) dengan `RefreshIndicator`.
+- **Skeleton tabel Beranda (`JadwalTableSkeleton`):** kerangka memuat kini menyerupai tata letak nyata Beranda.
+
+### 🛠 Perbaikan / Patch
+- **`RenderFlex` overflow halaman Blog (`BlogScreen`, `BlogScreenHeader`):** header tidak lagi terpotong pada layar `320px-360px` maupun skala font besar.
+- **Konten GitHub di menu Tentang (`WebContentScreen`, `TentangAplikasiScreen`):** halaman tampil bersih, gambar dan tautan relatif terbuka dengan benar (Sentry `21012418/0`, `21013115/0`).
+- *Pull-to-refresh* dashboard tetap menjaga posisi scroll (Sentry `21011267/0`).
+
+### 🔒 Peningkatan dan Keamanan
+- **Tema *edge-to-edge* Android 15/16 (`values-v35/styles.xml`):** tanpa atribut terdepresiasi, mencegah peringatan di Google Play Console.
+- Delay simulasi 2 detik di `HomeScreen` dihapus agar konten cache langsung tampil.
+- Preferensi `"Buka langsung Pembaca Bawaan jika sudah di-cache"` kini default aktif.
+- `ThemeModeSwitcher.sidebarBar()` disederhanakan, dan kartu skor sintetis (`Performance Score`, `"Performa Aplikasi"`) dihapus.
+- Tautan `.md` dari host tak tepercaya dialihkan ke browser eksternal (Sentry `21010257/0`).
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.24.0+134 - 2026-November-24</strong></summary>
+
+### ✨ Fitur Baru
+- **Mode Gelap & Terang menyeluruh (`ThemeProvider`, `AppTheme`, `AppColorTokens`):** 3 mode (`ThemeMode.system`, `ThemeMode.light`, `ThemeMode.dark`) yang tersimpan di `SharedPreferences`.
+- **Tombol tema beranimasi (`ThemeModeSwitcher`, `CircularThemeReveal`):** efek sapuan melingkar dari titik sentuhan, dipasang di `Sidebar`, `DashboardSidebar`, dan `SettingsScreen`.
+- Seluruh App Shell, layar publik Jemaat, pembaca konten, penampil PDF, layar autentikasi, dan Admin Dashboard menyesuaikan kedua mode.
+- Logo Tim Multimedia pada `TimDigitalScreen` adaptif mengikuti mode tampilan.
+
+### 🛠 Perbaikan / Patch
+- **`HKBP_PERAWANG-8R` (`AuthService.getCurrentUser()`):** kegagalan jaringan sementara saat `user.reload()` kembali ke pengguna lokal dan tidak lagi dikirim sebagai error.
+- **`HKBP_PERAWANG-6H`:** crash sintetis `SIGSEGV` dari Google Play Robo Test disaring.
+- **Double shimmer `MainPage`:** overlay shimmer global `720ms` diganti `FadeTransition` `140ms`.
+- Error assertion `ListTile background color or ink splashes may be invisible.` saat mengganti tema diperbaiki.
+
+### 🔒 Peningkatan dan Keamanan
+- **Sentralisasi arsitektur tema (`lib/core/theme/`):** warna, tipografi, spasi, dan radius disatukan dalam satu modul.
+- **Lebar konten responsif (`ResponsiveContentConstraint`):** `maxWidth: 960px` terpusat untuk tablet/desktop/web.
+- Token warna semantik berkontras WCAG 2.2 AA (`context.colors`).
+- `NotificationHandler._syncTopicSubscriptions()` menangani sesi kadaluwarsa dan gangguan koneksi tanpa tiket Sentry palsu.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.23.0+133 - 2026-November-23</strong></summary>
+
+### ✨ Fitur Baru
+- **Popup pemutar video YouTube dalam aplikasi (`YouTubeHelper`, `YouTubeVideoPopup`):** untuk postingan `format: video` / `post_format: video`, dengan mode layar penuh, rotasi otomatis mengikuti rasio video, aksi Bagikan & Buka di YouTube.
+- **Antrean & Video Berikutnya (*Up Next*):** navigasi *Sebelumnya / Berikutnya* tanpa menutup pemutar.
+- **Simpan & Lanjutkan Posisi Terakhir (*Resume Playback*):** strip *"Melanjutkan dari MM:SS"* dan tombol *"Dari awal"*.
+- **Seksi "Video Terbaru" di Beranda & tab "Video" di Blog (`LatestVideosSection`).**
+- **Mode Hemat Kuota Video YouTube (`settings_video_data_saver`):** menunda *autoplay* saat memakai data seluler.
+- **Video Tersimpan (Bookmark Favorit) (`BookmarkedVideosSheet`).**
+- Overlay ikon *Play* pada thumbnail postingan video dan badge `Video` di `AllPostsScreen`.
+
+### 🔒 Peningkatan dan Keamanan
+- Dokumen YouTube IFrame Player API memakai `origin`/`referrer` `https://www.hkbpperawang.org` (mencegah Error 153 di Android WebView).
+- Kueri "Video Terbaru" dibatasi (`fetchLimit` default 100) untuk mencegah *unbounded reads* (Sentry `20893193/0`).
+- Unit & widget tests baru (`post_video_test.dart`, `youtube_video_popup_test.dart`).
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.22.2+132 - 2026-November-22</strong></summary>
+
+### 🛠 Perbaikan / Patch
+- **`HKBP_PERAWANG-8Q` (`DrivePdfViewerScreen`):** error sub-resource dan jaringan transien WebView dicatat sebagai info; error main frame menampilkan pesan ramah dengan opsi *Muat Ulang* / *Buka dengan Penampil Bawaan*.
+- **`HKBP_PERAWANG-8P` (`WartaCategoryService`):** penolakan attestasi App Check pada stream `warta_categories` tidak lagi memicu tiket Sentry palsu.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.22.1+131 - 2026-November-21</strong></summary>
+
+### ✨ Fitur Baru
+- **Bottom control bar terpadu (`DrivePdfViewerScreen`):** navigasi halaman (`‹  1 / 40  ›`), dialog *"Lompat ke Halaman"*, dan zoom ringkas (`−  100%  +`).
+- **Zoom native Android WebView (`WebViewZoomPlugin.kt`):** tombol zoom memakai mesin yang sama dengan gestur *pinch-to-zoom*, rentang `100%`–`300%`.
+- **Revalidasi otomatis cache PDF (`PDFCacheService`):** banner *"Versi terbaru dokumen tersedia — [Muat Ulang]"* dan tombol `Muat Ulang` di `PDFHeader`.
+- **Indikator status 3-simbol Warta Acara:** hijau = `Tersedia offline`, oren = `Belum diunduh`, merah = `Link tidak tersedia`.
+- **Pindah dua arah WebView dan Pembaca Bawaan:** tombol `Buka di WebView (Google Drive)` dan `Buka di Pembaca Bawaan`.
+- **Silent background prefetch:** maksimal 2 Warta terbaru diunduh hanya saat Wi-Fi aktif, dengan progress bar persentase + ukuran.
+- **Smart Cache** (*"Buka langsung Pembaca Bawaan jika sudah di-cache"*) dan *Resume Last Page* (`PdfReadingProgressService`).
+- Efek suara notifikasi baru (`notification_sound.mp3`).
+
+### 🛠 Perbaikan / Patch
+- **`HKBP_PERAWANG-8M`:** resource suara notifikasi tidak lagi dihapus Android Resource Shrinker, sehingga notifikasi tampil saat aplikasi di *foreground*; ada fallback suara default sistem.
+- Tombol zoom yang sebelumnya hanya menambah jarak antar halaman (CSS `zoom:`) diganti jalur native.
+- Renderer mode offline di `PDFViewerScreen` konsisten memakai `PdfViewPinch` (`pdfx`).
+- **`HKBP_PERAWANG-8K` (`BlogScreen`):** noise log attestasi App Check disaring.
+
+### 🔒 Peningkatan dan Keamanan
+- Validasi *magic header* `%PDF-` agar berkas HTML/corrupt otomatis dibersihkan.
+- Refresh non-destruktif dan atomik: cache PDF lama tetap aman bila unduhan pengganti gagal (Sentry `20818326/1`, `20819549/0`).
+- Tombol *Pop-out* dan toolbar bawaan Google Drive Preview disembunyikan secara *fail-safe* (CSS-only).
+- Injeksi skrip zoom hanya untuk URL tepercaya Google Drive/Docs.
+
+</details>
+
+<details markdown="1">
+<summary><strong>Versi 2.20.0+127- 2026-11-20</strong></summary>
 
 ### ✨ Fitur Baru
 - Warta Acara kini punya kategori utama dan sub-kategori yang tersusun rapi di bawah kategori induknya.
